@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Piko_Tomy.png">
+<SubTexture name="Piko_Tomy Idle0000" x="586" y="280" width="117" height="139" frameX="-45" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Idle0001" x="586" y="280" width="117" height="139" frameX="-45" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Idle0002" x="117" y="450" width="117" height="137" frameX="-45" frameY="-35" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Idle0003" x="468" y="279" width="117" height="138" frameX="-45" frameY="-34" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Idle0004" x="586" y="280" width="117" height="139" frameX="-45" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Idle0005" x="117" y="158" width="117" height="141" frameX="-45" frameY="-31" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Idle0006" x="234" y="158" width="117" height="140" frameX="-45" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Idle0007" x="234" y="158" width="117" height="140" frameX="-45" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Down0000" x="234" y="450" width="117" height="136" frameX="-45" frameY="-36" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Down0001" x="234" y="450" width="117" height="136" frameX="-45" frameY="-36" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Down0002" x="351" y="450" width="117" height="135" frameX="-45" frameY="-37" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Down0003" x="234" y="450" width="117" height="136" frameX="-45" frameY="-36" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Down0004" x="0" y="450" width="117" height="138" frameX="-45" frameY="-34" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Down0005" x="468" y="140" width="117" height="139" frameX="-45" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Up0000" x="117" y="0" width="117" height="157" frameX="-45" frameY="-10" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Up0001" x="117" y="0" width="117" height="157" frameX="-45" frameY="-10" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Up0002" x="0" y="0" width="117" height="158" frameX="-45" frameY="-8" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Up0003" x="117" y="0" width="117" height="157" frameX="-45" frameY="-10" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Up0004" x="234" y="0" width="117" height="156" frameX="-45" frameY="-12" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Up0005" x="0" y="158" width="117" height="152" frameX="-45" frameY="-18" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Right0000" x="351" y="0" width="117" height="140" frameX="-48" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Right0001" x="351" y="0" width="117" height="140" frameX="-48" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Right0002" x="351" y="140" width="117" height="140" frameX="-49" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Right0003" x="351" y="0" width="117" height="140" frameX="-48" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Right0004" x="0" y="310" width="117" height="140" frameX="-46" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Right0005" x="117" y="310" width="117" height="140" frameX="-45" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Left0000" x="234" y="310" width="119" height="140" frameX="-37" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Left0001" x="234" y="310" width="119" height="140" frameX="-37" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Left0002" x="468" y="0" width="118" height="140" frameX="-36" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Left0003" x="234" y="310" width="119" height="140" frameX="-37" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Left0004" x="586" y="0" width="120" height="140" frameX="-40" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="Piko_Tomy Left0005" x="586" y="140" width="117" height="140" frameX="-45" frameY="-32" frameWidth="200" frameHeight="200" />
+</TextureAtlas>

@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				95,
+				99
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				233,
+				98
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right0"
+		},
+		{
+			"offsets": [
+				91,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up0"
+		},
+		{
+			"offsets": [
+				33,
+				101
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left0"
+		},
+		{
+			"offsets": [
+				93,
+				63
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BF_AquinoPerro",
+	"position": [
+		150,
+		320
+	],
+	"healthicon": "bf_duxo_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		204,
+		236
+	],
+	"camera_position": [
+		520,
+		-260
+	],
+	"sing_duration": 4,
+	"scale": 1.3,
+	"_editor_isPlayer": true
+}

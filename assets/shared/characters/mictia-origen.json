@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "mictia og idle"
+		},
+		{
+			"offsets": [
+				-44,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "mictia og left"
+		},
+		{
+			"offsets": [
+				-100,
+				-15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "mictia og down"
+		},
+		{
+			"offsets": [
+				-73,
+				22
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "mictia og up"
+		},
+		{
+			"offsets": [
+				-110,
+				-5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "mictia og right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mictia origen",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "mictia_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		120,
+		73,
+		191
+	],
+	"camera_position": [
+		100,
+		80
+	],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": false
+}

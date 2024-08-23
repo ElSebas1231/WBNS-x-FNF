@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "aquinita idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				7
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "aquinita right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-12
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "aquinita down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				4
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "aquinita up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				4
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "aquinita left0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquinita",
+	"position": [
+		170,
+		100
+	],
+	"healthicon": "aquinita_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		146,
+		64,
+		35
+	],
+	"camera_position": [
+		-110,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 1.4,
+	"_editor_isPlayer": false
+}

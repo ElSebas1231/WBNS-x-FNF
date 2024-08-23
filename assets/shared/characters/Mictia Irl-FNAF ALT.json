@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				133,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "mictia fnaf idle"
+		},
+		{
+			"offsets": [
+				133,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "mictia fnaf left"
+		},
+		{
+			"offsets": [
+				133,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "mictia fnaf down"
+		},
+		{
+			"offsets": [
+				133,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "mictia fnaf up"
+		},
+		{
+			"offsets": [
+				133,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "mictia fnaf right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mictia fnaf",
+	"position": [
+		-370,
+		-200
+	],
+	"healthicon": "Mictia_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		120,
+		73,
+		171
+	],
+	"camera_position": [
+		-250,
+		160
+	],
+	"sing_duration": 6.1,
+	"scale": 0.57,
+	"_editor_isPlayer": false
+}

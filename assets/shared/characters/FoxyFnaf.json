@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "FoxyFnaf Idle"
+		},
+		{
+			"offsets": [
+				55,
+				4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "FoxyFnaf Left"
+		},
+		{
+			"offsets": [
+				-30,
+				-43
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "FoxyFnaf Down"
+		},
+		{
+			"offsets": [
+				-11,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "FoxyFnaf Up"
+		},
+		{
+			"offsets": [
+				-48,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "FoxyFnaf Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/FoxyFnaf",
+	"position": [
+		-600,
+		-130
+	],
+	"healthicon": "foxy_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		210,
+		51,
+		39
+	],
+	"camera_position": [
+		0,
+		235
+	],
+	"sing_duration": 3.9,
+	"scale": 0.8,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				6,
+				396
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SIdle"
+		},
+		{
+			"offsets": [
+				6,
+				396
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SUp"
+		},
+		{
+			"offsets": [
+				6,
+				396
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SRight"
+		},
+		{
+			"offsets": [
+				6,
+				396
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SLeft"
+		},
+		{
+			"offsets": [
+				6,
+				396
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SDown"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/senpai",
+	"position": [
+		250,
+		260
+	],
+	"healthicon": "senpai_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		254,
+		171,
+		110
+	],
+	"camera_position": [
+		-180,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 0.600000000000005,
+	"_editor_isPlayer": false
+}

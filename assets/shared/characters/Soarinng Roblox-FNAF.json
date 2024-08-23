@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				433,
+				145
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SoaringFnaf Idle"
+		},
+		{
+			"offsets": [
+				458,
+				147
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SoaringFnaf Left"
+		},
+		{
+			"offsets": [
+				449,
+				151
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SoaringFnaf Down"
+		},
+		{
+			"offsets": [
+				453,
+				112
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SoaringFnaf Up"
+		},
+		{
+			"offsets": [
+				444,
+				141
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SoaringFnaf Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SoaringFnaf",
+	"position": [
+		-550,
+		30
+	],
+	"healthicon": "soarinng_roblox",
+	"flip_x": true,
+	"healthbar_colors": [
+		227,
+		185,
+		43
+	],
+	"camera_position": [
+		210,
+		-200
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9,
+	"_editor_isPlayer": true
+}

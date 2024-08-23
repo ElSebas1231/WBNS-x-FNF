@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "AquinoApeiro Idle"
+		},
+		{
+			"offsets": [
+				20,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "AquinoApeiro Left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "AquinoApeiro Down"
+		},
+		{
+			"offsets": [
+				-8,
+				-16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "AquinoApeiro Up"
+		},
+		{
+			"offsets": [
+				24,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "AquinoApeiro Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/AquinoApeiro",
+	"position": [
+		-120,
+		0
+	],
+	"healthicon": "aquino_capybara_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		100,
+		69,
+		34
+	],
+	"camera_position": [
+		210,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": false
+}

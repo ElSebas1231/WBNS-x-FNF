@@ -1,0 +1,347 @@
+{
+	"songs": [
+		[
+			"How Bad Can I Be",
+			"aquino_bad_icon",
+			[
+				80,
+				61,
+				54
+			]
+		],
+		[
+			"Loco Classic Encore",
+			"natalan_icon",
+			[
+				0,
+				187,
+				253
+			]
+		],
+		[
+			"Unerected Victory",
+			"loco_mc_icon",
+			[
+				101,
+				97,
+				168
+			]
+		],
+		[
+			"Trivia",
+			"aquino_icon",
+			[
+				96,
+				52,
+				45
+			]
+		],
+		[
+			"Boneless Wings",
+			"natalan_undertale_icon",
+			[
+				0,
+				187,
+				253
+			]
+		],
+		[
+			"Creepers",
+			"c3jo_icon",
+			[
+				239,
+				118,
+				58
+			]
+		],
+		[
+			"Don't look up",
+			"enderman_icon",
+			[
+				207,
+				34,
+				214
+			]
+		],
+		[
+			"Say It",
+			"aquino_capybara_icon",
+			[
+				100,
+				69,
+				34
+			]
+		],
+		[
+			"Era Bait",
+			"lucasta_icon",
+			[
+				207,
+				180,
+				105
+			]
+		],
+		[
+			"Mexican School",
+			"locochon_icon",
+			[
+				147,
+				132,
+				157
+			]
+		],
+		[
+			"GOTY",
+			"loco_goty_icon",
+			[
+				122,
+				75,
+				120
+			]
+		],
+		[
+			"Toneando",
+			"icon-adrian",
+			[
+				144,
+				92,
+				125
+			]
+		],
+		[
+			"Grimm",
+			"grimm_icon",
+			[
+				222,
+				222,
+				222
+			]
+		],
+		[
+			"Identical",
+			"duxolol",
+			[
+				33,
+				21,
+				46
+			]
+		],
+		[
+			"Infinity",
+			"icon-duxo_endless",
+			[
+				66,
+				67,
+				115
+			]
+		],
+		[
+			"Night Guards",
+			"freddy_icon",
+			[
+				106,
+				58,
+				29
+			]
+		],
+		[
+			"The Keys",
+			"darick_icon",
+			[
+				81,
+				175,
+				227
+			]
+		],
+		[
+			"Origins",
+			"mictia_icon",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"WarZ",
+			"aquino_hunter_icon",
+			[
+				98,
+				42,
+				63
+			]
+		],
+		[
+			"Laughs",
+			"aquino_perro_icon",
+			[
+				110,
+				57,
+				29
+			]
+		],
+		[
+			"Speedrun",
+			"aquino_taza_icon",
+			[
+				96,
+				52,
+				45
+			]
+		],
+		[
+			"Late Night",
+			"aquinita_icon",
+			[
+				146,
+				64,
+				35
+			]
+		],
+		[
+			"Dad",
+			"dad_icon",
+			[
+				222,
+				223,
+				154
+			]
+		],
+		[
+			"Animal Conflict",
+			"aquino_pato_icon",
+			[
+				102,
+				51,
+				51
+			]
+		],
+		[
+			"Vote or Lose",
+			"andreh_sus_icon",
+			[
+				203,
+				51,
+				190
+			]
+		],
+		[
+			"Report",
+			"darick_sus_icon",
+			[
+				103,
+				55,
+				13
+			]
+		],
+		[
+			"Run away and hide",
+			"lucasta_fake_icon",
+			[
+				126,
+				105,
+				83
+			]
+		],
+		[
+			"Run Natalan",
+			"natalan_letal_icon",
+			[
+				60,
+				58,
+				71
+			]
+		],
+		[
+			"Lore (Soarinng Mix) v3",
+			"duxo_lore_icon",
+			[
+				91,
+				81,
+				103
+			]
+		],
+		[
+			"Lore (Soarinng Mix) v2",
+			"duxo_lore_icon",
+			[
+				91,
+				81,
+				103
+			]
+		],
+		[
+			"Snow Goal",
+			"aquino_pinguino_icon",
+			[
+				205,
+				220,
+				245
+			]
+		],
+		[
+			"Travel in Trouble",
+			"aquino_irl_icon",
+			[
+				192,
+				115,
+				73
+			]
+		],
+		[
+			"Uncoordinated",
+			"aquino_pico_icon",
+			[
+				185,
+				128,
+				88
+			]
+		],
+		[
+			"Let's GO Compota",
+			"compota_icon",
+			[
+				194,
+				190,
+				205
+			]
+		],
+		[
+			"Double A",
+			"andreh_issac_icon",
+			[
+				254,
+				91,
+				93
+			]
+		],
+		[
+			"Free The End",
+			"free-the-end",
+			[
+				148,
+				111,
+				99
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "WBNS x FNF Freeplay",
+	"weekName": "Canciones extra de WBNS x FNF",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

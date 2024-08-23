@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-69,
+				-114
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "lacachonda idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				-117
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "lacachonda right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				-117
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "lacachonda down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-75,
+				-108
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "lacachonda up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-65,
+				-114
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "lacachonda left0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/lacachonda",
+	"position": [
+		10,
+		50
+	],
+	"healthicon": "lacachona_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		106,
+		96,
+		124
+	],
+	"camera_position": [
+		0,
+		-60
+	],
+	"sing_duration": 4,
+	"scale": 1.4,
+	"_editor_isPlayer": true
+}

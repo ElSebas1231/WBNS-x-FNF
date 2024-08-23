@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				163,
+				-39
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "soarinng fnaf idle"
+		},
+		{
+			"offsets": [
+				163,
+				-39
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "soarinng fnaf left"
+		},
+		{
+			"offsets": [
+				163,
+				-39
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "soarinng fnaf down"
+		},
+		{
+			"offsets": [
+				163,
+				-39
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "soarinng fnaf up"
+		},
+		{
+			"offsets": [
+				163,
+				-39
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "soarinng fnaf right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/soarinng fnaf",
+	"position": [
+		-405,
+		-250
+	],
+	"healthicon": "soarinng_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		232,
+		180,
+		53
+	],
+	"camera_position": [
+		-500,
+		230
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5,
+	"_editor_isPlayer": true
+}

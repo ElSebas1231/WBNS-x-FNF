@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Nieves IDLE0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				167,
+				-48
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Nieves DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				279,
+				7
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Nieves LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				109,
+				1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Nieves RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				146,
+				77
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Nieves UP0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speedrun/mmm/Nieves",
+	"position": [
+		0,
+		60
+	],
+	"healthicon": "nieves",
+	"flip_x": false,
+	"healthbar_colors": [
+		202,
+		126,
+		66
+	],
+	"camera_position": [
+		-220,
+		60
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

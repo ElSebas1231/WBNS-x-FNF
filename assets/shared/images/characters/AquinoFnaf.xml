@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="AquinoFnaf.png">
+<SubTexture name="AquinoFnaf Idle0000" x="1802" y="1677" width="494" height="823" frameX="-636" frameY="-144" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Idle0001" x="0" y="2504" width="510" height="818" frameX="-634" frameY="-149" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Idle0002" x="3425" y="0" width="538" height="807" frameX="-633" frameY="-161" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Idle0003" x="3963" y="2411" width="557" height="799" frameX="-632" frameY="-169" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Idle0004" x="0" y="3322" width="574" height="800" frameX="-618" frameY="-167" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Idle0005" x="3963" y="0" width="572" height="805" frameX="-612" frameY="-162" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Idle0006" x="2004" y="2504" width="558" height="811" frameX="-612" frameY="-156" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Idle0007" x="510" y="2504" width="539" height="817" frameX="-615" frameY="-150" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Idle0008" x="2296" y="1677" width="515" height="821" frameX="-624" frameY="-146" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Idle0009" x="1802" y="1677" width="494" height="823" frameX="-636" frameY="-144" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Left0000" x="3425" y="2411" width="368" height="795" frameX="-596" frameY="-170" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Left0001" x="1640" y="3322" width="357" height="790" frameX="-598" frameY="-175" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Left0002" x="1997" y="3322" width="354" height="790" frameX="-603" frameY="-174" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Left0003" x="1286" y="3322" width="354" height="791" frameX="-607" frameY="-173" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Left0004" x="931" y="3322" width="355" height="792" frameX="-610" frameY="-171" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Left0005" x="574" y="3322" width="357" height="793" frameX="-612" frameY="-168" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Left0006" x="3425" y="1614" width="360" height="797" frameX="-611" frameY="-163" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Left0007" x="3963" y="1610" width="372" height="801" frameX="-609" frameY="-158" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Right0000" x="1975" y="833" width="449" height="829" frameX="-728" frameY="-137" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Right0001" x="2465" y="832" width="467" height="831" frameX="-694" frameY="-133" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Right0002" x="1026" y="842" width="489" height="833" frameX="-673" frameY="-131" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Right0003" x="1975" y="0" width="490" height="833" frameX="-673" frameY="-131" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Right0004" x="0" y="842" width="485" height="835" frameX="-681" frameY="-129" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Right0005" x="952" y="0" width="475" height="838" frameX="-694" frameY="-127" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Right0006" x="480" y="0" width="472" height="840" frameX="-698" frameY="-125" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Right0007" x="0" y="0" width="480" height="842" frameX="-691" frameY="-124" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Down0000" x="1427" y="0" width="548" height="837" frameX="-610" frameY="-137" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf idle0000" x="2465" y="0" width="546" height="832" frameX="-615" frameY="-141" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Down0001" x="485" y="842" width="541" height="834" frameX="-619" frameY="-137" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Down0002" x="0" y="1677" width="543" height="827" frameX="-622" frameY="-140" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Down0003" x="1049" y="2504" width="546" height="817" frameX="-624" frameY="-145" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Down0004" x="2562" y="2504" width="544" height="811" frameX="-627" frameY="-143" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Down0005" x="3963" y="805" width="533" height="805" frameX="-631" frameY="-141" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Down0006" x="3425" y="807" width="507" height="807" frameX="-637" frameY="-140" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Up0000" x="963" y="1677" width="426" height="824" frameX="-665" frameY="-116" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Up0001" x="3011" y="0" width="414" height="819" frameX="-669" frameY="-118" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Up0002" x="3011" y="1638" width="410" height="817" frameX="-669" frameY="-117" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Up0003" x="1595" y="2504" width="409" height="817" frameX="-668" frameY="-116" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Up0004" x="3011" y="819" width="410" height="819" frameX="-666" frameY="-113" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Up0005" x="1389" y="1677" width="413" height="824" frameX="-664" frameY="-108" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Up0006" x="543" y="1677" width="420" height="827" frameX="-658" frameY="-105" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="AquinoFnaf Up0007" x="1515" y="842" width="423" height="828" frameX="-656" frameY="-104" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				10,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				80,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right0"
+		},
+		{
+			"offsets": [
+				38,
+				57
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up0"
+		},
+		{
+			"offsets": [
+				-33,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left0"
+		},
+		{
+			"offsets": [
+				5,
+				-66
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down0"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/BF-perspectiva",
+	"position": [
+		560,
+		340
+	],
+	"healthicon": "bf_duxo_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		204,
+		236
+	],
+	"camera_position": [
+		330,
+		-370
+	],
+	"sing_duration": 4,
+	"scale": 1.8,
+	"_editor_isPlayer": true
+}

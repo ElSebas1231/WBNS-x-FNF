@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="BocinaGatete.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="BocinaGatete Left0000" x="5" y="5" width="649" height="446"/>
+	<SubTexture name="BocinaGatete Left0001" x="5" y="5" width="649" height="446"/>
+	<SubTexture name="BocinaGatete Left0002" x="659" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0003" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0004" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0005" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0006" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0007" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0008" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0009" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0010" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0011" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0012" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0013" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0014" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Left0015" x="1303" y="5" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0000" x="5" y="456" width="649" height="446"/>
+	<SubTexture name="BocinaGatete Right0001" x="5" y="456" width="649" height="446"/>
+	<SubTexture name="BocinaGatete Right0002" x="659" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0003" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0004" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0005" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0006" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0007" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0008" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0009" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0010" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0011" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0012" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0013" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0014" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+	<SubTexture name="BocinaGatete Right0015" x="1303" y="456" width="639" height="446" frameX="-4" frameY="0" frameWidth="649" frameHeight="446"/>
+</TextureAtlas>

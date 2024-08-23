@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "cejita idle0"
+		},
+		{
+			"offsets": [
+				22,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "cejita right0"
+		},
+		{
+			"offsets": [
+				0,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "cejita down0"
+		},
+		{
+			"offsets": [
+				0,
+				32
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "cejita up0"
+		},
+		{
+			"offsets": [
+				0,
+				29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "cejita left0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/c3jita",
+	"position": [
+		110,
+		-175
+	],
+	"healthicon": "cejita_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		239,
+		95,
+		24
+	],
+	"camera_position": [
+		-250,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.75,
+	"_editor_isPlayer": false
+}

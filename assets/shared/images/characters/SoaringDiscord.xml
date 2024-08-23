@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SoaringDiscord.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="soarin_down0000" x="0" y="0" width="734" height="467"/>
+	<SubTexture name="soarin_down0001" x="0" y="0" width="734" height="467"/>
+	<SubTexture name="soarin_down0002" x="734" y="0" width="734" height="467"/>
+	<SubTexture name="soarin_down0003" x="734" y="0" width="734" height="467"/>
+	<SubTexture name="soarin_down0004" x="1468" y="0" width="734" height="467"/>
+	<SubTexture name="soarin_down0005" x="1468" y="0" width="734" height="467"/>
+	<SubTexture name="soarin_down0006" x="2202" y="0" width="734" height="467"/>
+	<SubTexture name="soarin_down0007" x="2202" y="0" width="734" height="467"/>
+	<SubTexture name="soarin_down0008" x="2936" y="0" width="734" height="467"/>
+	<SubTexture name="soarin_down0009" x="2936" y="0" width="734" height="467"/>
+	<SubTexture name="soaring_idle0000" x="0" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0001" x="0" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0002" x="734" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0003" x="734" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0004" x="734" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0005" x="1468" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0006" x="1468" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0007" x="2202" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0008" x="2202" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0009" x="2202" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0010" x="2936" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0011" x="2936" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0012" x="2936" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_idle0013" x="2936" y="467" width="734" height="467"/>
+	<SubTexture name="soaring_left0000" x="0" y="934" width="734" height="467"/>
+	<SubTexture name="soaring_left0001" x="0" y="934" width="734" height="467"/>
+	<SubTexture name="soaring_left0002" x="734" y="934" width="734" height="467"/>
+	<SubTexture name="soaring_left0003" x="734" y="934" width="734" height="467"/>
+	<SubTexture name="soaring_left0004" x="1468" y="934" width="734" height="467"/>
+	<SubTexture name="soaring_left0005" x="1468" y="934" width="734" height="467"/>
+	<SubTexture name="soaring_left0006" x="2202" y="934" width="734" height="467"/>
+	<SubTexture name="soaring_left0007" x="2202" y="934" width="734" height="467"/>
+	<SubTexture name="soaring_left0008" x="2936" y="934" width="734" height="467"/>
+	<SubTexture name="soaring_left0009" x="2936" y="934" width="734" height="467"/>
+	<SubTexture name="soaring_right0000" x="0" y="1401" width="734" height="467"/>
+	<SubTexture name="soaring_right0001" x="0" y="1401" width="734" height="467"/>
+	<SubTexture name="soaring_right0002" x="734" y="1401" width="734" height="467"/>
+	<SubTexture name="soaring_right0003" x="734" y="1401" width="734" height="467"/>
+	<SubTexture name="soaring_right0004" x="1468" y="1401" width="734" height="467"/>
+	<SubTexture name="soaring_right0005" x="1468" y="1401" width="734" height="467"/>
+	<SubTexture name="soaring_right0006" x="2202" y="1401" width="734" height="467"/>
+	<SubTexture name="soaring_right0007" x="2202" y="1401" width="734" height="467"/>
+	<SubTexture name="soaring_right0008" x="2936" y="1401" width="734" height="467"/>
+	<SubTexture name="soaring_right0009" x="2936" y="1401" width="734" height="467"/>
+	<SubTexture name="soaring_up0000" x="0" y="1868" width="734" height="467"/>
+	<SubTexture name="soaring_up0001" x="0" y="1868" width="734" height="467"/>
+	<SubTexture name="soaring_up0002" x="734" y="1868" width="734" height="467"/>
+	<SubTexture name="soaring_up0003" x="734" y="1868" width="734" height="467"/>
+	<SubTexture name="soaring_up0004" x="1468" y="1868" width="734" height="467"/>
+	<SubTexture name="soaring_up0005" x="1468" y="1868" width="734" height="467"/>
+	<SubTexture name="soaring_up0006" x="2202" y="1868" width="734" height="467"/>
+	<SubTexture name="soaring_up0007" x="2202" y="1868" width="734" height="467"/>
+	<SubTexture name="soaring_up0008" x="2936" y="1868" width="734" height="467"/>
+	<SubTexture name="soaring_up0009" x="2936" y="1868" width="734" height="467"/>
+</TextureAtlas>

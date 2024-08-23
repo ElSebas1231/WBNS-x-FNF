@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="webadas_5.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="seleccion0000" x="100" y="100" width="549" height="574" frameX="0" frameY="-6" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0001" x="749" y="100" width="547" height="577" frameX="-2" frameY="-3" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0002" x="1396" y="100" width="545" height="578" frameX="-4" frameY="-2" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0003" x="2041" y="100" width="545" height="579" frameX="-4" frameY="-1" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0004" x="2686" y="100" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0005" x="3330" y="100" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0006" x="100" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0007" x="744" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0008" x="1388" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0009" x="1388" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0010" x="2032" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0011" x="2032" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0012" x="2032" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0013" x="2032" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0014" x="2032" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0015" x="2032" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0016" x="2032" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0017" x="2032" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0018" x="2032" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="seleccion0019" x="2032" y="780" width="544" height="580" frameX="-5" frameY="0" frameWidth="549" frameHeight="580"/>
+	<SubTexture name="no seleccion0000" x="2676" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0001" x="2676" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0002" x="2676" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0003" x="3325" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0004" x="3325" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0005" x="3325" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0006" x="3325" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0007" x="100" y="1460" width="549" height="574"/>
+	<SubTexture name="no seleccion0008" x="100" y="1460" width="549" height="574"/>
+	<SubTexture name="no seleccion0009" x="100" y="1460" width="549" height="574"/>
+	<SubTexture name="no seleccion0010" x="2676" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0011" x="2676" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0012" x="2676" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0013" x="3325" y="780" width="549" height="574"/>
+	<SubTexture name="no seleccion0014" x="3325" y="780" width="549" height="574"/>
+</TextureAtlas>

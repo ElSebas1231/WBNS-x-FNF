@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="isla2.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="isla 20000" x="0" y="0" width="1055" height="593" frameX="0" frameY="-14" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20001" x="1055" y="0" width="1055" height="593" frameX="0" frameY="-12" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20002" x="2110" y="0" width="1055" height="593" frameX="0" frameY="-11" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20003" x="3165" y="0" width="1055" height="593" frameX="0" frameY="-10" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20004" x="4220" y="0" width="1055" height="593" frameX="0" frameY="-9" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20005" x="5275" y="0" width="1055" height="593" frameX="0" frameY="-9" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20006" x="6330" y="0" width="1055" height="593" frameX="0" frameY="-8" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20007" x="0" y="593" width="1055" height="593" frameX="0" frameY="-6" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20008" x="1055" y="593" width="1055" height="593" frameX="0" frameY="-5" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20009" x="2110" y="593" width="1055" height="593" frameX="0" frameY="-4" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20010" x="3165" y="593" width="1055" height="593" frameX="0" frameY="-3" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20011" x="4220" y="593" width="1055" height="593" frameX="0" frameY="-2" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20012" x="5275" y="593" width="1055" height="593" frameX="0" frameY="-1" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20013" x="6330" y="593" width="1055" height="593" frameX="0" frameY="0" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20014" x="0" y="1186" width="1055" height="593" frameX="0" frameY="0" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20015" x="1055" y="1186" width="1055" height="593" frameX="0" frameY="-1" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20016" x="2110" y="1186" width="1055" height="593" frameX="0" frameY="-2" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20017" x="3165" y="1186" width="1055" height="593" frameX="0" frameY="-3" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20018" x="4220" y="1186" width="1055" height="593" frameX="0" frameY="-4" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20019" x="5275" y="1186" width="1055" height="593" frameX="0" frameY="-5" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20020" x="6330" y="1186" width="1055" height="593" frameX="0" frameY="-6" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20021" x="0" y="1779" width="1055" height="593" frameX="0" frameY="-8" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20022" x="1055" y="1779" width="1055" height="593" frameX="0" frameY="-10" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20023" x="2110" y="1779" width="1055" height="593" frameX="0" frameY="-11" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20024" x="3165" y="1779" width="1055" height="593" frameX="0" frameY="-12" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20025" x="4220" y="1779" width="1055" height="593" frameX="0" frameY="-13" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20026" x="5275" y="1779" width="1055" height="593" frameX="0" frameY="-14" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20027" x="6330" y="1779" width="1055" height="593" frameX="0" frameY="-15" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20028" x="0" y="2372" width="1055" height="593" frameX="0" frameY="-16" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20029" x="1055" y="2372" width="1055" height="593" frameX="0" frameY="-17" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20030" x="2110" y="2372" width="1055" height="593" frameX="0" frameY="-18" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20031" x="3165" y="2372" width="1055" height="593" frameX="0" frameY="-17" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20032" x="4220" y="2372" width="1055" height="593" frameX="0" frameY="-16" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20033" x="5275" y="2372" width="1055" height="593" frameX="0" frameY="-15" frameWidth="1055" frameHeight="611"/>
+	<SubTexture name="isla 20034" x="6330" y="2372" width="1055" height="593" frameX="0" frameY="-14" frameWidth="1055" frameHeight="611"/>
+</TextureAtlas>

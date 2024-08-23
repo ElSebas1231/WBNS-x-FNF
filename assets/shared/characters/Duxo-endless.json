@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-67,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				-60
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-44,
+				-121
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				31
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Duxo-endless-v2",
+	"position": [
+		120,
+		180
+	],
+	"healthicon": "icon-duxo_endless",
+	"flip_x": false,
+	"healthbar_colors": [
+		66,
+		67,
+		115
+	],
+	"camera_position": [
+		-60,
+		10
+	],
+	"sing_duration": 3.6,
+	"scale": 1.4,
+	"_editor_isPlayer": false
+}

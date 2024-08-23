@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				136,
+				-155
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Asaltante Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				-172
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Asaltante Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				183,
+				-172
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Asaltante Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				178,
+				-145
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Asaltante Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				-162
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Asaltante Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Asaltante",
+	"position": [
+		-20,
+		0
+	],
+	"healthicon": "aquino_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		96,
+		52,
+		45
+	],
+	"camera_position": [
+		210,
+		500
+	],
+	"sing_duration": 4,
+	"scale": 0.55
+}

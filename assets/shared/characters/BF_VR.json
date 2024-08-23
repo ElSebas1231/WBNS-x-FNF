@@ -1,0 +1,123 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				107,
+				260
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "down_bf_miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				72,
+				271
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle_bf",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				138,
+				282
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "left_bf_miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				52,
+				268
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "right_bf_miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				44,
+				274
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right_bf0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				103,
+				278
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left_bf0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				91,
+				311
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up_bf0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				94,
+				328
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "up_bf_miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				79,
+				257
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down_bf0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BF_VR",
+	"position": [
+		200,
+		630
+	],
+	"healthicon": "bf_duxo_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		204,
+		236
+	],
+	"camera_position": [
+		350,
+		-320
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

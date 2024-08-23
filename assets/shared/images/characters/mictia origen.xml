@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mictia origen.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mictia og down0000" x="64" y="64" width="322" height="473"/>
+	<SubTexture name="mictia og down0001" x="64" y="64" width="322" height="473"/>
+	<SubTexture name="mictia og down0002" x="436" y="64" width="311" height="473" frameX="-5" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="mictia og down0003" x="436" y="64" width="311" height="473" frameX="-5" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="mictia og down0004" x="436" y="64" width="311" height="473" frameX="-5" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="mictia og down0005" x="436" y="64" width="311" height="473" frameX="-5" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="mictia og down0006" x="436" y="64" width="311" height="473" frameX="-5" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="mictia og down0007" x="436" y="64" width="311" height="473" frameX="-5" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="mictia og down0008" x="436" y="64" width="311" height="473" frameX="-5" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="mictia og down0009" x="436" y="64" width="311" height="473" frameX="-5" frameY="0" frameWidth="322" frameHeight="473"/>
+	<SubTexture name="mictia og idle0000" x="797" y="64" width="409" height="490" frameX="-9" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0001" x="797" y="64" width="409" height="490" frameX="-9" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0002" x="1256" y="64" width="415" height="493" frameX="-1" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0003" x="1256" y="64" width="415" height="493" frameX="-1" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0004" x="1721" y="64" width="410" height="492" frameX="-5" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0005" x="1721" y="64" width="410" height="492" frameX="-5" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0006" x="2181" y="64" width="408" height="491" frameX="-7" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0007" x="2181" y="64" width="408" height="491" frameX="-7" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0008" x="2639" y="64" width="408" height="491" frameX="-7" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0009" x="2639" y="64" width="408" height="491" frameX="-7" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0010" x="2639" y="64" width="408" height="491" frameX="-7" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0011" x="2639" y="64" width="408" height="491" frameX="-7" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0012" x="2639" y="64" width="408" height="491" frameX="-7" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0013" x="2639" y="64" width="408" height="491" frameX="-7" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og idle0014" x="2639" y="64" width="408" height="491" frameX="-7" frameY="0" frameWidth="418" frameHeight="493"/>
+	<SubTexture name="mictia og left0000" x="3097" y="64" width="353" height="487" frameX="-1" frameY="0" frameWidth="359" frameHeight="487"/>
+	<SubTexture name="mictia og left0001" x="3097" y="64" width="353" height="487" frameX="-1" frameY="0" frameWidth="359" frameHeight="487"/>
+	<SubTexture name="mictia og left0002" x="3500" y="64" width="355" height="487" frameX="-4" frameY="0" frameWidth="359" frameHeight="487"/>
+	<SubTexture name="mictia og left0003" x="3500" y="64" width="355" height="487" frameX="-4" frameY="0" frameWidth="359" frameHeight="487"/>
+	<SubTexture name="mictia og left0004" x="3500" y="64" width="355" height="487" frameX="-4" frameY="0" frameWidth="359" frameHeight="487"/>
+	<SubTexture name="mictia og left0005" x="3500" y="64" width="355" height="487" frameX="-4" frameY="0" frameWidth="359" frameHeight="487"/>
+	<SubTexture name="mictia og left0006" x="3500" y="64" width="355" height="487" frameX="-4" frameY="0" frameWidth="359" frameHeight="487"/>
+	<SubTexture name="mictia og left0007" x="3500" y="64" width="355" height="487" frameX="-4" frameY="0" frameWidth="359" frameHeight="487"/>
+	<SubTexture name="mictia og left0008" x="3500" y="64" width="355" height="487" frameX="-4" frameY="0" frameWidth="359" frameHeight="487"/>
+	<SubTexture name="mictia og left0009" x="3500" y="64" width="355" height="487" frameX="-4" frameY="0" frameWidth="359" frameHeight="487"/>
+	<SubTexture name="mictia og right0000" x="430" y="607" width="326" height="484" frameX="-3" frameY="0" frameWidth="334" frameHeight="485"/>
+	<SubTexture name="mictia og right0001" x="806" y="607" width="331" height="485" frameX="0" frameY="0" frameWidth="334" frameHeight="485"/>
+	<SubTexture name="mictia og right0002" x="806" y="607" width="331" height="485" frameX="0" frameY="0" frameWidth="334" frameHeight="485"/>
+	<SubTexture name="mictia og right0003" x="806" y="607" width="331" height="485" frameX="0" frameY="0" frameWidth="334" frameHeight="485"/>
+	<SubTexture name="mictia og right0004" x="806" y="607" width="331" height="485" frameX="0" frameY="0" frameWidth="334" frameHeight="485"/>
+	<SubTexture name="mictia og right0005" x="806" y="607" width="331" height="485" frameX="0" frameY="0" frameWidth="334" frameHeight="485"/>
+	<SubTexture name="mictia og right0006" x="806" y="607" width="331" height="485" frameX="0" frameY="0" frameWidth="334" frameHeight="485"/>
+	<SubTexture name="mictia og right0007" x="806" y="607" width="331" height="485" frameX="0" frameY="0" frameWidth="334" frameHeight="485"/>
+	<SubTexture name="mictia og right0008" x="806" y="607" width="331" height="485" frameX="0" frameY="0" frameWidth="334" frameHeight="485"/>
+	<SubTexture name="mictia og up0000" x="1187" y="607" width="382" height="516" frameX="-2" frameY="0" frameWidth="396" frameHeight="516"/>
+	<SubTexture name="mictia og up0001" x="1187" y="607" width="382" height="516" frameX="-2" frameY="0" frameWidth="396" frameHeight="516"/>
+	<SubTexture name="mictia og up0002" x="1619" y="607" width="395" height="508" frameX="-1" frameY="-7" frameWidth="396" frameHeight="516"/>
+	<SubTexture name="mictia og up0003" x="1619" y="607" width="395" height="508" frameX="-1" frameY="-7" frameWidth="396" frameHeight="516"/>
+	<SubTexture name="mictia og up0004" x="2064" y="607" width="394" height="508" frameX="-1" frameY="-7" frameWidth="396" frameHeight="516"/>
+	<SubTexture name="mictia og up0005" x="2064" y="607" width="394" height="508" frameX="-1" frameY="-7" frameWidth="396" frameHeight="516"/>
+	<SubTexture name="mictia og up0006" x="2064" y="607" width="394" height="508" frameX="-1" frameY="-7" frameWidth="396" frameHeight="516"/>
+	<SubTexture name="mictia og up0007" x="2064" y="607" width="394" height="508" frameX="-1" frameY="-7" frameWidth="396" frameHeight="516"/>
+	<SubTexture name="mictia og up0008" x="2064" y="607" width="394" height="508" frameX="-1" frameY="-7" frameWidth="396" frameHeight="516"/>
+	<SubTexture name="mictia og up0009" x="2064" y="607" width="394" height="508" frameX="-1" frameY="-7" frameWidth="396" frameHeight="516"/>
+</TextureAtlas>

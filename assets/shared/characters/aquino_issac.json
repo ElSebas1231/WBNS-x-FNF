@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "AquisiIsaac idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "AquisiIsaac down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "AquisiIsaac Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "AquisiIsaac Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "AquisiIsaac right0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino_issac",
+	"position": [
+		-20,
+		360
+	],
+	"healthicon": "aquino_issac_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		124,
+		87,
+		76
+	],
+	"camera_position": [
+		150,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 1.4,
+	"_editor_isPlayer": false
+}

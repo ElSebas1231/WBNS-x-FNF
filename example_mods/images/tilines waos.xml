@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tree bg.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kimajin0000" x="0" y="0" width="2563" height="1107"/>
+	<SubTexture name="kimajin0001" x="2563" y="0" width="2563" height="1107"/>
+	<SubTexture name="kimajin0002" x="5126" y="0" width="2563" height="1107"/>
+	<SubTexture name="kimajin0003" x="0" y="1107" width="2563" height="1107"/>
+	<SubTexture name="kimajin0004" x="0" y="1107" width="2563" height="1107"/>
+	<SubTexture name="kimajin0005" x="0" y="1107" width="2563" height="1107"/>
+	<SubTexture name="kimajin0006" x="0" y="1107" width="2563" height="1107"/>
+	<SubTexture name="kimajin0007" x="5126" y="0" width="2563" height="1107"/>
+	<SubTexture name="kimajin0008" x="5126" y="0" width="2563" height="1107"/>
+</TextureAtlas>

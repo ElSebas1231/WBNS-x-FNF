@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="MictiaFnaf.png">
+<SubTexture name="MictiaFnaf Idle0000" x="1070" y="628" width="362" height="581" frameX="-703" frameY="-277" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0001" x="1694" y="1252" width="353" height="574" frameX="-711" frameY="-286" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0002" x="2109" y="1859" width="341" height="555" frameX="-721" frameY="-309" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0003" x="2686" y="1630" width="338" height="530" frameX="-722" frameY="-337" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0004" x="2204" y="2441" width="339" height="515" frameX="-720" frameY="-354" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0005" x="1868" y="2441" width="336" height="516" frameX="-723" frameY="-353" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0006" x="2543" y="2441" width="329" height="515" frameX="-731" frameY="-352" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0007" x="1543" y="2441" width="325" height="521" frameX="-735" frameY="-345" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0008" x="879" y="2441" width="329" height="527" frameX="-732" frameY="-337" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0009" x="2686" y="1094" width="340" height="536" frameX="-722" frameY="-326" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0010" x="1756" y="1859" width="353" height="559" frameX="-711" frameY="-301" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Idle0011" x="1070" y="628" width="362" height="581" frameX="-703" frameY="-277" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Left0000" x="2097" y="1180" width="576" height="582" frameX="-507" frameY="-272" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Left0001" x="0" y="1859" width="582" height="582" frameX="-509" frameY="-273" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Left0002" x="1170" y="1859" width="586" height="580" frameX="-515" frameY="-277" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Left0003" x="582" y="1859" width="588" height="582" frameX="-524" frameY="-278" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Left0004" x="2097" y="592" width="589" height="588" frameX="-534" frameY="-275" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Left0005" x="2097" y="0" width="589" height="592" frameX="-544" frameY="-273" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Left0006" x="1107" y="1252" width="587" height="596" frameX="-553" frameY="-271" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Left0007" x="524" y="1252" width="583" height="597" frameX="-560" frameY="-271" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Down0000" x="1208" y="2441" width="335" height="526" frameX="-728" frameY="-367" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Down0001" x="3200" y="1538" width="335" height="500" frameX="-725" frameY="-379" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Down0002" x="2618" y="2971" width="335" height="488" frameX="-723" frameY="-380" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Down0003" x="2283" y="2971" width="335" height="490" frameX="-722" frameY="-377" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Down0004" x="3200" y="2038" width="335" height="496" frameX="-721" frameY="-371" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Down0005" x="3200" y="515" width="334" height="512" frameX="-720" frameY="-355" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Down0006" x="0" y="2441" width="333" height="530" frameX="-719" frameY="-338" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Down0007" x="2686" y="548" width="331" height="546" frameX="-718" frameY="-322" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Right0000" x="3200" y="1027" width="555" height="511" frameX="-660" frameY="-359" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Right0001" x="1718" y="2971" width="565" height="505" frameX="-657" frameY="-368" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Right0002" x="1147" y="2971" width="571" height="506" frameX="-651" frameY="-369" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Right0003" x="573" y="2971" width="574" height="507" frameX="-644" frameY="-369" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Right0004" x="0" y="2971" width="573" height="509" frameX="-638" frameY="-368" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Right0005" x="3200" y="0" width="564" height="515" frameX="-634" frameY="-362" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Right0006" x="333" y="2441" width="546" height="529" frameX="-630" frameY="-348" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Right0007" x="2686" y="0" width="514" height="548" frameX="-626" frameY="-327" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Up0000" x="0" y="0" width="508" height="628" frameX="-606" frameY="-217" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Up0001" x="508" y="0" width="526" height="625" frameX="-598" frameY="-221" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Up0002" x="1034" y="0" width="534" height="624" frameX="-597" frameY="-223" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Up0003" x="0" y="628" width="536" height="624" frameX="-599" frameY="-224" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Up0004" x="536" y="628" width="534" height="622" frameX="-603" frameY="-226" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Up0005" x="1568" y="0" width="529" height="616" frameX="-608" frameY="-231" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Up0006" x="1568" y="616" width="525" height="610" frameX="-611" frameY="-236" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="MictiaFnaf Up0007" x="0" y="1252" width="524" height="607" frameX="-612" frameY="-239" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

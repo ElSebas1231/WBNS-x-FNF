@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="noseelname.png">
+<SubTexture name="noseelname a0000" x="0" y="0" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0001" x="394" y="0" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0002" x="788" y="0" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0003" x="1182" y="0" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0004" x="1576" y="0" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0005" x="1970" y="0" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0006" x="0" y="400" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0007" x="394" y="400" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0008" x="788" y="400" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0009" x="1182" y="400" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0010" x="1576" y="400" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0011" x="1970" y="400" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0012" x="0" y="800" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0013" x="394" y="800" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0014" x="788" y="800" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0015" x="788" y="800" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0016" x="1182" y="800" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0017" x="1576" y="800" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0018" x="1970" y="800" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0019" x="0" y="1200" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0020" x="394" y="1200" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0021" x="788" y="1200" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0022" x="1182" y="1200" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0023" x="1576" y="1200" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0024" x="1970" y="1200" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0025" x="0" y="1600" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0026" x="394" y="1600" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0027" x="788" y="1600" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0028" x="1182" y="1600" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0029" x="1576" y="1600" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0030" x="1970" y="1600" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0031" x="0" y="2000" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0032" x="394" y="2000" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0033" x="788" y="2000" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0034" x="1182" y="2000" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0035" x="1576" y="2000" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0036" x="1970" y="2000" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0037" x="0" y="2400" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0038" x="394" y="2400" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0039" x="788" y="2400" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+<SubTexture name="noseelname a0040" x="1182" y="2400" width="394" height="400" frameX="0" frameY="0" frameWidth="354" frameHeight="360" />
+</TextureAtlas>

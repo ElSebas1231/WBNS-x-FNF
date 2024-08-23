@@ -1,0 +1,90 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "DuxoApeiro Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-20
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "DuxoApeiro Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-27
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DuxoApeiro Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-10
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "DuxoApeiro Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				-3
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "DuxoApeiro Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				-30
+			],
+			"anim": "anim",
+			"fps": 24,
+			"name": "DuxoApeiro Form",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/DuxoApeiro",
+	"position": [
+		-390,
+		-250
+	],
+	"healthicon": "duxolol",
+	"flip_x": false,
+	"healthbar_colors": [
+		45,
+		38,
+		56
+	],
+	"camera_position": [
+		580,
+		400
+	],
+	"sing_duration": 4,
+	"scale": 0.3,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Papa Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Papa Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Papa Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Papa Left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Papa Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Papaestricto",
+	"position": [
+		0,
+		-20
+	],
+	"healthicon": "dad_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		222,
+		223,
+		154
+	],
+	"camera_position": [
+		-250,
+		-130
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

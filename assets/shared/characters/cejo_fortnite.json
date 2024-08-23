@@ -1,0 +1,101 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-3
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "c3jo idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				55,
+				-19
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "c3jo left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-33,
+				-83
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "c3jo right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				-20
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "c3jo up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				-116
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "c3jo down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				-9
+			],
+			"anim": "PREPARAR",
+			"fps": 24,
+			"name": "c3jo disparo0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				66,
+				-23
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "DISPARO",
+			"loop": false,
+			"name": "c3jo disparo disparar"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cejo_fortnite",
+	"position": [
+		70,
+		30
+	],
+	"healthicon": "cejo_fortnite_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		244,
+		109,
+		53
+	],
+	"camera_position": [
+		20,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2,
+	"_editor_isPlayer": false
+}

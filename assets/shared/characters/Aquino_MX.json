@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				-225
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "AquinoEsc Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				-225
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "AquinoEsc Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				-225
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "AquinoEsc Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				-225
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "AquinoEsc Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				-225
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "AquinoEsc Up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Aquino_MX",
+	"position": [
+		-20,
+		0
+	],
+	"healthicon": "aquino_capybara_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		100,
+		69,
+		34
+	],
+	"camera_position": [
+		-300,
+		380
+	],
+	"sing_duration": 4,
+	"scale": 0.6,
+	"_editor_isPlayer": false
+}

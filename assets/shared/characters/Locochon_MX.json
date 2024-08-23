@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				-225
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Locochon Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				137,
+				-220
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Locochon Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				126,
+				-223
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Locochon Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				142,
+				-247
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Locochon Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				136,
+				-238
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Locochon Up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Locochon_MX",
+	"position": [
+		-20,
+		0
+	],
+	"healthicon": "locochon_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		147,
+		132,
+		157
+	],
+	"camera_position": [
+		0,
+		460
+	],
+	"sing_duration": 4,
+	"scale": 0.5
+}

@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				135,
+				-225
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Natalan Left"
+		},
+		{
+			"offsets": [
+				135,
+				-225
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Natalan Right"
+		},
+		{
+			"offsets": [
+				135,
+				-225
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Natalan Down"
+		},
+		{
+			"offsets": [
+				135,
+				-225
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Natalan Up"
+		},
+		{
+			"offsets": [
+				135,
+				-225
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Natalan Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Natalan_MX",
+	"position": [
+		-70,
+		0
+	],
+	"healthicon": "natalan_roblox_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		170,
+		45
+	],
+	"camera_position": [
+		500,
+		290
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 0.6,
+	"_editor_isPlayer": false
+}

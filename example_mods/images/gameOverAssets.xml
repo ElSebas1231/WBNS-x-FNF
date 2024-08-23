@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="gameOverAssets.png" width="635" height="294">
+	<SubTexture name="GAMEOVER" x="1" y="1" width="633" height="273" frameX="-163" frameY="-74" frameWidth="960" frameHeight="720"/>
+	<SubTexture name="SAUL" x="24" y="277" width="16" height="16" frameX="-2" frameY="-0" frameWidth="20" frameHeight="16"/>
+	<SubTexture name="SOULBREAK" x="1" y="277" width="20" height="16" frameX="-0" frameY="-0" frameWidth="20" frameHeight="16"/>
+	<SubTexture name="petals0000" x="53" y="277" width="7" height="6" frameX="-0" frameY="-1" frameWidth="7" frameHeight="8"/>
+	<SubTexture name="petals0001" x="63" y="277" width="6" height="5" frameX="-0" frameY="-1" frameWidth="7" frameHeight="8"/>
+	<SubTexture name="petals0002" x="43" y="277" width="7" height="8" frameX="-0" frameY="-0" frameWidth="7" frameHeight="8"/>
+	<SubTexture name="petals0003" x="63" y="277" width="6" height="5" frameX="-0" frameY="-1" frameWidth="7" frameHeight="8"/>
+</TextureAtlas>

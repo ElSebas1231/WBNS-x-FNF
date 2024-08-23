@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				140,
+				-335
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "aquino left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-76,
+				-422
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "aquino down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				-233
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "aquino up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-107,
+				-362
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "aquino right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-1,
+				-330
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "aquino idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino",
+	"position": [
+		60,
+		-120
+	],
+	"healthicon": "aquino_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		96,
+		52,
+		45
+	],
+	"camera_position": [
+		-250,
+		260
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2,
+	"_editor_isPlayer": false
+}

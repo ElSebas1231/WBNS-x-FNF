@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Locochon-Nether-Speedrun left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Locochon-Nether-Speedrun down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Locochon-Nether-Speedrun up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Locochon-Nether-Speedrun right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Locochon-Nether-Speedrun idle0"
+		},
+		{
+			"offsets": [
+				-170,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "muerte",
+			"indices": [],
+			"name": "Locochon-Nether-Speedrun anim-muerte0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speedrun/nether/Locochon-Nether-Speedrun",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "locochon_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		147,
+		132,
+		157
+	],
+	"camera_position": [
+		300,
+		-40
+	],
+	"sing_duration": 4,
+	"scale": 1.7
+}

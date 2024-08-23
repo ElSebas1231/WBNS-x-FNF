@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-27,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Duxo-Enderman-Speedrun left0"
+		},
+		{
+			"offsets": [
+				5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Duxo-Enderman-Speedrun down0"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Duxo-Enderman-Speedrun up0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Duxo-Enderman-Speedrun right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Duxo-Enderman-Speedrun idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "matar",
+			"fps": 24,
+			"name": "Duxo-Enderman-Speedrun anim-matar0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speedrun/nether/Duxo-Enderman-Speedrun",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "duxo_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		113,
+		73,
+		139
+	],
+	"camera_position": [
+		350,
+		-40
+	],
+	"sing_duration": 4,
+	"scale": 1.7
+}

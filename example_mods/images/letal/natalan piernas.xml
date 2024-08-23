@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="natalan piernas.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pies corriendose0000" x="22" y="22" width="307" height="199"/>
+	<SubTexture name="pies corriendose0001" x="22" y="22" width="307" height="199"/>
+	<SubTexture name="pies corriendose0002" x="351" y="22" width="307" height="199"/>
+	<SubTexture name="pies corriendose0003" x="351" y="22" width="307" height="199"/>
+	<SubTexture name="pies corriendose0004" x="680" y="22" width="307" height="199"/>
+	<SubTexture name="pies corriendose0005" x="680" y="22" width="307" height="199"/>
+	<SubTexture name="pies corriendose0006" x="22" y="243" width="307" height="199"/>
+	<SubTexture name="pies corriendose0007" x="22" y="243" width="307" height="199"/>
+	<SubTexture name="pies corriendose0008" x="351" y="243" width="307" height="199"/>
+	<SubTexture name="pies corriendose0009" x="351" y="243" width="307" height="199"/>
+	<SubTexture name="pies corriendose0010" x="680" y="243" width="307" height="199"/>
+	<SubTexture name="pies corriendose0011" x="680" y="243" width="307" height="199"/>
+	<SubTexture name="pies corriendose0012" x="22" y="464" width="307" height="199"/>
+	<SubTexture name="pies corriendose0013" x="22" y="464" width="307" height="199"/>
+</TextureAtlas>

@@ -1,0 +1,123 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				10,
+				290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "c3jo down"
+		},
+		{
+			"offsets": [
+				15,
+				281
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "c3jo down miss"
+		},
+		{
+			"offsets": [
+				0,
+				311
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "c3jo up miss"
+		},
+		{
+			"offsets": [
+				90,
+				351
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "c3jo left"
+		},
+		{
+			"offsets": [
+				22,
+				326
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "c3jo right"
+		},
+		{
+			"offsets": [
+				-4,
+				300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "c3jo right miss"
+		},
+		{
+			"offsets": [
+				87,
+				321
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "c3jo left miss"
+		},
+		{
+			"offsets": [
+				10,
+				290
+			],
+			"loop": false,
+			"fps": 23,
+			"anim": "idle",
+			"indices": [],
+			"name": "c3jo idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				316
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "c3jo up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/c3jo taza",
+	"position": [
+		-60,
+		480
+	],
+	"healthicon": "cejo_taza_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		239,
+		118,
+		58
+	],
+	"camera_position": [
+		330,
+		-490
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

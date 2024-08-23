@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-14,
+				-21
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "idle",
+			"loop": false,
+			"name": "duxo idle0"
+		},
+		{
+			"offsets": [
+				-26,
+				-2
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singUP",
+			"loop": false,
+			"name": "duxo up"
+		},
+		{
+			"offsets": [
+				-22,
+				-72
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "duxo right0"
+		},
+		{
+			"offsets": [
+				194,
+				27
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "duxo left0"
+		},
+		{
+			"offsets": [
+				-58,
+				-158
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "duxo down"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/SnowDuxo",
+	"position": [
+		40,
+		-60
+	],
+	"healthicon": "duxo_pinguino_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		146,
+		74,
+		182
+	],
+	"camera_position": [
+		270,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 0.899999999999999,
+	"_editor_isPlayer": true
+}

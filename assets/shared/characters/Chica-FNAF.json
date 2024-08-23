@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				275,
+				135
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Chica Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				268,
+				127
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Chica Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				277,
+				135
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Chica Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				288,
+				135
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Chica Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				319,
+				132
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Chica Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Chica",
+	"position": [
+		-20,
+		-110
+	],
+	"healthicon": "chica_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		239,
+		179,
+		18
+	],
+	"camera_position": [
+		-680,
+		-70
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2,
+	"_editor_isPlayer": false
+}

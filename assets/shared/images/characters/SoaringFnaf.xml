@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="SoaringFnaf.png">
+<SubTexture name="SoaringFnaf Idle0000" x="0" y="2579" width="597" height="814" frameX="-423" frameY="-145" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Idle0001" x="1265" y="876" width="639" height="855" frameX="-397" frameY="-105" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Idle0002" x="1255" y="0" width="660" height="873" frameX="-388" frameY="-88" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Idle0003" x="0" y="876" width="650" height="871" frameX="-392" frameY="-89" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Idle0004" x="622" y="0" width="633" height="875" frameX="-399" frameY="-85" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Idle0005" x="0" y="0" width="622" height="876" frameX="-405" frameY="-84" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Idle0006" x="650" y="876" width="615" height="869" frameX="-411" frameY="-91" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Idle0007" x="1915" y="0" width="610" height="852" frameX="-415" frameY="-108" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Idle0008" x="553" y="1747" width="604" height="831" frameX="-418" frameY="-129" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Idle0009" x="0" y="2579" width="597" height="814" frameX="-423" frameY="-145" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Right0000" x="3100" y="0" width="589" height="821" frameX="-557" frameY="-133" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Right0001" x="2294" y="1747" width="584" height="823" frameX="-560" frameY="-133" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Right0002" x="1719" y="1747" width="575" height="825" frameX="-567" frameY="-133" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Right0003" x="1157" y="1747" width="562" height="829" frameX="-577" frameY="-132" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Right0004" x="0" y="1747" width="553" height="832" frameX="-579" frameY="-131" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Right0005" x="2525" y="835" width="559" height="834" frameX="-561" frameY="-129" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Right0006" x="2525" y="0" width="575" height="835" frameX="-525" frameY="-126" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Right0007" x="1915" y="852" width="596" height="836" frameX="-478" frameY="-123" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Left0000" x="0" y="3393" width="563" height="791" frameX="-314" frameY="-166" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Left0001" x="2137" y="3393" width="542" height="784" frameX="-329" frameY="-172" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Left0002" x="1606" y="3393" width="531" height="786" frameX="-336" frameY="-169" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Left0003" x="563" y="3393" width="523" height="790" frameX="-341" frameY="-164" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Left0004" x="3689" y="0" width="517" height="793" frameX="-345" frameY="-161" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Left0005" x="3689" y="793" width="514" height="793" frameX="-347" frameY="-160" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Left0006" x="2690" y="2579" width="523" height="794" frameX="-347" frameY="-159" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Left0007" x="1103" y="2579" width="536" height="797" frameX="-345" frameY="-156" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Down0000" x="4206" y="0" width="527" height="684" frameX="-442" frameY="-301" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Down0001" x="4733" y="2035" width="529" height="673" frameX="-442" frameY="-312" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Down0002" x="4733" y="1360" width="530" height="675" frameX="-441" frameY="-310" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Down0003" x="4733" y="682" width="530" height="678" frameX="-441" frameY="-306" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Down0004" x="4733" y="0" width="531" height="682" frameX="-440" frameY="-300" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Down0005" x="3213" y="3393" width="532" height="701" frameX="-439" frameY="-278" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Down0006" x="2679" y="3393" width="534" height="745" frameX="-438" frameY="-229" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Down0007" x="1639" y="2579" width="534" height="796" frameX="-438" frameY="-170" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Up0000" x="3100" y="1628" width="498" height="803" frameX="-412" frameY="-108" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Up0001" x="3689" y="2369" width="510" height="781" frameX="-408" frameY="-131" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Up0002" x="3689" y="1586" width="517" height="783" frameX="-401" frameY="-132" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Up0003" x="1086" y="3393" width="520" height="790" frameX="-396" frameY="-130" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Up0004" x="2173" y="2579" width="517" height="796" frameX="-396" frameY="-129" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Up0005" x="597" y="2579" width="506" height="803" frameX="-403" frameY="-127" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="SoaringFnaf Up0006" x="3100" y="821" width="491" height="807" frameX="-414" frameY="-126" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

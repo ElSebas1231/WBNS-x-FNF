@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Rethey Forever",
+			"duxo_icon",
+			[
+				113,
+				73,
+				139
+			]
+		],
+		[
+			"Penguin or Rat",
+			"duxo_icon",
+			[
+				113,
+				73,
+				139
+			]
+		],
+		[
+			"Possesion",
+			"duxo_evil_icon",
+			[
+				113,
+				73,
+				139
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "duxo",
+	"difficulties": "hard, insane, soarinng",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Mundos distintos",
+	"weekName": "V.s. Duxorethey",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

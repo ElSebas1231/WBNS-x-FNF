@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Pies-Lucasta-Falso.png">
+<SubTexture name="Pies-Lucasta-Falso idle0000" x="141" y="303" width="115" height="106" frameX="-253" frameY="-205" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0001" x="347" y="0" width="113" height="135" frameX="-248" frameY="-201" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0002" x="0" y="156" width="110" height="147" frameX="-245" frameY="-198" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0003" x="0" y="0" width="76" height="156" frameX="-258" frameY="-197" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0004" x="76" y="0" width="58" height="154" frameX="-273" frameY="-196" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0005" x="347" y="135" width="89" height="135" frameX="-257" frameY="-201" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0006" x="460" y="0" width="144" height="98" frameX="-229" frameY="-206" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0007" x="0" y="303" width="141" height="135" frameX="-223" frameY="-200" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0008" x="110" y="156" width="145" height="147" frameX="-219" frameY="-195" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0009" x="134" y="0" width="117" height="151" frameX="-226" frameY="-195" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0010" x="251" y="0" width="96" height="148" frameX="-236" frameY="-195" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0011" x="255" y="156" width="64" height="128" frameX="-272" frameY="-201" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Pies-Lucasta-Falso idle0012" x="256" y="303" width="115" height="106" frameX="-253" frameY="-205" frameWidth="1000" frameHeight="400" />
+</TextureAtlas>

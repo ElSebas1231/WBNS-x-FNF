@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-591,
+				-325
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Lucasta Idle"
+		},
+		{
+			"offsets": [
+				-565,
+				-293
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Lucasta Left"
+		},
+		{
+			"offsets": [
+				-557,
+				-325
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Lucasta Down"
+		},
+		{
+			"offsets": [
+				-587,
+				-298
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Lucasta Up"
+		},
+		{
+			"offsets": [
+				-573,
+				-324
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Lucasta Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Lucasta",
+	"position": [
+		-1400,
+		-460
+	],
+	"healthicon": "lucasta_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		207,
+		180,
+		105
+	],
+	"camera_position": [
+		112,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 1.7,
+	"_editor_isPlayer": true
+}

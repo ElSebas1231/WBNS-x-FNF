@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="locochon.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down_loco0000" x="0" y="0" width="353" height="656" frameX="-10" frameY="-21" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0001" x="0" y="0" width="353" height="656" frameX="-10" frameY="-21" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0002" x="353" y="0" width="339" height="673" frameX="-2" frameY="-4" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0003" x="353" y="0" width="339" height="673" frameX="-2" frameY="-4" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0004" x="692" y="0" width="341" height="677" frameX="0" frameY="0" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0005" x="692" y="0" width="341" height="677" frameX="0" frameY="0" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0006" x="1033" y="0" width="341" height="677" frameX="0" frameY="0" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0007" x="1033" y="0" width="341" height="677" frameX="0" frameY="0" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0008" x="1033" y="0" width="341" height="677" frameX="0" frameY="0" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0009" x="1033" y="0" width="341" height="677" frameX="0" frameY="0" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0010" x="1033" y="0" width="341" height="677" frameX="0" frameY="0" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0011" x="1033" y="0" width="341" height="677" frameX="0" frameY="0" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0012" x="1033" y="0" width="341" height="677" frameX="0" frameY="0" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="down_loco0013" x="1033" y="0" width="341" height="677" frameX="0" frameY="0" frameWidth="363" frameHeight="677"/>
+	<SubTexture name="idle_loco0000" x="1374" y="0" width="298" height="689" frameX="-29" frameY="-32" frameWidth="335" frameHeight="721"/>
+	<SubTexture name="idle_loco0001" x="1374" y="0" width="298" height="689" frameX="-29" frameY="-32" frameWidth="335" frameHeight="721"/>
+	<SubTexture name="idle_loco0002" x="1672" y="0" width="297" height="688" frameX="-29" frameY="-33" frameWidth="335" frameHeight="721"/>
+	<SubTexture name="idle_loco0003" x="1672" y="0" width="297" height="688" frameX="-29" frameY="-33" frameWidth="335" frameHeight="721"/>
+	<SubTexture name="idle_loco0004" x="1969" y="0" width="316" height="714" frameX="-7" frameY="-7" frameWidth="335" frameHeight="721"/>
+	<SubTexture name="idle_loco0005" x="1969" y="0" width="316" height="714" frameX="-7" frameY="-7" frameWidth="335" frameHeight="721"/>
+	<SubTexture name="idle_loco0006" x="2285" y="0" width="331" height="721" frameX="-3" frameY="0" frameWidth="335" frameHeight="721"/>
+	<SubTexture name="idle_loco0007" x="2285" y="0" width="331" height="721" frameX="-3" frameY="0" frameWidth="335" frameHeight="721"/>
+	<SubTexture name="idle_loco0008" x="2616" y="0" width="335" height="721"/>
+	<SubTexture name="idle_loco0009" x="2616" y="0" width="335" height="721"/>
+	<SubTexture name="idle_loco0010" x="2951" y="0" width="335" height="721"/>
+	<SubTexture name="idle_loco0011" x="2951" y="0" width="335" height="721"/>
+	<SubTexture name="idle_loco0012" x="3286" y="0" width="335" height="721"/>
+	<SubTexture name="idle_loco0013" x="3621" y="0" width="329" height="719" frameX="-3" frameY="-2" frameWidth="335" frameHeight="721"/>
+	<SubTexture name="left_locochon0000" x="0" y="721" width="358" height="712" frameX="0" frameY="-15" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0001" x="0" y="721" width="358" height="712" frameX="0" frameY="-15" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0002" x="358" y="721" width="353" height="725" frameX="-28" frameY="-2" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0003" x="358" y="721" width="353" height="725" frameX="-28" frameY="-2" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0004" x="711" y="721" width="355" height="727" frameX="-28" frameY="0" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0005" x="711" y="721" width="355" height="727" frameX="-28" frameY="0" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0006" x="711" y="721" width="355" height="727" frameX="-28" frameY="0" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0007" x="711" y="721" width="355" height="727" frameX="-28" frameY="0" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0008" x="711" y="721" width="355" height="727" frameX="-28" frameY="0" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0009" x="711" y="721" width="355" height="727" frameX="-28" frameY="0" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0010" x="711" y="721" width="355" height="727" frameX="-28" frameY="0" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0011" x="711" y="721" width="355" height="727" frameX="-28" frameY="0" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0012" x="711" y="721" width="355" height="727" frameX="-28" frameY="0" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="left_locochon0013" x="711" y="721" width="355" height="727" frameX="-28" frameY="0" frameWidth="383" frameHeight="727"/>
+	<SubTexture name="right_loco0000" x="1066" y="721" width="306" height="707" frameX="-30" frameY="-7" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0001" x="1066" y="721" width="306" height="707" frameX="-30" frameY="-7" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0002" x="1372" y="721" width="299" height="714" frameX="-4" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0003" x="1372" y="721" width="299" height="714" frameX="-4" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0004" x="1671" y="721" width="305" height="714" frameX="0" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0005" x="1671" y="721" width="305" height="714" frameX="0" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0006" x="1976" y="721" width="305" height="714" frameX="0" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0007" x="1976" y="721" width="305" height="714" frameX="0" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0008" x="1976" y="721" width="305" height="714" frameX="0" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0009" x="1976" y="721" width="305" height="714" frameX="0" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0010" x="1976" y="721" width="305" height="714" frameX="0" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0011" x="1976" y="721" width="305" height="714" frameX="0" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0012" x="1976" y="721" width="305" height="714" frameX="0" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="right_loco0013" x="1976" y="721" width="305" height="714" frameX="0" frameY="0" frameWidth="336" frameHeight="714"/>
+	<SubTexture name="up_loco0000" x="2281" y="721" width="468" height="746"/>
+	<SubTexture name="up_loco0001" x="2281" y="721" width="468" height="746"/>
+	<SubTexture name="up_loco0002" x="2749" y="721" width="443" height="727" frameX="-15" frameY="-19" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0003" x="2749" y="721" width="443" height="727" frameX="-15" frameY="-19" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0004" x="3192" y="721" width="437" height="722" frameX="-18" frameY="-24" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0005" x="3192" y="721" width="437" height="722" frameX="-18" frameY="-24" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0006" x="3192" y="721" width="437" height="722" frameX="-18" frameY="-24" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0007" x="3192" y="721" width="437" height="722" frameX="-18" frameY="-24" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0008" x="3192" y="721" width="437" height="722" frameX="-18" frameY="-24" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0009" x="3192" y="721" width="437" height="722" frameX="-18" frameY="-24" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0010" x="3192" y="721" width="437" height="722" frameX="-18" frameY="-24" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0011" x="3192" y="721" width="437" height="722" frameX="-18" frameY="-24" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0012" x="3192" y="721" width="437" height="722" frameX="-18" frameY="-24" frameWidth="468" frameHeight="746"/>
+	<SubTexture name="up_loco0013" x="3192" y="721" width="437" height="722" frameX="-18" frameY="-24" frameWidth="468" frameHeight="746"/>
+</TextureAtlas>

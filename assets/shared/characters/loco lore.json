@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				78,
+				-315
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "loco left"
+		},
+		{
+			"offsets": [
+				-52,
+				-315
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "loco idle"
+		},
+		{
+			"offsets": [
+				-61,
+				-289
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "loco down"
+		},
+		{
+			"offsets": [
+				-72,
+				-226
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "loco up"
+		},
+		{
+			"offsets": [
+				-124,
+				-300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "loco right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/loco_lore",
+	"position": [
+		-250,
+		-110
+	],
+	"healthicon": "loco_lore_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		68,
+		66,
+		74
+	],
+	"camera_position": [
+		40,
+		250
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3,
+	"_editor_isPlayer": true
+}

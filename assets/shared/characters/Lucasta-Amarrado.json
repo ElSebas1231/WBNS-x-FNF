@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Lucasta-Amarrado idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Lucasta-Amarrado left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Lucasta-Amarrado down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Lucasta-Amarrado up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Lucasta-Amarrado right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Lucasta-Amarrado",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "lucasta_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		207,
+		180,
+		105
+	],
+	"camera_position": [
+		-420,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 1.6,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,112 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				66,
+				-295
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				103,
+				-341
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-339
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				91,
+				-259
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				23,
+				-339
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				431,
+				-267
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "c-muere0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				347,
+				-426
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "de-nuevo0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				274,
+				-407
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "death-loop0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BF-AQUINO",
+	"position": [
+		40,
+		-90
+	],
+	"healthicon": "aquinovs_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		96,
+		52,
+		45
+	],
+	"camera_position": [
+		590,
+		180
+	],
+	"sing_duration": 4,
+	"scale": 1.3,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Duxo-End-Speedrun left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-1
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Duxo-End-Speedrun down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Duxo-End-Speedrun up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Duxo-End-Speedrun right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Duxo-End-Speedrun idle0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speedrun/end/Duxo-End-Speedrun",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "duxo_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		113,
+		73,
+		139
+	],
+	"camera_position": [
+		350,
+		-40
+	],
+	"sing_duration": 4,
+	"scale": 1.7
+}

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Aquino-Minando-Speedrun.png">
+<SubTexture name="Aquino-Minando-Speedrun idle0000" x="734" y="161" width="94" height="160" frameX="-517" frameY="-160" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0001" x="628" y="162" width="93" height="161" frameX="-516" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0002" x="318" y="172" width="93" height="162" frameX="-514" frameY="-158" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0003" x="315" y="335" width="93" height="162" frameX="-514" frameY="-158" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0004" x="408" y="335" width="93" height="162" frameX="-516" frameY="-158" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0005" x="628" y="323" width="93" height="161" frameX="-517" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0006" x="0" y="498" width="94" height="161" frameX="-517" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0007" x="734" y="321" width="94" height="160" frameX="-518" frameY="-160" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0008" x="734" y="481" width="94" height="160" frameX="-518" frameY="-160" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0009" x="110" y="659" width="95" height="160" frameX="-517" frameY="-160" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0010" x="205" y="659" width="94" height="160" frameX="-517" frameY="-160" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun idle0011" x="734" y="161" width="94" height="160" frameX="-517" frameY="-160" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun up0000" x="519" y="162" width="105" height="162" frameX="-523" frameY="-158" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun up0001" x="519" y="324" width="106" height="162" frameX="-525" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun up0002" x="628" y="0" width="106" height="162" frameX="-526" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun up0003" x="0" y="335" width="107" height="163" frameX="-523" frameY="-158" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun up0004" x="413" y="163" width="104" height="163" frameX="-522" frameY="-158" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun up0005" x="107" y="335" width="104" height="163" frameX="-522" frameY="-158" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun up0006" x="211" y="335" width="104" height="163" frameX="-522" frameY="-158" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun down0000" x="94" y="498" width="100" height="161" frameX="-504" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun down0001" x="194" y="498" width="108" height="161" frameX="-502" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun down0002" x="302" y="498" width="112" height="161" frameX="-501" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun down0003" x="414" y="498" width="102" height="161" frameX="-502" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun down0004" x="516" y="498" width="98" height="161" frameX="-503" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun down0005" x="614" y="498" width="98" height="161" frameX="-503" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun down0006" x="734" y="0" width="99" height="161" frameX="-503" frameY="-159" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun left0000" x="275" y="0" width="138" height="163" frameX="-522" frameY="-157" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun left0001" x="137" y="0" width="138" height="169" frameX="-519" frameY="-151" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun left0002" x="0" y="0" width="137" height="172" frameX="-518" frameY="-148" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun left0003" x="0" y="172" width="102" height="163" frameX="-502" frameY="-157" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun left0004" x="102" y="172" width="108" height="163" frameX="-499" frameY="-157" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun left0005" x="210" y="172" width="108" height="163" frameX="-499" frameY="-157" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun left0006" x="413" y="0" width="106" height="163" frameX="-500" frameY="-157" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun right0000" x="519" y="0" width="109" height="162" frameX="-515" frameY="-160" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun right0001" x="0" y="659" width="110" height="161" frameX="-517" frameY="-161" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun right0002" x="299" y="659" width="110" height="160" frameX="-518" frameY="-162" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun right0003" x="409" y="659" width="108" height="160" frameX="-517" frameY="-162" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun right0004" x="517" y="659" width="108" height="160" frameX="-517" frameY="-162" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun right0005" x="625" y="659" width="108" height="160" frameX="-517" frameY="-162" frameWidth="1000" frameHeight="400" />
+<SubTexture name="Aquino-Minando-Speedrun right0006" x="833" y="0" width="108" height="160" frameX="-517" frameY="-162" frameWidth="1000" frameHeight="400" />
+</TextureAtlas>

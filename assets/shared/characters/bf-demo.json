@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				130,
+				184
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				51,
+				296
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				52,
+				216
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				132,
+				178
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "4"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				72,
+				268
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				151,
+				251
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				297
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "3",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				85,
+				200
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				148,
+				251
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "2",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/demo/BF",
+	"position": [
+		-60,
+		380
+	],
+	"healthicon": "bf-demo",
+	"flip_x": true,
+	"healthbar_colors": [
+		71,
+		130,
+		240
+	],
+	"camera_position": [
+		100,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

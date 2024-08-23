@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Dinamica",
+			"soarinng_icon",
+			[
+				232,
+				180,
+				53
+			]
+		],
+		[
+			"VIP",
+			"soarinng_icon",
+			[
+				232,
+				180,
+				53
+			]
+		],
+		[
+			"Beat The GF",
+			"soarinng_icon",
+			[
+				232,
+				180,
+				53
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "soa",
+	"difficulties": "hard, insane, soarinng",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Cantando por un VIP",
+	"weekName": "V.s. Soarinng",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

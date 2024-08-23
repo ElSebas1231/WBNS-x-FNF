@@ -1,0 +1,57 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				48,
+				84
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "locosus_death_animation"
+		},
+		{
+			"offsets": [
+				48,
+				84
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "locosus_death_loop"
+		},
+		{
+			"offsets": [
+				48,
+				84
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": true,
+			"name": "locosus_death_confirm"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/locosusDEATH",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		150,
+		80
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-281,
+				104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left_soaring"
+		},
+		{
+			"offsets": [
+				-260,
+				117
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right_soaring"
+		},
+		{
+			"offsets": [
+				-283,
+				109
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "alt_left_soaring"
+		},
+		{
+			"offsets": [
+				-287,
+				124
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "alt_down_soaring"
+		},
+		{
+			"offsets": [
+				-288,
+				124
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down_soaring"
+		},
+		{
+			"offsets": [
+				-284,
+				142
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "alt_up_soaring"
+		},
+		{
+			"offsets": [
+				-282,
+				139
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up_soaring"
+		},
+		{
+			"offsets": [
+				-258,
+				123
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "alt_right_soaring"
+		},
+		{
+			"offsets": [
+				-255,
+				265
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "entrada",
+			"indices": [],
+			"name": "entrada"
+		},
+		{
+			"offsets": [
+				-282,
+				118
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "idle_soaring"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alta",
+			"loop": false,
+			"name": "idle_fono"
+		},
+		{
+			"offsets": [
+				-280,
+				114
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle_soaring"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/soaring_lore",
+	"position": [
+		360,
+		190
+	],
+	"healthicon": "soarinng_lore_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		210,
+		41,
+		30
+	],
+	"camera_position": [
+		-60,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 1.05
+}

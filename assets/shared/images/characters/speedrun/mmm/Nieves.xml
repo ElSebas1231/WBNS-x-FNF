@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Nieves.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Nieves DOWN0000" x="758" y="2227" width="782" height="651" frameX="2" frameY="-54" frameWidth="778" frameHeight="707"/>
+	<SubTexture name="Nieves DOWN0001" x="758" y="2227" width="782" height="651" frameX="2" frameY="-54" frameWidth="778" frameHeight="707"/>
+	<SubTexture name="Nieves DOWN0002" x="0" y="2227" width="758" height="711" frameX="-10" frameY="2" frameWidth="778" frameHeight="707"/>
+	<SubTexture name="Nieves DOWN0003" x="0" y="2227" width="758" height="711" frameX="-10" frameY="2" frameWidth="778" frameHeight="707"/>
+	<SubTexture name="Nieves IDLE0000" x="2286" y="1491" width="433" height="735" frameX="2" frameY="2" frameWidth="430" frameHeight="731"/>
+	<SubTexture name="Nieves IDLE0001" x="2286" y="1491" width="433" height="735" frameX="2" frameY="2" frameWidth="430" frameHeight="731"/>
+	<SubTexture name="Nieves IDLE0002" x="2286" y="756" width="434" height="735" frameX="2" frameY="2" frameWidth="430" frameHeight="731"/>
+	<SubTexture name="Nieves IDLE0003" x="2286" y="756" width="434" height="735" frameX="2" frameY="2" frameWidth="430" frameHeight="731"/>
+	<SubTexture name="Nieves LEFT0000" x="0" y="0" width="790" height="750" frameX="2" frameY="2" frameWidth="786" frameHeight="746"/>
+	<SubTexture name="Nieves LEFT0001" x="0" y="0" width="790" height="750" frameX="2" frameY="2" frameWidth="786" frameHeight="746"/>
+	<SubTexture name="Nieves LEFT0002" x="790" y="0" width="776" height="746" frameX="-11" frameY="2" frameWidth="786" frameHeight="746"/>
+	<SubTexture name="Nieves LEFT0003" x="790" y="0" width="776" height="746" frameX="-11" frameY="2" frameWidth="786" frameHeight="746"/>
+	<SubTexture name="Nieves LEFT0004" x="1490" y="1484" width="747" height="733" frameX="-38" frameY="1" frameWidth="786" frameHeight="746"/>
+	<SubTexture name="Nieves LEFT0005" x="1490" y="1484" width="747" height="733" frameX="-38" frameY="1" frameWidth="786" frameHeight="746"/>
+	<SubTexture name="Nieves RIGHT0000" x="0" y="750" width="775" height="734" frameX="2" frameY="2" frameWidth="771" frameHeight="731"/>
+	<SubTexture name="Nieves RIGHT0001" x="0" y="750" width="775" height="734" frameX="2" frameY="2" frameWidth="771" frameHeight="731"/>
+	<SubTexture name="Nieves RIGHT0002" x="775" y="750" width="767" height="734" frameX="1" frameY="2" frameWidth="771" frameHeight="731"/>
+	<SubTexture name="Nieves RIGHT0003" x="775" y="750" width="767" height="734" frameX="1" frameY="2" frameWidth="771" frameHeight="731"/>
+	<SubTexture name="Nieves RIGHT0004" x="744" y="1484" width="746" height="734" frameX="0" frameY="2" frameWidth="771" frameHeight="731"/>
+	<SubTexture name="Nieves RIGHT0005" x="744" y="1484" width="746" height="734" frameX="0" frameY="2" frameWidth="771" frameHeight="731"/>
+	<SubTexture name="Nieves UP0000" x="1566" y="0" width="720" height="780" frameX="-10" frameY="2" frameWidth="741" frameHeight="776"/>
+	<SubTexture name="Nieves UP0001" x="1566" y="0" width="720" height="780" frameX="-10" frameY="2" frameWidth="741" frameHeight="776"/>
+	<SubTexture name="Nieves UP0002" x="2286" y="0" width="728" height="756" frameX="-6" frameY="-20" frameWidth="741" frameHeight="776"/>
+	<SubTexture name="Nieves UP0003" x="2286" y="0" width="728" height="756" frameX="-6" frameY="-20" frameWidth="741" frameHeight="776"/>
+	<SubTexture name="Nieves UP0004" x="0" y="1484" width="744" height="743" frameX="2" frameY="-32" frameWidth="741" frameHeight="776"/>
+	<SubTexture name="Nieves UP0005" x="0" y="1484" width="744" height="743" frameX="2" frameY="-32" frameWidth="741" frameHeight="776"/>
+</TextureAtlas>

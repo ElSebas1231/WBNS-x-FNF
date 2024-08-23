@@ -1,0 +1,147 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-154,
+				-4
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "missleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-153,
+				-3
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "missdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-156,
+				-4
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "missup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-155,
+				-3
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "missright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-166,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-166,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				0,
+				2,
+				3,
+				4,
+				5
+			],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-165,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				0,
+				2,
+				3,
+				4,
+				5
+			],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-164,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				0,
+				2,
+				3,
+				4,
+				5
+			],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-166,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				2,
+				3,
+				4,
+				5
+			],
+			"name": "right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf_discord",
+	"position": [
+		-40,
+		100
+	],
+	"healthicon": "bf_duxo_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		204,
+		236
+	],
+	"camera_position": [
+		240,
+		220
+	],
+	"sing_duration": 4,
+	"scale": 1.1,
+	"_editor_isPlayer": true
+}

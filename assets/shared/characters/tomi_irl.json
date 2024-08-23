@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				210,
+				251
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle instancia"
+		},
+		{
+			"offsets": [
+				203,
+				251
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left instancia"
+		},
+		{
+			"offsets": [
+				211,
+				250
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down instancia"
+		},
+		{
+			"offsets": [
+				199,
+				264
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up instancia"
+		},
+		{
+			"offsets": [
+				200,
+				253
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right instancia"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/tomy_irl",
+	"position": [
+		150,
+		40
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-80,
+		130
+	],
+	"sing_duration": 4,
+	"scale": 0.55,
+	"_editor_isPlayer": false
+}

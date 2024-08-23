@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="baranda.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="baranda0000" x="71" y="71" width="2989" height="841" frameX="-1520" frameY="0" frameWidth="4509" frameHeight="841"/>
+	<SubTexture name="baranda0001" x="71" y="71" width="2989" height="841" frameX="-1352" frameY="0" frameWidth="4509" frameHeight="841"/>
+	<SubTexture name="baranda0002" x="71" y="71" width="2989" height="841" frameX="-1183" frameY="0" frameWidth="4509" frameHeight="841"/>
+	<SubTexture name="baranda0003" x="71" y="71" width="2989" height="841" frameX="-1014" frameY="0" frameWidth="4509" frameHeight="841"/>
+	<SubTexture name="baranda0004" x="71" y="71" width="2989" height="841" frameX="-845" frameY="0" frameWidth="4509" frameHeight="841"/>
+	<SubTexture name="baranda0005" x="71" y="71" width="2989" height="841" frameX="-676" frameY="0" frameWidth="4509" frameHeight="841"/>
+	<SubTexture name="baranda0006" x="71" y="71" width="2989" height="841" frameX="-507" frameY="0" frameWidth="4509" frameHeight="841"/>
+	<SubTexture name="baranda0007" x="71" y="71" width="2989" height="841" frameX="-338" frameY="0" frameWidth="4509" frameHeight="841"/>
+	<SubTexture name="baranda0008" x="71" y="71" width="2989" height="841" frameX="-169" frameY="0" frameWidth="4509" frameHeight="841"/>
+	<SubTexture name="baranda0009" x="71" y="988" width="2989" height="841" frameX="0" frameY="0" frameWidth="4509" frameHeight="841"/>
+</TextureAtlas>

@@ -1,0 +1,90 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				-6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "perro B left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-33,
+				-226
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "perro B down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-36,
+				35
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "perro B up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-121,
+				-109
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "perro B right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-136,
+				-317
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "perro B idle"
+		},
+		{
+			"offsets": [
+				-136,
+				-317
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16],
+			"name": "perro B idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aqino perro de frente",
+	"position": [
+		-210,
+		-30
+	],
+	"healthicon": "aquino_perro_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		110,
+		57,
+		29
+	],
+	"camera_position": [
+		230,
+		110
+	],
+	"sing_duration": 6.1,
+	"scale": 1.4,
+	"_editor_isPlayer": false
+}

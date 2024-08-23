@@ -1,0 +1,134 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-2
+			],
+			"indices": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "BF idle 0"
+		},
+		{
+			"offsets": [
+				0,
+				-2
+			],
+			"indices": [8,9,10,11,12,13,14,15],
+			"fps": 24,
+			"anim": "idle-loop",
+			"loop": true,
+			"name": "BF idle 0"
+		},
+		{
+			"offsets": [
+				330,
+				-8
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "BF left0"
+		},
+		{
+			"offsets": [
+				330,
+				-8
+			],
+			"indices": [2,3,4,5,6,7,8,9,10,11],
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"loop": true,
+			"name": "BF left0"
+		},
+		{
+			"offsets": [
+				13,
+				-56
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "BF down0"
+		},
+		{
+			"offsets": [
+				13,
+				-56
+			],
+			"indices": [2,3,4,5,6,7,8,9,10,11],
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"loop": true,
+			"name": "BF down0"
+		},
+		{
+			"offsets": [
+				-2,
+				194
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "BF up0"
+		},
+		{
+			"offsets": [
+				-2,
+				194
+			],
+			"indices": [2,3,4,5,6,7,8,9,10,11],
+			"fps": 24,
+			"anim": "singUP-loop",
+			"loop": true,
+			"name": "BF up0"
+		},
+		{
+			"offsets": [
+				0,
+				-7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "BF right0"
+		},
+		{
+			"offsets": [
+				0,
+				-7
+			],
+			"indices": [2,3,4,5,6,7,8,9,10,11],
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"loop": true,
+			"name": "BF right0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf_life",
+	"position": [
+		50,
+		320
+	],
+	"healthicon": "icon_bf_life",
+	"flip_x": true,
+	"healthbar_colors": [
+		88,
+		57,
+		115
+	],
+	"camera_position": [
+		130,
+		270
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2,
+	"_editor_isPlayer": true
+}

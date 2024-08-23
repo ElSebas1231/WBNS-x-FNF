@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Aquino-cuanmalo idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Aquino-cuanmalo left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Aquino-cuanmalo down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Aquino-cuanmalo up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Aquino-cuanmalo right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Aquino-cuanmalo",
+	"position": [
+		-490,
+		40
+	],
+	"healthicon": "aquino_bad_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		80,
+		61,
+		54
+	],
+	"camera_position": [
+		40,
+		-110
+	],
+	"sing_duration": 4,
+	"scale": 1.6,
+	"_editor_isPlayer": true
+}

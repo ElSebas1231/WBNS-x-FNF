@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				133,
+				-235
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "mishu fnaf idle"
+		},
+		{
+			"offsets": [
+				133,
+				-235
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "mishu fnaf left"
+		},
+		{
+			"offsets": [
+				133,
+				-235
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "mishu fnaf down"
+		},
+		{
+			"offsets": [
+				133,
+				-235
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "mishu fnaf up"
+		},
+		{
+			"offsets": [
+				133,
+				-235
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "mishu fnaf right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mishu fnaf",
+	"position": [
+		-395,
+		-480
+	],
+	"healthicon": "mishifu_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		47,
+		221,
+		65
+	],
+	"camera_position": [
+		-30,
+		500
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5,
+	"_editor_isPlayer": false
+}

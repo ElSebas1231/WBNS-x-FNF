@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pikoDuxo.png">
+<SubTexture name="pikoDuxo idle0000" x="119" y="144" width="119" height="141" frameX="-45" frameY="-31" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoDuxo idle0001" x="119" y="144" width="119" height="141" frameX="-45" frameY="-31" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoDuxo idle0002" x="238" y="144" width="119" height="139" frameX="-45" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoDuxo idle0003" x="238" y="0" width="119" height="142" frameX="-45" frameY="-30" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoDuxo idle0004" x="119" y="0" width="119" height="143" frameX="-45" frameY="-29" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoDuxo idle0005" x="0" y="0" width="119" height="144" frameX="-45" frameY="-28" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoDuxo idle0006" x="0" y="144" width="119" height="142" frameX="-45" frameY="-30" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoDuxo idle0007" x="0" y="144" width="119" height="142" frameX="-45" frameY="-30" frameWidth="200" frameHeight="200" />
+</TextureAtlas>

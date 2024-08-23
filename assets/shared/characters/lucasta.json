@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Lucasta-Backrooms idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Lucasta-Backrooms left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Lucasta-Backrooms down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Lucasta-Backrooms up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Lucasta-Backrooms right0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Lucasta-Backrooms",
+	"position": [
+		-50,
+		330
+	],
+	"healthicon": "lucasta_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		207,
+		180,
+		105
+	],
+	"camera_position": [
+		410,
+		-210
+	],
+	"sing_duration": 6.1,
+	"scale": 2,
+	"_editor_isPlayer": true
+}

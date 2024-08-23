@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="arena.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Arena0000" x="0" y="0" width="2066" height="1155" frameX="-1" frameY="-3" frameWidth="2068" frameHeight="1159"/>
+	<SubTexture name="Arena0001" x="0" y="0" width="2066" height="1155" frameX="0" frameY="-3" frameWidth="2068" frameHeight="1159"/>
+	<SubTexture name="Arena0002" x="2066" y="0" width="2064" height="1155" frameX="-2" frameY="-3" frameWidth="2068" frameHeight="1159"/>
+	<SubTexture name="Arena0003" x="4130" y="0" width="2050" height="1155" frameX="-9" frameY="-3" frameWidth="2068" frameHeight="1159"/>
+	<SubTexture name="Arena0004" x="0" y="1155" width="2048" height="1155" frameX="-10" frameY="-3" frameWidth="2068" frameHeight="1159"/>
+	<SubTexture name="Arena0005" x="2048" y="1155" width="2048" height="1158" frameX="-10" frameY="0" frameWidth="2068" frameHeight="1159"/>
+	<SubTexture name="Arena0006" x="2048" y="1155" width="2048" height="1158" frameX="-10" frameY="0" frameWidth="2068" frameHeight="1159"/>
+	<SubTexture name="Arena0007" x="2048" y="1155" width="2048" height="1158" frameX="-10" frameY="0" frameWidth="2068" frameHeight="1159"/>
+	<SubTexture name="Arena0008" x="2048" y="1155" width="2048" height="1158" frameX="-10" frameY="0" frameWidth="2068" frameHeight="1159"/>
+	<SubTexture name="Arena0009" x="2048" y="1155" width="2048" height="1158" frameX="-10" frameY="0" frameWidth="2068" frameHeight="1159"/>
+</TextureAtlas>

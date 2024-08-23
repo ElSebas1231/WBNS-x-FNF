@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Aquino-Dragon-End left0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Aquino-Dragon-End down0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Aquino-Dragon-End up0"
+		},
+		{
+			"offsets": [
+				2,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Aquino-Dragon-End right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Aquino-Dragon-End idle0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speedrun/end/Aquino-Dragon-End",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "aquino_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		96,
+		52,
+		45
+	],
+	"camera_position": [
+		250,
+		-40
+	],
+	"sing_duration": 4,
+	"scale": 1.7
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Estailus Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Estailus Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				18
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Estailus Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				12
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Estailus Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				27,
+				3
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Estailus Up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Estailus_Papaestricto",
+	"position": [
+		-730,
+		0
+	],
+	"healthicon": "estailus_dad_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		222,
+		223,
+		154
+	],
+	"camera_position": [
+		440,
+		80
+	],
+	"sing_duration": 6.1,
+	"scale": 0.65
+}

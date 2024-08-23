@@ -1,0 +1,123 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-180,
+				-102
+			],
+			"anim": "singLEFTmiss",
+			"fps": 18,
+			"name": "Mleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-219,
+				-98
+			],
+			"anim": "singDOWNmiss",
+			"fps": 18,
+			"name": "Mdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-225,
+				-46
+			],
+			"anim": "singUPmiss",
+			"fps": 18,
+			"name": "Mup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-212,
+				-78
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 18,
+			"name": "Mright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-258,
+				-113
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-185,
+				-104
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				-121,
+				-4
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				97,
+				391
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				-214,
+				-79
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Aquino_Hollow",
+	"position": [
+		-130,
+		280
+	],
+	"healthicon": "aquino_hollow_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		223,
+		214,
+		219
+	],
+	"camera_position": [
+		-650,
+		-120
+	],
+	"sing_duration": 4,
+	"scale": 1.2,
+	"_editor_isPlayer": true
+}

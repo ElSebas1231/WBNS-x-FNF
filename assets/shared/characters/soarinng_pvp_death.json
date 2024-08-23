@@ -1,0 +1,57 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				182,
+				546
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "soarinng_death",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				181,
+				549
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "soarinng_loop_death",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				181,
+				546
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "soarinng_confirm_death",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/soarinng_pvp_death",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "soarinng_robloxpvp_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		239,
+		213,
+		81
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

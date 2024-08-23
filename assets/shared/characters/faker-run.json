@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Lucastafalso-Backrooms-Corriendo left0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Lucastafalso-Backrooms-Corriendo down0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Lucastafalso-Backrooms-Corriendo up0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Lucastafalso-Backrooms-Corriendo right0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Lucastafalso-Backrooms-Corriendo idle0"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Lucastafalso-Backrooms-Corriendo",
+	"position": [
+		10,
+		160
+	],
+	"healthicon": "lucasta_fake_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		126,
+		105,
+		83
+	],
+	"camera_position": [
+		-1393,
+		-340
+	],
+	"sing_duration": 6.1,
+	"scale": 3,
+	"_editor_isPlayer": false
+}

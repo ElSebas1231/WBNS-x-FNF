@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				73,
+				69
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "loco og idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				151,
+				55
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "loco og left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				109,
+				45
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "loco og down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				113,
+				65
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "loco og up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				96,
+				68
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "loco og right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/loco origen",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "locochon_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		89,
+		78,
+		96
+	],
+	"camera_position": [
+		50,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 0.8,
+	"_editor_isPlayer": true
+}

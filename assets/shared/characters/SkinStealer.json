@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-4,
+				104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SkinStealer Idle"
+		},
+		{
+			"offsets": [
+				6,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SkinStealer Left"
+		},
+		{
+			"offsets": [
+				-38,
+				79
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SkinStealer Down"
+		},
+		{
+			"offsets": [
+				-25,
+				119
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SkinStealer Up"
+		},
+		{
+			"offsets": [
+				-35,
+				104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SkinStealer Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SkinStealer",
+	"position": [
+		-430,
+		-230
+	],
+	"healthicon": "duxo_roblox_fake_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		33,
+		21,
+		46
+	],
+	"camera_position": [
+		470,
+		350
+	],
+	"sing_duration": 4,
+	"scale": 0.5,
+	"_editor_isPlayer": false
+}

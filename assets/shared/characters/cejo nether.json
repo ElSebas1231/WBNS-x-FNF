@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				20,
+				-65
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "C3jo-Nether idle"
+		},
+		{
+			"offsets": [
+				16,
+				-66
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "C3jo-Nether down"
+		},
+		{
+			"offsets": [
+				38,
+				-66
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "C3jo-Nether left"
+		},
+		{
+			"offsets": [
+				23,
+				-65
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "C3jo-Nether right"
+		},
+		{
+			"offsets": [
+				18,
+				-65
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "C3jo-Nether up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cejo_nether",
+	"position": [
+		-180,
+		20
+	],
+	"healthicon": "c3jo_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		239,
+		118,
+		58
+	],
+	"camera_position": [
+		580,
+		-40
+	],
+	"sing_duration": 6.1,
+	"scale": 2.2
+}

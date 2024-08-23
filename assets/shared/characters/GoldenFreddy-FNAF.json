@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-187,
+				295
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Golden Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-180,
+				295
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Golden Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-173,
+				274
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Golden Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-186,
+				287
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Golden Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-156,
+				292
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Golden Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Golden",
+	"position": [
+		-340,
+		100
+	],
+	"healthicon": "golden_freddy_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		200,
+		152,
+		43
+	],
+	"camera_position": [
+		-400,
+		-220
+	],
+	"sing_duration": 6.1,
+	"scale": 0.85,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Soarinng-Speedrun-Comienzo left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Soarinng-Speedrun-Comienzo down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				1
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Soarinng-Speedrun-Comienzo up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-16,
+				-4
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Soarinng-Speedrun-Comienzo right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Soarinng-Speedrun-Comienzo idle0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speedrun/comienzo/Soarinng-Speedrun-Comienzo",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "soarinng_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		232,
+		180,
+		53
+	],
+	"camera_position": [
+		-490,
+		-40
+	],
+	"sing_duration": 4,
+	"scale": 1.7,
+	"_editor_isPlayer": false
+}

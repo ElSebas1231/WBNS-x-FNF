@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="bg loco vr 2.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="BG Loco 20000" x="5" y="5" width="2569" height="1031" frameX="-5" frameY="-6" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20001" x="5" y="5" width="2569" height="1031" frameX="-5" frameY="-6" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20002" x="5" y="1041" width="2577" height="1037" frameX="0" frameY="0" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20003" x="5" y="1041" width="2577" height="1037" frameX="0" frameY="0" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20004" x="5" y="2083" width="2569" height="1035" frameX="-5" frameY="-2" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20005" x="5" y="2083" width="2569" height="1035" frameX="-5" frameY="-2" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20006" x="5" y="3123" width="2567" height="1035" frameX="-5" frameY="-3" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20007" x="5" y="3123" width="2567" height="1035" frameX="-5" frameY="-3" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20008" x="5" y="4163" width="2565" height="1034" frameX="-6" frameY="-4" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20009" x="5" y="4163" width="2565" height="1034" frameX="-6" frameY="-4" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20010" x="5" y="4163" width="2565" height="1034" frameX="-6" frameY="-4" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20011" x="5" y="4163" width="2565" height="1034" frameX="-6" frameY="-4" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20012" x="5" y="4163" width="2565" height="1034" frameX="-6" frameY="-4" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20013" x="5" y="4163" width="2565" height="1034" frameX="-6" frameY="-4" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20014" x="5" y="5202" width="2570" height="1034" frameX="-4" frameY="-4" frameWidth="2577" frameHeight="1038"/>
+	<SubTexture name="BG Loco 20015" x="5" y="5202" width="2570" height="1034" frameX="-4" frameY="-4" frameWidth="2577" frameHeight="1038"/>
+</TextureAtlas>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="steyb fondo.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="steyb fondo0000" x="71" y="71" width="211" height="163" frameX="-7" frameY="-8" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0001" x="71" y="71" width="211" height="163" frameX="-7" frameY="-8" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0002" x="358" y="71" width="201" height="172" frameX="-7" frameY="0" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0003" x="358" y="71" width="201" height="172" frameX="-7" frameY="0" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0004" x="635" y="71" width="206" height="168" frameX="-4" frameY="-3" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0005" x="635" y="71" width="206" height="168" frameX="-4" frameY="-3" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0006" x="71" y="319" width="206" height="167" frameX="-4" frameY="-3" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0007" x="71" y="319" width="206" height="167" frameX="-4" frameY="-3" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0008" x="71" y="319" width="206" height="167" frameX="-4" frameY="-3" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0009" x="353" y="319" width="216" height="158" frameX="0" frameY="-10" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0010" x="353" y="319" width="216" height="158" frameX="0" frameY="-10" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0011" x="645" y="319" width="211" height="160" frameX="-3" frameY="-8" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0012" x="645" y="319" width="211" height="160" frameX="-3" frameY="-8" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0013" x="71" y="562" width="208" height="165" frameX="-5" frameY="-5" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0014" x="71" y="562" width="208" height="165" frameX="-5" frameY="-5" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0015" x="355" y="562" width="208" height="165" frameX="-5" frameY="-5" frameWidth="218" frameHeight="172"/>
+	<SubTexture name="steyb fondo0016" x="355" y="562" width="208" height="165" frameX="-5" frameY="-5" frameWidth="218" frameHeight="172"/>
+</TextureAtlas>

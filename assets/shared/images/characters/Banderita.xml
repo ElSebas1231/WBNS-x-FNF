@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Banderita.png">
+<SubTexture name="Banderita idle0000" x="472" y="0" width="176" height="264" frameX="-92" frameY="-28" frameWidth="300" frameHeight="300" />
+<SubTexture name="Banderita idle0001" x="472" y="0" width="176" height="264" frameX="-92" frameY="-28" frameWidth="300" frameHeight="300" />
+<SubTexture name="Banderita idle0002" x="152" y="0" width="160" height="272" frameX="-92" frameY="-20" frameWidth="300" frameHeight="300" />
+<SubTexture name="Banderita idle0003" x="152" y="0" width="160" height="272" frameX="-92" frameY="-20" frameWidth="300" frameHeight="300" />
+<SubTexture name="Banderita idle0004" x="0" y="0" width="152" height="280" frameX="-92" frameY="-12" frameWidth="300" frameHeight="300" />
+<SubTexture name="Banderita idle0005" x="0" y="0" width="152" height="280" frameX="-92" frameY="-12" frameWidth="300" frameHeight="300" />
+<SubTexture name="Banderita idle0006" x="312" y="0" width="160" height="272" frameX="-92" frameY="-20" frameWidth="300" frameHeight="300" />
+<SubTexture name="Banderita idle0007" x="312" y="0" width="160" height="272" frameX="-92" frameY="-20" frameWidth="300" frameHeight="300" />
+<SubTexture name="Banderita idle0008" x="0" y="280" width="168" height="264" frameX="-92" frameY="-28" frameWidth="300" frameHeight="300" />
+<SubTexture name="Banderita idle0009" x="0" y="280" width="168" height="264" frameX="-92" frameY="-28" frameWidth="300" frameHeight="300" />
+</TextureAtlas>

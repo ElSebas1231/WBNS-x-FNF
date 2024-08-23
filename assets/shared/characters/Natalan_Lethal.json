@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-599,
+				77
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "natalan LC left"
+		},
+		{
+			"offsets": [
+				-549,
+				55
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "natalan LC down"
+		},
+		{
+			"offsets": [
+				-484,
+				172
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "natalan LC up"
+		},
+		{
+			"offsets": [
+				-694,
+				98
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "natalan LC right"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-517,
+				65
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "natalan LC idle",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Natalan_Lethal",
+	"position": [
+		-490,
+		0
+	],
+	"healthicon": "natalan_letal_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		60,
+		58,
+		71
+	],
+	"camera_position": [
+		-340,
+		-80
+	],
+	"sing_duration": 4,
+	"scale": 1.2,
+	"_editor_isPlayer": true
+}

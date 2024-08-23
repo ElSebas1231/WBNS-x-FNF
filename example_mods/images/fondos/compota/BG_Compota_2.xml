@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="BG Compota 2.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="BG Compota 20000" x="5" y="5" width="1965" height="301" frameX="-3" frameY="-3" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20001" x="5" y="5" width="1965" height="301" frameX="-3" frameY="-3" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20002" x="5" y="311" width="1965" height="303" frameX="-3" frameY="0" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20003" x="5" y="311" width="1965" height="303" frameX="-3" frameY="0" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20004" x="5" y="619" width="1964" height="296" frameX="-3" frameY="-1" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20005" x="5" y="619" width="1964" height="296" frameX="-3" frameY="-1" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20006" x="5" y="920" width="1963" height="294" frameX="-3" frameY="-1" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20007" x="5" y="920" width="1963" height="294" frameX="-3" frameY="-1" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20008" x="5" y="1219" width="1963" height="292" frameX="-3" frameY="-2" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20009" x="5" y="1219" width="1963" height="292" frameX="-3" frameY="-2" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20010" x="5" y="1219" width="1963" height="292" frameX="-3" frameY="-2" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20011" x="5" y="1219" width="1963" height="292" frameX="-3" frameY="-2" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20012" x="5" y="1219" width="1963" height="292" frameX="-3" frameY="-2" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20013" x="5" y="1219" width="1963" height="292" frameX="-3" frameY="-2" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20014" x="5" y="1516" width="1967" height="293" frameX="0" frameY="-2" frameWidth="1968" frameHeight="304"/>
+	<SubTexture name="BG Compota 20015" x="5" y="1516" width="1967" height="293" frameX="0" frameY="-2" frameWidth="1968" frameHeight="304"/>
+</TextureAtlas>

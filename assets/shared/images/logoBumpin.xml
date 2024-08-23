@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="logoBumpin.png" width="3908" height="616">
+  <SubTexture name="logo bumpin0004" x="0" y="0"  width="548" height="578" frameX="-86" frameY="-71" frameWidth="720" frameHeight="720"/>
+  <SubTexture name="logo bumpin0005" x="548" y="0"  width="548" height="578" frameX="-86" frameY="-71" frameWidth="720" frameHeight="720"/>
+  <SubTexture name="logo bumpin0006" x="1096" y="0"  width="548" height="578" frameX="-86" frameY="-71" frameWidth="720" frameHeight="720"/>
+  <SubTexture name="logo bumpin0007" x="1644" y="0"  width="548" height="578" frameX="-86" frameY="-71" frameWidth="720" frameHeight="720"/>
+  <SubTexture name="logo bumpin0003" x="2192" y="0"  width="558" height="590" frameX="-81" frameY="-65" frameWidth="720" frameHeight="720"/>
+  <SubTexture name="logo bumpin0002" x="2750" y="0"  width="574" height="606" frameX="-73" frameY="-57" frameWidth="720" frameHeight="720"/>
+  <SubTexture name="logo bumpin0001" x="3324" y="0"  width="584" height="616" frameX="-68" frameY="-52" frameWidth="720" frameHeight="720"/>
+</TextureAtlas>

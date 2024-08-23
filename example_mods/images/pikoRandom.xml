@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pikoRandom.png">
+<SubTexture name="pikoRandom idle0000" x="234" y="0" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoRandom idle0001" x="234" y="0" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoRandom idle0002" x="234" y="141" width="117" height="137" frameX="-38" frameY="-35" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoRandom idle0003" x="117" y="141" width="117" height="138" frameX="-38" frameY="-34" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoRandom idle0004" x="0" y="141" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoRandom idle0005" x="0" y="0" width="117" height="141" frameX="-38" frameY="-31" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoRandom idle0006" x="117" y="0" width="117" height="140" frameX="-38" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="pikoRandom idle0007" x="117" y="0" width="117" height="140" frameX="-38" frameY="-32" frameWidth="200" frameHeight="200" />
+</TextureAtlas>

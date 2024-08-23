@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Anims pedidas.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SDown0000" x="0" y="0" width="1051" height="1047"/>
+	<SubTexture name="SDown0001" x="0" y="0" width="1051" height="1047"/>
+	<SubTexture name="SDown0002" x="1051" y="0" width="1051" height="1047"/>
+	<SubTexture name="SDown0003" x="1051" y="0" width="1051" height="1047"/>
+	<SubTexture name="SDown0004" x="2102" y="0" width="1051" height="1047"/>
+	<SubTexture name="SDown0005" x="2102" y="0" width="1051" height="1047"/>
+	<SubTexture name="SDown0006" x="2102" y="0" width="1051" height="1047"/>
+	<SubTexture name="SDown0007" x="2102" y="0" width="1051" height="1047"/>
+	<SubTexture name="SDown0008" x="2102" y="0" width="1051" height="1047"/>
+	<SubTexture name="SIdle0000" x="3153" y="0" width="1051" height="1047"/>
+	<SubTexture name="SIdle0001" x="4204" y="0" width="1051" height="1047"/>
+	<SubTexture name="SIdle0002" x="4204" y="0" width="1051" height="1047"/>
+	<SubTexture name="SIdle0003" x="5255" y="0" width="1051" height="1047"/>
+	<SubTexture name="SIdle0004" x="5255" y="0" width="1051" height="1047"/>
+	<SubTexture name="SIdle0005" x="6306" y="0" width="1051" height="1047"/>
+	<SubTexture name="SIdle0006" x="6306" y="0" width="1051" height="1047"/>
+	<SubTexture name="SIdle0007" x="0" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SIdle0008" x="0" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SIdle0009" x="1051" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SIdle0010" x="1051" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SIdle0011" x="1051" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SIdle0012" x="1051" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SIdle0013" x="1051" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SLeft0000" x="2102" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SLeft0001" x="2102" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SLeft0002" x="3153" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SLeft0003" x="3153" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SLeft0004" x="4204" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SLeft0005" x="4204" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SLeft0006" x="5255" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SLeft0007" x="5255" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SLeft0008" x="5255" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SRight0000" x="6306" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SRight0001" x="6306" y="1047" width="1051" height="1047"/>
+	<SubTexture name="SRight0002" x="0" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SRight0003" x="0" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SRight0004" x="1051" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SRight0005" x="1051" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SRight0006" x="2102" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SRight0007" x="2102" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SRight0008" x="2102" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SUp0000" x="3153" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SUp0001" x="3153" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SUp0002" x="4204" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SUp0003" x="4204" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SUp0004" x="5255" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SUp0005" x="5255" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SUp0006" x="5255" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SUp0007" x="5255" y="2094" width="1051" height="1047"/>
+	<SubTexture name="SUp0008" x="5255" y="2094" width="1051" height="1047"/>
+</TextureAtlas>

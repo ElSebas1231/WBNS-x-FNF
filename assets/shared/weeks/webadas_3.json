@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Memes",
+			"cejo_fortnite_icon",
+			[
+				244,
+				109,
+				53
+			]
+		],
+		[
+			"Code C3jo",
+			"cejo_fortnite_icon",
+			[
+				244,
+				109,
+				53
+			]
+		],
+		[
+			"Disco Fish",
+			"cejo_fortnite_icon",
+			[
+				244,
+				109,
+				53
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "c3jo",
+	"difficulties": "hard, insane, soarinng",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Disputa Magistral",
+	"weekName": "V.s. C3jo",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

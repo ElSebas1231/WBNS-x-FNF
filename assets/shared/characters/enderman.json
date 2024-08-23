@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Enderman-Oneblock idle"
+		},
+		{
+			"offsets": [
+				56,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Enderman-Oneblock left"
+		},
+		{
+			"offsets": [
+				0,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Enderman-Oneblock down"
+		},
+		{
+			"offsets": [
+				32,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Enderman-Oneblock up"
+		},
+		{
+			"offsets": [
+				-65,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Enderman-Oneblock right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Enderman",
+	"position": [
+		180,
+		-70
+	],
+	"healthicon": "enderman_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		27,
+		22,
+		38
+	],
+	"camera_position": [
+		-340,
+		-120
+	],
+	"sing_duration": 4,
+	"scale": 1.6,
+	"_editor_isPlayer": false
+}

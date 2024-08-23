@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-255,
+				265
+			],
+			"anim": "entrada",
+			"fps": 24,
+			"name": "entrada",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-281,
+				-181
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle_fono"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/soaring_lore",
+	"position": [
+		360,
+		190
+	],
+	"healthicon": "soarinng_lore_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		210,
+		41,
+		30
+	],
+	"camera_position": [
+		-60,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 1.05
+}

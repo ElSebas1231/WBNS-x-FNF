@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fondo lethal.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fondo lethal0000" x="71" y="71" width="3223" height="907" frameX="-1540" frameY="0" frameWidth="4763" frameHeight="907"/>
+	<SubTexture name="fondo lethal0001" x="71" y="1054" width="3222" height="907" frameX="-1369" frameY="0" frameWidth="4763" frameHeight="907"/>
+	<SubTexture name="fondo lethal0002" x="71" y="71" width="3223" height="907" frameX="-1198" frameY="0" frameWidth="4763" frameHeight="907"/>
+	<SubTexture name="fondo lethal0003" x="71" y="71" width="3223" height="907" frameX="-1027" frameY="0" frameWidth="4763" frameHeight="907"/>
+	<SubTexture name="fondo lethal0004" x="71" y="71" width="3223" height="907" frameX="-856" frameY="0" frameWidth="4763" frameHeight="907"/>
+	<SubTexture name="fondo lethal0005" x="71" y="71" width="3223" height="907" frameX="-685" frameY="0" frameWidth="4763" frameHeight="907"/>
+	<SubTexture name="fondo lethal0006" x="71" y="71" width="3223" height="907" frameX="-514" frameY="0" frameWidth="4763" frameHeight="907"/>
+	<SubTexture name="fondo lethal0007" x="71" y="71" width="3223" height="907" frameX="-343" frameY="0" frameWidth="4763" frameHeight="907"/>
+	<SubTexture name="fondo lethal0008" x="71" y="71" width="3223" height="907" frameX="-172" frameY="0" frameWidth="4763" frameHeight="907"/>
+	<SubTexture name="fondo lethal0009" x="71" y="71" width="3223" height="907" frameX="0" frameY="0" frameWidth="4763" frameHeight="907"/>
+</TextureAtlas>

@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				17,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				203,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				8,
+				77
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				31,
+				-89
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				-9,
+				-6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Left"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Ritz-perspectiva",
+	"position": [
+		-450,
+		600
+	],
+	"healthicon": "ritz_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		169,
+		109
+	],
+	"camera_position": [
+		230,
+		-500
+	],
+	"sing_duration": 6.1,
+	"scale": 1.5,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="DuxoPixel.png">
+<SubTexture name="DuxoPixel idle0000" x="294" y="229" width="147" height="203" frameX="-75" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel idle0001" x="294" y="229" width="147" height="203" frameX="-75" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel idle0002" x="0" y="229" width="147" height="209" frameX="-75" frameY="-63" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel idle0003" x="0" y="229" width="147" height="209" frameX="-75" frameY="-63" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel idle0004" x="441" y="229" width="147" height="190" frameX="-75" frameY="-82" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel idle0005" x="799" y="641" width="147" height="189" frameX="-75" frameY="-89" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel idle0006" x="954" y="0" width="147" height="183" frameX="-75" frameY="-95" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel idle0007" x="360" y="641" width="147" height="190" frameX="-75" frameY="-82" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel idle0008" x="781" y="203" width="147" height="196" frameX="-75" frameY="-76" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Up0000" x="147" y="0" width="147" height="222" frameX="-75" frameY="-50" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Up0001" x="0" y="0" width="147" height="229" frameX="-75" frameY="-43" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Up0002" x="0" y="0" width="147" height="229" frameX="-75" frameY="-43" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Up0003" x="0" y="0" width="147" height="229" frameX="-75" frameY="-43" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Up0004" x="294" y="0" width="147" height="222" frameX="-75" frameY="-50" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Up0005" x="441" y="0" width="147" height="216" frameX="-75" frameY="-56" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Up0006" x="147" y="229" width="147" height="209" frameX="-75" frameY="-63" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Right0000" x="588" y="0" width="193" height="203" frameX="-95" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Right0001" x="0" y="438" width="198" height="203" frameX="-102" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Right0002" x="198" y="438" width="198" height="203" frameX="-102" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Right0003" x="198" y="438" width="198" height="203" frameX="-102" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Right0004" x="198" y="438" width="198" height="203" frameX="-102" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Right0005" x="0" y="438" width="198" height="203" frameX="-102" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Right0006" x="588" y="203" width="187" height="203" frameX="-95" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel down0000" x="507" y="641" width="146" height="190" frameX="-82" frameY="-95" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel down0001" x="954" y="183" width="146" height="183" frameX="-82" frameY="-102" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel down0002" x="954" y="366" width="146" height="177" frameX="-82" frameY="-108" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel down0003" x="954" y="366" width="146" height="177" frameX="-82" frameY="-108" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel down0004" x="954" y="366" width="146" height="177" frameX="-82" frameY="-108" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel down0005" x="653" y="641" width="146" height="190" frameX="-82" frameY="-95" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel down0006" x="781" y="399" width="146" height="196" frameX="-82" frameY="-89" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Left0000" x="396" y="438" width="180" height="203" frameX="-62" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Left0001" x="576" y="438" width="173" height="203" frameX="-55" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Left0002" x="781" y="0" width="173" height="203" frameX="-49" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Left0003" x="781" y="0" width="173" height="203" frameX="-49" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Left0004" x="781" y="0" width="173" height="203" frameX="-49" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Left0005" x="0" y="641" width="180" height="203" frameX="-55" frameY="-69" frameWidth="300" frameHeight="300" />
+<SubTexture name="DuxoPixel Left0006" x="180" y="641" width="180" height="203" frameX="-62" frameY="-69" frameWidth="300" frameHeight="300" />
+</TextureAtlas>

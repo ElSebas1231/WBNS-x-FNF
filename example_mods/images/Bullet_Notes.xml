@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="Bullet_Notes.png" width="507" height="507">
+  <SubTexture name="blue0000.png" x="1" y="1"  width="119" height="169" frameX="-0" frameY="-0" frameWidth="119" frameHeight="169"/>
+  <SubTexture name="green0000.png" x="1" y="172"  width="119" height="169" frameX="-0" frameY="-0" frameWidth="119" frameHeight="169"/>
+  <SubTexture name="purple0000.png" x="1" y="343"  width="169" height="118" frameX="-0" frameY="-0" frameWidth="169" frameHeight="118"/>
+  <SubTexture name="red0000.png" x="172" y="343"  width="168" height="118" frameX="-0" frameY="-0" frameWidth="168" frameHeight="118"/>
+  <SubTexture name="blue hold end0000.png" x="342" y="1"  width="59" height="70" frameX="-0" frameY="-0" frameWidth="59" frameHeight="70"/>
+  <SubTexture name="blue hold piece0000.png" x="403" y="1"  width="51" height="51" frameX="-0" frameY="-0" frameWidth="51" frameHeight="51"/>
+  <SubTexture name="green hold end0000.png" x="342" y="1"  width="59" height="70" frameX="-0" frameY="-0" frameWidth="59" frameHeight="70"/>
+  <SubTexture name="pruple end hold0000.png" x="342" y="1"  width="59" height="70" frameX="-0" frameY="-0" frameWidth="59" frameHeight="70"/>
+  <SubTexture name="red hold end0000.png" x="342" y="1"  width="59" height="70" frameX="-0" frameY="-0" frameWidth="59" frameHeight="70"/>
+  <SubTexture name="green hold piece0000.png" x="403" y="1"  width="51" height="51" frameX="-0" frameY="-0" frameWidth="51" frameHeight="51"/>
+  <SubTexture name="purple hold piece0000.png" x="403" y="1"  width="51" height="51" frameX="-0" frameY="-0" frameWidth="51" frameHeight="51"/>
+  <SubTexture name="red hold piece0000.png" x="403" y="1"  width="51" height="51" frameX="-0" frameY="-0" frameWidth="51" frameHeight="51"/>
+</TextureAtlas>

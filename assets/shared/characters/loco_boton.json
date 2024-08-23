@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 48,
+			"name": "Locochon-Boton-Erect idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 48,
+			"name": "Locochon-Boton-Erect left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 48,
+			"name": "Locochon-Boton-Erect down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 48,
+			"name": "Locochon-Boton-Erect up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 48,
+			"name": "Locochon-Boton-Erect right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Locochon-Boton-Erect",
+	"position": [
+		0,
+		130
+	],
+	"healthicon": "locochon_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		89,
+		78,
+		96
+	],
+	"camera_position": [
+		-500,
+		-140
+	],
+	"sing_duration": 6.1,
+	"scale": 1.8
+}

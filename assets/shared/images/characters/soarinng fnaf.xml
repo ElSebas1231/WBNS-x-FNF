@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="soarinng fnaf.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="soarinng fnaf down0000" x="22" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf down0001" x="22" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf down0002" x="715" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf down0003" x="715" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf down0004" x="1408" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf down0005" x="1408" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf down0006" x="1408" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf down0007" x="1408" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf down0008" x="1408" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf down0009" x="1408" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0000" x="2101" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0001" x="2101" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0002" x="2794" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0003" x="2794" y="22" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0004" x="22" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0005" x="22" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0006" x="715" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0007" x="715" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0008" x="1408" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0009" x="1408" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0010" x="2101" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0011" x="2101" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0012" x="2101" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0013" x="2101" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf idle 0014" x="2101" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf left0000" x="2794" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf left0001" x="2794" y="478" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf left0002" x="22" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf left0003" x="22" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf left0004" x="715" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf left0005" x="715" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf left0006" x="715" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf left0007" x="715" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf left0008" x="715" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf left0009" x="715" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf right0000" x="1408" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf right0001" x="1408" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf right0002" x="2101" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf right0003" x="2101" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf right0004" x="2794" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf right0005" x="2794" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf right0006" x="2794" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf right0007" x="2794" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf right0008" x="2794" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf right0009" x="2794" y="934" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf up0000" x="22" y="1390" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf up0001" x="22" y="1390" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf up0002" x="715" y="1390" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf up0003" x="715" y="1390" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf up0004" x="1408" y="1390" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf up0005" x="1408" y="1390" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf up0006" x="1408" y="1390" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf up0007" x="1408" y="1390" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf up0008" x="1408" y="1390" width="671" height="434"/>
+	<SubTexture name="soarinng fnaf up0009" x="1408" y="1390" width="671" height="434"/>
+</TextureAtlas>

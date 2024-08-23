@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CH3.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="0" y="0" width="323" height="478" frameX="-2" frameY="0" frameWidth="327" frameHeight="481"/>
+	<SubTexture name="Idle0001" x="323" y="0" width="327" height="481"/>
+	<SubTexture name="Idle0002" x="650" y="0" width="317" height="475" frameX="-5" frameY="0" frameWidth="327" frameHeight="481"/>
+	<SubTexture name="Idle0003" x="650" y="0" width="317" height="475" frameX="-5" frameY="0" frameWidth="327" frameHeight="481"/>
+	<SubTexture name="Idle0004" x="0" y="481" width="274" height="448" frameX="-27" frameY="-1" frameWidth="327" frameHeight="481"/>
+	<SubTexture name="Idle0005" x="0" y="481" width="274" height="448" frameX="-27" frameY="-1" frameWidth="327" frameHeight="481"/>
+	<SubTexture name="Idle0006" x="274" y="481" width="269" height="447" frameX="-30" frameY="0" frameWidth="327" frameHeight="481"/>
+	<SubTexture name="Idle0007" x="274" y="481" width="269" height="447" frameX="-30" frameY="0" frameWidth="327" frameHeight="481"/>
+	<SubTexture name="Idle0008" x="274" y="481" width="269" height="447" frameX="-30" frameY="0" frameWidth="327" frameHeight="481"/>
+	<SubTexture name="Idle0009" x="274" y="481" width="269" height="447" frameX="-30" frameY="0" frameWidth="327" frameHeight="481"/>
+	<SubTexture name="Idle0010" x="274" y="481" width="269" height="447" frameX="-30" frameY="0" frameWidth="327" frameHeight="481"/>
+</TextureAtlas>

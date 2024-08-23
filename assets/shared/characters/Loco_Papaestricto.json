@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "LocochonPapa Idle"
+		},
+		{
+			"offsets": [
+				23,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "LocochonPapa Right"
+		},
+		{
+			"offsets": [
+				-11,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "LocochonPapa Left"
+		},
+		{
+			"offsets": [
+				-43,
+				-19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "LocochonPapa Down"
+		},
+		{
+			"offsets": [
+				-54,
+				-46
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "LocochonPapa Up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Loco_Papaestricto",
+	"position": [
+		-770,
+		60
+	],
+	"healthicon": "loco_dad_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		222,
+		223,
+		154
+	],
+	"camera_position": [
+		-260,
+		220
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5
+}

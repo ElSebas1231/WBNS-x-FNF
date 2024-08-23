@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				-225
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Soaring Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				-225
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Soaring Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				-225
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Soaring Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				135,
+				-225
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Soaring Left"
+		},
+		{
+			"offsets": [
+				135,
+				-225
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Soaring Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Soarinng_MX",
+	"position": [
+		-50,
+		0
+	],
+	"healthicon": "soarinng_roblox",
+	"flip_x": true,
+	"healthbar_colors": [
+		227,
+		185,
+		43
+	],
+	"camera_position": [
+		-150,
+		300
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6,
+	"_editor_isPlayer": false
+}

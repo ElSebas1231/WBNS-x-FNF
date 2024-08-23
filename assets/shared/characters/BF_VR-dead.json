@@ -1,0 +1,57 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				429,
+				402
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "muerte_bf0"
+		},
+		{
+			"offsets": [
+				27,
+				226
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "muerte_bf_loop0"
+		},
+		{
+			"offsets": [
+				87,
+				301
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "muerte_bf_confirmado0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BF_VR",
+	"position": [
+		200,
+		630
+	],
+	"healthicon": "bf_duxo_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		204,
+		236
+	],
+	"camera_position": [
+		350,
+		-320
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

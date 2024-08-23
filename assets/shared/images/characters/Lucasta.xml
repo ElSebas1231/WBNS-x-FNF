@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Lucasta.png">
+<SubTexture name="Lucasta Idle0000" x="1764" y="0" width="242" height="422" frameX="-880" frameY="-416" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0001" x="0" y="1355" width="244" height="422" frameX="-880" frameY="-417" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0002" x="908" y="1355" width="249" height="420" frameX="-880" frameY="-422" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0003" x="2006" y="836" width="249" height="417" frameX="-885" frameY="-428" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0004" x="0" y="1777" width="242" height="415" frameX="-894" frameY="-431" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0005" x="242" y="1777" width="245" height="414" frameX="-891" frameY="-432" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0006" x="487" y="1777" width="242" height="414" frameX="-892" frameY="-432" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0007" x="2006" y="1253" width="240" height="416" frameX="-892" frameY="-430" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0008" x="1764" y="843" width="239" height="419" frameX="-891" frameY="-426" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0009" x="1764" y="422" width="237" height="421" frameX="-890" frameY="-422" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0010" x="1424" y="848" width="238" height="423" frameX="-886" frameY="-418" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Idle0011" x="1764" y="0" width="242" height="422" frameX="-880" frameY="-416" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Right0000" x="2353" y="372" width="312" height="371" frameX="-937" frameY="-449" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Right0001" x="0" y="2192" width="321" height="371" frameX="-936" frameY="-449" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Right0002" x="2353" y="0" width="314" height="372" frameX="-937" frameY="-448" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Right0003" x="1848" y="1777" width="306" height="373" frameX="-937" frameY="-447" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Right0004" x="1553" y="1777" width="295" height="374" frameX="-939" frameY="-447" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Right0005" x="1272" y="1777" width="281" height="375" frameX="-942" frameY="-446" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Right0006" x="1004" y="1777" width="268" height="379" frameX="-944" frameY="-444" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Right0007" x="729" y="1777" width="275" height="384" frameX="-932" frameY="-440" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Left0000" x="0" y="0" width="295" height="462" frameX="-813" frameY="-391" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Left0001" x="295" y="0" width="298" height="462" frameX="-809" frameY="-391" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Left0002" x="593" y="0" width="299" height="459" frameX="-807" frameY="-394" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Left0003" x="892" y="0" width="298" height="458" frameX="-808" frameY="-395" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Left0004" x="0" y="462" width="295" height="457" frameX="-811" frameY="-396" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Left0005" x="295" y="462" width="292" height="455" frameX="-815" frameY="-398" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Left0006" x="587" y="462" width="290" height="448" frameX="-822" frameY="-404" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Left0007" x="877" y="462" width="287" height="437" frameX="-832" frameY="-413" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Down0000" x="2006" y="0" width="347" height="418" frameX="-909" frameY="-424" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Down0001" x="1157" y="1355" width="348" height="420" frameX="-909" frameY="-422" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Down0002" x="562" y="1355" width="346" height="421" frameX="-907" frameY="-421" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Down0003" x="1424" y="0" width="340" height="424" frameX="-905" frameY="-419" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Down0004" x="1424" y="424" width="328" height="424" frameX="-903" frameY="-419" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Down0005" x="244" y="1355" width="318" height="422" frameX="-899" frameY="-420" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Down0006" x="1505" y="1355" width="310" height="420" frameX="-895" frameY="-421" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Down0007" x="2006" y="418" width="308" height="418" frameX="-889" frameY="-422" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Up0000" x="1190" y="0" width="234" height="436" frameX="-890" frameY="-394" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Up0001" x="441" y="919" width="234" height="435" frameX="-891" frameY="-395" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Up0002" x="675" y="919" width="231" height="435" frameX="-895" frameY="-395" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Up0003" x="1190" y="436" width="227" height="436" frameX="-901" frameY="-395" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Up0004" x="0" y="919" width="223" height="436" frameX="-907" frameY="-395" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Up0005" x="223" y="919" width="218" height="436" frameX="-914" frameY="-396" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Up0006" x="906" y="919" width="215" height="435" frameX="-918" frameY="-397" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Lucasta Up0007" x="1121" y="919" width="213" height="435" frameX="-920" frameY="-397" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

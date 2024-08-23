@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				21,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Soarinng-Portal-Speedrun left0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Soarinng-Portal-Speedrun down0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Soarinng-Portal-Speedrun up0"
+		},
+		{
+			"offsets": [
+				-15,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Soarinng-Portal-Speedrun right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Soarinng-Portal-Speedrun idle0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "piedra",
+			"indices": [],
+			"name": "Soarinng-Portal-Speedrun anim-piedra0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speedrun/nether/Soarinng-Portal-Speedrun",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "soarinng_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		232,
+		180,
+		53
+	],
+	"camera_position": [
+		200,
+		-40
+	],
+	"sing_duration": 4,
+	"scale": 1.7
+}

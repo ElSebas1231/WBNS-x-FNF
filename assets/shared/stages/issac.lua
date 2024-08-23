@@ -1,0 +1,15 @@
+function onCreate()
+makeLuaSprite("basment", 'fondos/issac/basment',-450, -100)
+setProperty("basment.antialiasing", true)
+setProperty("basment.antialiasing", false)
+setScrollFactor("basment", 0.95, 0.95)
+scaleObject("basment", 1.7, 1.7)
+addLuaSprite("basment")
+
+makeLuaSprite("rocks", 'fondos/issac/rocks',-300, -100)
+setProperty("rocks.antialiasing", true)
+setProperty("rocks.antialiasing", false)
+setScrollFactor("rocks", 1.05, 1.05)
+scaleObject("rocks", 1.7, 1.7)
+addLuaSprite("rocks")
+end

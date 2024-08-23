@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Nexo.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Nexo DOWN0000" x="746" y="753" width="787" height="673" frameX="2" frameY="-20" frameWidth="783" frameHeight="693"/>
+	<SubTexture name="Nexo DOWN0001" x="746" y="753" width="787" height="673" frameX="2" frameY="-20" frameWidth="783" frameHeight="693"/>
+	<SubTexture name="Nexo DOWN0002" x="0" y="1484" width="758" height="697" frameX="-12" frameY="2" frameWidth="783" frameHeight="693"/>
+	<SubTexture name="Nexo DOWN0003" x="0" y="1484" width="758" height="697" frameX="-12" frameY="2" frameWidth="783" frameHeight="693"/>
+	<SubTexture name="Nexo IDLE0000" x="3007" y="1305" width="348" height="545" frameX="2" frameY="2" frameWidth="344" frameHeight="542"/>
+	<SubTexture name="Nexo IDLE0001" x="3007" y="1305" width="348" height="545" frameX="2" frameY="2" frameWidth="344" frameHeight="542"/>
+	<SubTexture name="Nexo IDLE0002" x="3007" y="759" width="348" height="546" frameX="2" frameY="2" frameWidth="344" frameHeight="542"/>
+	<SubTexture name="Nexo IDLE0003" x="3007" y="759" width="348" height="546" frameX="2" frameY="2" frameWidth="344" frameHeight="542"/>
+	<SubTexture name="Nexo LEFT0000" x="1578" y="0" width="732" height="734" frameX="2" frameY="2" frameWidth="728" frameHeight="730"/>
+	<SubTexture name="Nexo LEFT0001" x="1578" y="0" width="732" height="734" frameX="2" frameY="2" frameWidth="728" frameHeight="730"/>
+	<SubTexture name="Nexo LEFT0002" x="1578" y="734" width="721" height="734" frameX="-8" frameY="2" frameWidth="728" frameHeight="730"/>
+	<SubTexture name="Nexo LEFT0003" x="1578" y="734" width="721" height="734" frameX="-8" frameY="2" frameWidth="728" frameHeight="730"/>
+	<SubTexture name="Nexo LEFT0004" x="2310" y="0" width="697" height="734" frameX="-30" frameY="2" frameWidth="728" frameHeight="730"/>
+	<SubTexture name="Nexo LEFT0005" x="2310" y="0" width="697" height="734" frameX="-30" frameY="2" frameWidth="728" frameHeight="730"/>
+	<SubTexture name="Nexo RIGHT0000" x="0" y="0" width="807" height="753" frameX="2" frameY="2" frameWidth="803" frameHeight="749"/>
+	<SubTexture name="Nexo RIGHT0001" x="0" y="0" width="807" height="753" frameX="2" frameY="2" frameWidth="803" frameHeight="749"/>
+	<SubTexture name="Nexo RIGHT0002" x="807" y="0" width="771" height="742" frameX="0" frameY="2" frameWidth="803" frameHeight="749"/>
+	<SubTexture name="Nexo RIGHT0003" x="807" y="0" width="771" height="742" frameX="0" frameY="2" frameWidth="803" frameHeight="749"/>
+	<SubTexture name="Nexo RIGHT0004" x="0" y="753" width="746" height="731" frameX="-2" frameY="2" frameWidth="803" frameHeight="749"/>
+	<SubTexture name="Nexo RIGHT0005" x="0" y="753" width="746" height="731" frameX="-2" frameY="2" frameWidth="803" frameHeight="749"/>
+	<SubTexture name="Nexo UP0000" x="3007" y="0" width="522" height="759" frameX="-14" frameY="2" frameWidth="550" frameHeight="755"/>
+	<SubTexture name="Nexo UP0001" x="3007" y="0" width="522" height="759" frameX="-14" frameY="2" frameWidth="550" frameHeight="755"/>
+	<SubTexture name="Nexo UP0002" x="0" y="2181" width="544" height="749" frameX="-3" frameY="-8" frameWidth="550" frameHeight="755"/>
+	<SubTexture name="Nexo UP0003" x="0" y="2181" width="544" height="749" frameX="-3" frameY="-8" frameWidth="550" frameHeight="755"/>
+	<SubTexture name="Nexo UP0004" x="2310" y="734" width="554" height="742" frameX="2" frameY="-14" frameWidth="550" frameHeight="755"/>
+	<SubTexture name="Nexo UP0005" x="2310" y="734" width="554" height="742" frameX="2" frameY="-14" frameWidth="550" frameHeight="755"/>
+</TextureAtlas>

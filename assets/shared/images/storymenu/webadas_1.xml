@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="webadas_1.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="no seleccion0000" x="22" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0001" x="22" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0002" x="22" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0003" x="469" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0004" x="469" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0005" x="469" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0006" x="469" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0007" x="916" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0008" x="916" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0009" x="916" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0010" x="22" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0011" x="22" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0012" x="22" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0013" x="469" y="22" width="425" height="450"/>
+	<SubTexture name="no seleccion0014" x="469" y="22" width="425" height="450"/>
+	<SubTexture name="seleccion0000" x="1363" y="22" width="480" height="450"/>
+	<SubTexture name="seleccion0001" x="1363" y="22" width="480" height="450"/>
+	<SubTexture name="seleccion0002" x="22" y="494" width="480" height="450"/>
+	<SubTexture name="seleccion0003" x="524" y="494" width="480" height="450"/>
+	<SubTexture name="seleccion0004" x="1026" y="494" width="480" height="450"/>
+	<SubTexture name="seleccion0005" x="1528" y="494" width="480" height="450"/>
+	<SubTexture name="seleccion0006" x="22" y="966" width="480" height="450"/>
+	<SubTexture name="seleccion0007" x="524" y="966" width="480" height="450"/>
+	<SubTexture name="seleccion0008" x="1026" y="966" width="480" height="450"/>
+	<SubTexture name="seleccion0009" x="1528" y="966" width="480" height="450"/>
+	<SubTexture name="seleccion0010" x="22" y="1438" width="480" height="450"/>
+	<SubTexture name="seleccion0011" x="524" y="1438" width="480" height="450"/>
+	<SubTexture name="seleccion0012" x="1026" y="1438" width="480" height="450"/>
+	<SubTexture name="seleccion0013" x="1026" y="1438" width="480" height="450"/>
+	<SubTexture name="seleccion0014" x="1026" y="1438" width="480" height="450"/>
+	<SubTexture name="seleccion0015" x="1026" y="1438" width="480" height="450"/>
+	<SubTexture name="seleccion0016" x="1026" y="1438" width="480" height="450"/>
+	<SubTexture name="seleccion0017" x="1026" y="1438" width="480" height="450"/>
+	<SubTexture name="seleccion0018" x="1026" y="1438" width="480" height="450"/>
+	<SubTexture name="seleccion0019" x="1026" y="1438" width="480" height="450"/>
+</TextureAtlas>

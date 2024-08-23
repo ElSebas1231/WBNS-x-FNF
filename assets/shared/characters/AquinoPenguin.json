@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "idle",
+			"loop": true,
+			"name": "aquino idle"
+		},
+		{
+			"offsets": [
+				229,
+				31
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singUP",
+			"loop": false,
+			"name": "aquino up0"
+		},
+		{
+			"offsets": [
+				1,
+				-97
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "aquino down"
+		},
+		{
+			"offsets": [
+				-47,
+				-1
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "aquino right"
+		},
+		{
+			"offsets": [
+				137,
+				-13
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "aquino left"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/SnowAquino",
+	"position": [
+		-20,
+		100
+	],
+	"healthicon": "aquino_pinguino_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		252,
+		133,
+		79
+	],
+	"camera_position": [
+		-40,
+		110
+	],
+	"sing_duration": 6.1,
+	"scale": 0.899999999999999,
+	"_editor_isPlayer": false
+}

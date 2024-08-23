@@ -1,0 +1,134 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				59,
+				-51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "aquino life down"
+		},
+		{
+			"offsets": [
+				59,
+				-51
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"indices": [6,7,8,9,10],
+			"name": "aquino life down"
+		},
+		{
+			"offsets": [
+				120,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [0,1,2,3,4,5,6,7,8],
+			"name": "aquino life idle"
+		},
+		{
+			"offsets": [
+				120,
+				-20
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [8,9,10,11,12,13,14],
+			"name": "aquino life idle"
+		},
+		{
+			"offsets": [
+				172,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "aquino life left"
+		},
+		{
+			"offsets": [
+				172,
+				-10
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [6,7,8,9,10],
+			"name": "aquino life left"
+		},
+		{
+			"offsets": [
+				40,
+				-35
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "aquino life right"
+		},
+		{
+			"offsets": [
+				40,
+				-35
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [4,5,6,7,8,9,10],
+			"name": "aquino life right"
+		},
+		{
+			"offsets": [
+				124,
+				11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "aquino life up"
+		},
+		{
+			"offsets": [
+				124,
+				11
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [7,8,9,10],
+			"name": "aquino life up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino_life",
+	"position": [
+		160,
+		40
+	],
+	"healthicon": "aquino_life_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		88,
+		57,
+		115
+	],
+	"camera_position": [
+		30,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3,
+	"_editor_isPlayer": false
+}

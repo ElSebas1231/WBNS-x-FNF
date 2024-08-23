@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				431,
+				-267
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "c-muere0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				346,
+				-426
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "de-nuevo0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				273,
+				-407
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "death-loop0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BF-AQUINO",
+	"position": [
+		40,
+		-90
+	],
+	"healthicon": "aquinovs_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		96,
+		52,
+		45
+	],
+	"camera_position": [
+		-350,
+		180
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

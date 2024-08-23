@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Skywars",
+			"aquino_icon",
+			[
+				96,
+				52,
+				45
+			]
+		],
+		[
+			"Webadas",
+			"aquino_icon",
+			[
+				96,
+				52,
+				45
+			]
+		],
+		[
+			"Made in 2002",
+			"aquino_icon",
+			[
+				96,
+				52,
+				45
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "aquino",
+	"difficulties": "hard, insane, soarinng",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Pelea en las alturas",
+	"weekName": "V.s. AquinoBy02",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

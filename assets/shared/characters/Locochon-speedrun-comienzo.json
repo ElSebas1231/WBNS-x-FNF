@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				6,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Locochon-Speedrun-Comienzo left0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Locochon-Speedrun-Comienzo down0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Locochon-Speedrun-Comienzo up0"
+		},
+		{
+			"offsets": [
+				-3,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Locochon-Speedrun-Comienzo right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Locochon-Speedrun-Comienzo idle0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speedrun/comienzo/Locochon-Speedrun-Comienzo",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "locochon_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		147,
+		132,
+		157
+	],
+	"camera_position": [
+		250,
+		-40
+	],
+	"sing_duration": 4,
+	"scale": 1.7
+}

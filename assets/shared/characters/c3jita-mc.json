@@ -1,0 +1,90 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "C3jitauwu-Oneblock idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "C3jitauwu-Oneblock down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "C3jitauwu-Oneblock up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "C3jitauwu-Oneblock left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "C3jitauwu-Oneblock right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "Anim",
+			"fps": 24,
+			"name": "C3jitauwu-Oneblock muerte0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/C3jitauwu",
+	"position": [
+		-250,
+		-130
+	],
+	"healthicon": "cejita_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		239,
+		95,
+		24
+	],
+	"camera_position": [
+		200,
+		-130
+	],
+	"sing_duration": 4,
+	"scale": 1.6,
+	"_editor_isPlayer": true
+}

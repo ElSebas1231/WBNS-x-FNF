@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "AndrehIsaac2 idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "AndrehIsaac2 down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "AndrehIsaac2 Up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "AndrehIsaac2 Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "AndrehIsaac2 Left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/andreh_issac",
+	"position": [
+		250,
+		260
+	],
+	"healthicon": "andreh_issac_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		254,
+		91,
+		93
+	],
+	"camera_position": [
+		310,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1.4,
+	"_editor_isPlayer": true
+}

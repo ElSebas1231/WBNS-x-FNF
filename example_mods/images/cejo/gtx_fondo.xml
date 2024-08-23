@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gtx fondo.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GTX fondo0000" x="71" y="71" width="188" height="209" frameX="0" frameY="-2" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0001" x="71" y="71" width="188" height="209" frameX="0" frameY="-2" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0002" x="335" y="71" width="188" height="210" frameX="0" frameY="-1" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0003" x="335" y="71" width="188" height="210" frameX="0" frameY="-1" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0004" x="599" y="71" width="187" height="211" frameX="0" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0005" x="599" y="71" width="187" height="211" frameX="0" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0006" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0007" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0008" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0009" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0010" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0011" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0012" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0013" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0014" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0015" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+	<SubTexture name="GTX fondo0016" x="71" y="358" width="186" height="211" frameX="-1" frameY="0" frameWidth="188" frameHeight="211"/>
+</TextureAtlas>

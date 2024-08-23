@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				258,
+				157
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bonnie Left"
+		},
+		{
+			"offsets": [
+				295,
+				152
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bonnie Down"
+		},
+		{
+			"offsets": [
+				277,
+				176
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bonnie Up"
+		},
+		{
+			"offsets": [
+				278,
+				165
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bonnie Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				275,
+				165
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bonnie Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Bonnie",
+	"position": [
+		-650,
+		0
+	],
+	"healthicon": "bonnie_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		79,
+		55,
+		160
+	],
+	"camera_position": [
+		-210,
+		-70
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

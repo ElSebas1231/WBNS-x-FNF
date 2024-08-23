@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Soaring.png">
+<SubTexture name="Soaring Idle0000" x="0" y="2046" width="599" height="652" frameX="-667" frameY="-238" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0001" x="1197" y="2046" width="607" height="644" frameX="-660" frameY="-246" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0002" x="1804" y="2046" width="612" height="636" frameX="-656" frameY="-252" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0003" x="599" y="2046" width="598" height="646" frameX="-672" frameY="-241" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0004" x="558" y="1371" width="566" height="665" frameX="-706" frameY="-220" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0005" x="1655" y="0" width="554" height="680" frameX="-720" frameY="-204" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0006" x="552" y="0" width="552" height="685" frameX="-723" frameY="-198" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0007" x="1104" y="0" width="551" height="685" frameX="-725" frameY="-197" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0008" x="0" y="0" width="552" height="686" frameX="-723" frameY="-197" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0009" x="0" y="686" width="554" height="685" frameX="-720" frameY="-199" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0010" x="554" y="686" width="556" height="682" frameX="-716" frameY="-203" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0011" x="0" y="1371" width="558" height="675" frameX="-712" frameY="-212" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0012" x="1124" y="1371" width="577" height="664" frameX="-691" frameY="-224" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0013" x="2209" y="0" width="593" height="656" frameX="-674" frameY="-234" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Soaring Idle0014" x="0" y="2046" width="599" height="652" frameX="-667" frameY="-238" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

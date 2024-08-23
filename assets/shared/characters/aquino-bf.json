@@ -1,0 +1,177 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				376,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "hey0"
+		},
+		{
+			"offsets": [
+				408,
+				360
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "rev0"
+		},
+		{
+			"offsets": [
+				319,
+				365
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "death-loop0"
+		},
+		{
+			"offsets": [
+				310,
+				360
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "first-death0"
+		},
+		{
+			"offsets": [
+				296,
+				357
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "scared",
+			"indices": [],
+			"name": "susto0"
+		},
+		{
+			"offsets": [
+				115,
+				218
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left0"
+		},
+		{
+			"offsets": [
+				194,
+				423
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-miss",
+			"indices": [],
+			"name": "left-miss0"
+		},
+		{
+			"offsets": [
+				63,
+				171
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down0"
+		},
+		{
+			"offsets": [
+				148,
+				338
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-miss",
+			"indices": [],
+			"name": "down-miss0"
+		},
+		{
+			"offsets": [
+				52,
+				253
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up0"
+		},
+		{
+			"offsets": [
+				106,
+				384
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-miss",
+			"indices": [],
+			"name": "up-miss0"
+		},
+		{
+			"offsets": [
+				-35,
+				215
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right0"
+		},
+		{
+			"offsets": [
+				102,
+				350
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-miss",
+			"indices": [],
+			"name": "right-miss0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				189,
+				249
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino-BF",
+	"position": [
+		35,
+		382
+	],
+	"healthicon": "icon-aquino_endless",
+	"flip_x": true,
+	"healthbar_colors": [
+		51,
+		61,
+		122
+	],
+	"camera_position": [
+		450,
+		-202
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

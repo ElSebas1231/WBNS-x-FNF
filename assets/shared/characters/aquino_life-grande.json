@@ -1,0 +1,176 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				-62
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "aquino life down",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				51,
+				-62
+			],
+			"anim": "singDOWN-loop",
+			"fps": 24,
+			"name": "aquino life down",
+			"indices": [
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				120,
+				-20
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "aquino life idle",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				120,
+				-20
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "aquino life idle",
+			"indices": [
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				183,
+				-11
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "aquino life left",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				184,
+				-11
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "aquino life left",
+			"indices": [
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				-43
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "aquino life right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				31,
+				-43
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "aquino life right",
+			"indices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				124,
+				12
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "aquino life up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				124,
+				12
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "aquino life up",
+			"indices": [
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino_life",
+	"position": [
+		160,
+		40
+	],
+	"healthicon": "aquino_life_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		88,
+		57,
+		115
+	],
+	"camera_position": [
+		30,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 1.5
+}

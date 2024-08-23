@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Top Streamer",
+			"loco_alien_icon",
+			[
+				111,
+				136,
+				142
+			]
+		],
+		[
+			"Ay WTF",
+			"loco_alien_icon",
+			[
+				111,
+				136,
+				142
+			]
+		],
+		[
+			"Baneado",
+			"loco_alien_icon",
+			[
+				111,
+				136,
+				142
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "loco",
+	"difficulties": "hard, insane, soarinng",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Aventura en VR",
+	"weekName": "V.s. Loco Alien",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

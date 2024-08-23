@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Nexo IDLE0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				221,
+				29
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Nexo DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				289,
+				147
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Nexo LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				107,
+				149
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Nexo RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				145,
+				217
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Nexo UP0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speedrun/mmm/Nexo",
+	"position": [
+		80,
+		240
+	],
+	"healthicon": "nexoo",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		153,
+		0
+	],
+	"camera_position": [
+		390,
+		-30
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

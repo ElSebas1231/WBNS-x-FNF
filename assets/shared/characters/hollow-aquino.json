@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-270,
+				-108
+			],
+			"anim": "singLEFTmiss",
+			"fps": 18,
+			"name": "Mleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-219,
+				10
+			],
+			"anim": "singDOWNmiss",
+			"fps": 18,
+			"name": "Mdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-186,
+				33
+			],
+			"anim": "singUPmiss",
+			"fps": 18,
+			"name": "Mup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-224,
+				11
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 18,
+			"name": "Mright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-186,
+				24
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "QUINO HEY",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-172,
+				8
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "MUERTE AQUINO",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-172,
+				7
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "MUERTE BUCLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-171,
+				61
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "MUERTE CONFIRM",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-258,
+				-113
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-116,
+				-89
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				-100,
+				-33
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				47,
+				261
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				-134,
+				-109
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/hollow-aquino",
+	"position": [
+		-30,
+		310
+	],
+	"healthicon": "by2002",
+	"flip_x": false,
+	"healthbar_colors": [
+		180,
+		255,
+		55
+	],
+	"camera_position": [
+		-110,
+		110
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

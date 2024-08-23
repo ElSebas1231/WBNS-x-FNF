@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "gfdiscord_idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "gfdiscord_left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "gfdiscord_up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "gfdiscord_right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "gfdiscord_down"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/gf_discord",
+	"position": [
+		-240,
+		-130
+	],
+	"healthicon": "gf_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		167,
+		19,
+		59
+	],
+	"camera_position": [
+		-60,
+		480
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5,
+	"_editor_isPlayer": true
+}

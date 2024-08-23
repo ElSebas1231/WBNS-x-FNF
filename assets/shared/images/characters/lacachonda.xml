@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lacachonda.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lacachonda down0000" x="46" y="46" width="238" height="449" frameX="-1" frameY="-6" frameWidth="240" frameHeight="455"/>
+	<SubTexture name="lacachonda down0001" x="46" y="46" width="238" height="449" frameX="-1" frameY="-6" frameWidth="240" frameHeight="455"/>
+	<SubTexture name="lacachonda down0002" x="325" y="46" width="240" height="455"/>
+	<SubTexture name="lacachonda down0003" x="325" y="46" width="240" height="455"/>
+	<SubTexture name="lacachonda down0004" x="325" y="46" width="240" height="455"/>
+	<SubTexture name="lacachonda down0005" x="325" y="46" width="240" height="455"/>
+	<SubTexture name="lacachonda down0006" x="325" y="46" width="240" height="455"/>
+	<SubTexture name="lacachonda down0007" x="325" y="46" width="240" height="455"/>
+	<SubTexture name="lacachonda down0008" x="325" y="46" width="240" height="455"/>
+	<SubTexture name="lacachonda down0009" x="325" y="46" width="240" height="455"/>
+	<SubTexture name="lacachonda idle0000" x="606" y="46" width="278" height="452" frameX="0" frameY="-5" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0001" x="606" y="46" width="278" height="452" frameX="0" frameY="-5" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0002" x="925" y="46" width="280" height="453" frameX="0" frameY="-4" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0003" x="925" y="46" width="280" height="453" frameX="0" frameY="-4" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0004" x="1246" y="46" width="278" height="456" frameX="0" frameY="-1" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0005" x="1246" y="46" width="278" height="456" frameX="0" frameY="-1" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0006" x="1565" y="46" width="277" height="456" frameX="0" frameY="-1" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0007" x="1565" y="46" width="277" height="456" frameX="0" frameY="-1" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0008" x="46" y="543" width="277" height="457" frameX="0" frameY="0" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0009" x="46" y="543" width="277" height="457" frameX="0" frameY="0" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0010" x="46" y="543" width="277" height="457" frameX="0" frameY="0" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0011" x="46" y="543" width="277" height="457" frameX="0" frameY="0" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0012" x="46" y="543" width="277" height="457" frameX="0" frameY="0" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0013" x="46" y="543" width="277" height="457" frameX="0" frameY="0" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda idle0014" x="46" y="543" width="277" height="457" frameX="0" frameY="0" frameWidth="280" frameHeight="457"/>
+	<SubTexture name="lacachonda left0000" x="364" y="543" width="295" height="456" frameX="0" frameY="-1" frameWidth="295" frameHeight="457"/>
+	<SubTexture name="lacachonda left0001" x="364" y="543" width="295" height="456" frameX="0" frameY="-1" frameWidth="295" frameHeight="457"/>
+	<SubTexture name="lacachonda left0002" x="700" y="543" width="286" height="457" frameX="-2" frameY="0" frameWidth="295" frameHeight="457"/>
+	<SubTexture name="lacachonda left0003" x="700" y="543" width="286" height="457" frameX="-2" frameY="0" frameWidth="295" frameHeight="457"/>
+	<SubTexture name="lacachonda left0004" x="700" y="543" width="286" height="457" frameX="-2" frameY="0" frameWidth="295" frameHeight="457"/>
+	<SubTexture name="lacachonda left0005" x="700" y="543" width="286" height="457" frameX="-2" frameY="0" frameWidth="295" frameHeight="457"/>
+	<SubTexture name="lacachonda left0006" x="700" y="543" width="286" height="457" frameX="-2" frameY="0" frameWidth="295" frameHeight="457"/>
+	<SubTexture name="lacachonda left0007" x="700" y="543" width="286" height="457" frameX="-2" frameY="0" frameWidth="295" frameHeight="457"/>
+	<SubTexture name="lacachonda left0008" x="700" y="543" width="286" height="457" frameX="-2" frameY="0" frameWidth="295" frameHeight="457"/>
+	<SubTexture name="lacachonda left0009" x="700" y="543" width="286" height="457" frameX="-2" frameY="0" frameWidth="295" frameHeight="457"/>
+	<SubTexture name="lacachonda right0000" x="1027" y="543" width="330" height="453" frameX="-3" frameY="-2" frameWidth="333" frameHeight="455"/>
+	<SubTexture name="lacachonda right0001" x="1027" y="543" width="330" height="453" frameX="-3" frameY="-2" frameWidth="333" frameHeight="455"/>
+	<SubTexture name="lacachonda right0002" x="1398" y="543" width="333" height="455"/>
+	<SubTexture name="lacachonda right0003" x="1398" y="543" width="333" height="455"/>
+	<SubTexture name="lacachonda right0004" x="1398" y="543" width="333" height="455"/>
+	<SubTexture name="lacachonda right0005" x="1398" y="543" width="333" height="455"/>
+	<SubTexture name="lacachonda right0006" x="1398" y="543" width="333" height="455"/>
+	<SubTexture name="lacachonda right0007" x="1398" y="543" width="333" height="455"/>
+	<SubTexture name="lacachonda right0008" x="1398" y="543" width="333" height="455"/>
+	<SubTexture name="lacachonda right0009" x="1398" y="543" width="333" height="455"/>
+	<SubTexture name="lacachonda up0000" x="46" y="1041" width="265" height="469" frameX="-5" frameY="0" frameWidth="270" frameHeight="469"/>
+	<SubTexture name="lacachonda up0001" x="46" y="1041" width="265" height="469" frameX="-5" frameY="0" frameWidth="270" frameHeight="469"/>
+	<SubTexture name="lacachonda up0002" x="352" y="1041" width="264" height="463" frameX="0" frameY="-2" frameWidth="270" frameHeight="469"/>
+	<SubTexture name="lacachonda up0003" x="352" y="1041" width="264" height="463" frameX="0" frameY="-2" frameWidth="270" frameHeight="469"/>
+	<SubTexture name="lacachonda up0004" x="657" y="1041" width="260" height="463" frameX="-4" frameY="-2" frameWidth="270" frameHeight="469"/>
+	<SubTexture name="lacachonda up0005" x="657" y="1041" width="260" height="463" frameX="-4" frameY="-2" frameWidth="270" frameHeight="469"/>
+	<SubTexture name="lacachonda up0006" x="958" y="1041" width="261" height="463" frameX="-3" frameY="-2" frameWidth="270" frameHeight="469"/>
+	<SubTexture name="lacachonda up0007" x="958" y="1041" width="261" height="463" frameX="-3" frameY="-2" frameWidth="270" frameHeight="469"/>
+	<SubTexture name="lacachonda up0008" x="1260" y="1041" width="260" height="463" frameX="-4" frameY="-2" frameWidth="270" frameHeight="469"/>
+	<SubTexture name="lacachonda up0009" x="1260" y="1041" width="260" height="463" frameX="-4" frameY="-2" frameWidth="270" frameHeight="469"/>
+</TextureAtlas>

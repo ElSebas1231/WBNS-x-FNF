@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="PikoAquino.png">
+<SubTexture name="PikoAquino Idle0000" x="468" y="0" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Idle0001" x="468" y="0" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Idle0002" x="702" y="0" width="117" height="137" frameX="-38" frameY="-35" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Idle0003" x="585" y="278" width="117" height="138" frameX="-38" frameY="-34" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Idle0004" x="468" y="139" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Idle0005" x="234" y="290" width="117" height="141" frameX="-38" frameY="-31" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Idle0006" x="351" y="290" width="117" height="140" frameX="-38" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Idle0007" x="351" y="290" width="117" height="140" frameX="-38" frameY="-32" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Up0000" x="117" y="0" width="117" height="145" frameX="-38" frameY="-19" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Up0001" x="117" y="0" width="117" height="145" frameX="-38" frameY="-19" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Up0002" x="0" y="0" width="117" height="146" frameX="-38" frameY="-17" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Up0003" x="234" y="0" width="117" height="145" frameX="-38" frameY="-19" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Up0004" x="0" y="146" width="117" height="144" frameX="-38" frameY="-22" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Up0005" x="117" y="146" width="117" height="143" frameX="-38" frameY="-25" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Down0000" x="468" y="278" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Down0001" x="468" y="278" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Down0002" x="702" y="274" width="117" height="136" frameX="-38" frameY="-36" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Down0003" x="702" y="137" width="117" height="137" frameX="-38" frameY="-35" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Down0004" x="585" y="416" width="117" height="138" frameX="-38" frameY="-34" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Down0005" x="0" y="432" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Right0000" x="117" y="432" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Right0001" x="117" y="432" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Right0002" x="234" y="432" width="121" height="139" frameX="-36" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Right0003" x="355" y="432" width="117" height="139" frameX="-38" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Right0004" x="585" y="0" width="117" height="139" frameX="-37" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Right0005" x="585" y="139" width="117" height="139" frameX="-36" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Left0000" x="234" y="146" width="117" height="142" frameX="-29" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Left0001" x="234" y="146" width="117" height="142" frameX="-29" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Left0002" x="351" y="0" width="117" height="142" frameX="-26" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Left0003" x="351" y="142" width="117" height="142" frameX="-29" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Left0004" x="0" y="290" width="117" height="142" frameX="-32" frameY="-33" frameWidth="200" frameHeight="200" />
+<SubTexture name="PikoAquino Left0005" x="117" y="290" width="117" height="142" frameX="-33" frameY="-33" frameWidth="200" frameHeight="200" />
+</TextureAtlas>

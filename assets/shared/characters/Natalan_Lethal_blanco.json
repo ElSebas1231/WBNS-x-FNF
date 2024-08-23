@@ -1,0 +1,90 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-478,
+				65
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "natalan hide idle"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				79,
+				91
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-497,
+				-19
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-510,
+				188
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-261,
+				27
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-437,
+				113
+			],
+			"indices": [],
+			"fps": 18,
+			"anim": "sustoalv",
+			"loop": false,
+			"name": "natalan se corre"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/natalan lethal blanco",
+	"position": [
+		-950,
+		-130
+	],
+	"healthicon": "natalan_letal_icon",
+	"flip_x": true,
+	"healthbar_colors": [
+		60,
+		58,
+		71
+	],
+	"camera_position": [
+		-590,
+		-80
+	],
+	"sing_duration": 4,
+	"scale": 1.4,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-301
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "duxo irl lore idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				110,
+				-330
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "duxo irl lore left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				-266
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "duxo irl lore up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				-326
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "duxo irl lore right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				-352
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "duxo irl lore down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				164,
+				-381
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "duxo irl lore left alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				22,
+				-358
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "duxo irl lore up alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				-405
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "duxo irl lore down alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				-404
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "duxo irl lore right alt",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/duxo irl lore",
+	"position": [
+		0,
+		-280
+	],
+	"healthicon": "duxo_lore_icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		72,
+		68,
+		78
+	],
+	"camera_position": [
+		260,
+		310
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

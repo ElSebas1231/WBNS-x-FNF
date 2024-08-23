@@ -1,2 +1,25 @@
-# wbns-x-fnf-v1
-Source code of wbns x fnf v1
+# WBNS x FNF
+Made based on some videos or silly situations from a group of youtubers.
+
+[WBNS x FNF Banner](art/banner.png)
+
+## Downloads
+
+You can download the builded game from **[GameBanana](https://gamebanana.com/mods/522703) or [GameJolt](https://gamejolt.com/games/wbnsxfnfmod/904827)**
+
+## Links
+
+- WBNS x FNF: **[Twitter/𝕏](https://x.com/WBNSxFNFmod)**
+
+- Funkin' Crew Links: **[FNF Official Website](https://funkin.me) ⋅ [itch.io page](https://ninja-muffin24.itch.io/funkin) ⋅ [Newgrounds](https://www.newgrounds.com/portal/view/770371) ⋅ [Source code on GitHub](https://github.com/FunkinCrew/Funkin)**
+
+- Psych Engine (Engine used for the mod): **[Source code](https://github.com/ShadowMario/FNF-PsychEngine) ⋅ [Gamebanana Page](https://gamebanana.com/mods/309789)**
+
+## Building
+
+Refer to [BUILDING.md](BUILDING.md) on how you can build the first version of WBNSxFNF.
+Also check [COMPILING.md](COMPILING.md) for the necessary versions of some libraries needed to build the game.
+
+## Credits
+
+All credits are in-game! But you can see them in [CreditsState.hx](source/states/CreditsState.hx)
