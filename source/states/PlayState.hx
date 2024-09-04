@@ -343,7 +343,7 @@ class PlayState extends MusicBeatState
 			'memes', 'mexican school', 'night guards', 'penguin or rat', 'possesion', 'report',
 			'rethey forever', 'run away and hide', 'run natalan', 'skywars', 'snow goal', 'speedrun',
 			'the keys', 'top streamer', 'travel in trouble', 'trivia', 'uncoordinated', 'unerected victory',
-			'vip', 'vote or lose', 'warz', 'webadas', 'origins'
+			'vip', 'vote or lose', 'warz', 'webadas', 'origins', 'toneando'
 		];
 		#end
 
@@ -354,6 +354,7 @@ class PlayState extends MusicBeatState
 		}
 		curStage = SONG.stage;
 
+		// In case your song isn't in the array
 		if(songPortrait == null || songPortrait == ''){
 			songPortrait = 'wbnsxfnf';
 		}
@@ -364,7 +365,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 		
-		if (SONG.song.toLowerCase() == 'lore (soarinng mix)' || SONG.song.toLowerCase() == 'lore (soarinng mix) old') {
+		if (SONG.song.contains('lore (soarinng mix)')) {
 			songPortrait = 'lore-soarinng-mix';
 		}
 
@@ -377,8 +378,8 @@ class PlayState extends MusicBeatState
 		}
 				
 		songPortrait = songPortrait.replace(' ', '-');
-		trace('Portrait: ' + songPortrait);
-		trace('Cancion: ' + SONG.song.toLowerCase());
+		//trace('Portrait: ' + songPortrait);
+		//trace('Cancion: ' + SONG.song.toLowerCase());
 
 		if (SONG.song.toLowerCase() == 'snow') {
 			DiscordClient.shutdown();

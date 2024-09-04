@@ -45,7 +45,7 @@ class MusicPlayer extends FlxGroup
 		'memes', 'mexican school', 'night guards', 'penguin or rat', 'possesion', 'report',
 		'rethey forever', 'run away and hide', 'run natalan', 'skywars', 'snow goal', 'speedrun',
 		'the keys', 'top streamer', 'travel in trouble', 'trivia', 'uncoordinated', 'unerected victory',
-		'vip', 'vote or lose', 'warz', 'webadas', 'wbnsxfnf', 'infinity', 'grimm', 'origins'
+		'vip', 'vote or lose', 'warz', 'webadas', 'wbnsxfnf', 'infinity', 'grimm', 'origins', 'toneando'
 	];
 
 	public function new(instance:FreeplayState)
@@ -302,17 +302,17 @@ class MusicPlayer extends FlxGroup
 				songPortrait.x = 720;
 				songPortrait.y = -40;
 				songPortrait.scale.set(0.4, 0.4);
-				trace('1');
+				//trace('1');
 			} else if (freeplaySongLenght > 16) {
 				songPortrait.x = -220;
 				songPortrait.y = 160;
 				songPortrait.scale.set(0.38, 0.38);
-				trace('2');
+				//trace('2');
 			} else {
 				songPortrait.x = 680;
 				songPortrait.y = -20;
 				songPortrait.scale.set(0.5, 0.5);
-				trace('Default');
+				//trace('Default');
 			}
 		}
 		else

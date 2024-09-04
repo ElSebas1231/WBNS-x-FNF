@@ -271,8 +271,9 @@ function onUpdate()
         if string.find(string.lower(noteSplash), 'psych') or string.find(string.lower(noteSplash), 'vanilla') then
             for i = 0, getProperty('notes.length')-1 do
                 local data = getPropertyFromGroup('notes', i, 'noteData')
+                setPropertyFromGroup('notes', i, 'noteCoverData.useRGBShader', true)
+                
                 if getPropertyFromGroup('notes', i, 'mustPress') then
-                    setPropertyFromGroup('notes', i, 'noteCoverData.useRGBShader', true)
                     for b = 0, 3 do
                         if getPropertyFromGroup('playerStrums', b, 'texture') == 'noteSkins/NOTE_assets' then
                             setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(defaultRGB[data + 1][1]))
@@ -284,17 +285,10 @@ function onUpdate()
 
                 if not getPropertyFromGroup('notes', i, 'mustPress') then
                     for b = 0, 3 do
-                        if getPropertyFromGroup('opponentStrums', b, 'texture') == 'noteSkins/NOTE_assets-'..skins[s] then
-                            setPropertyFromGroup('notes', i, 'noteCoverData.useRGBShader', true)
-                            if getPropertyFromClass('states.PlayState', 'isPixelStage') then
-                                setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(pixelSkinsRBG[skins[s]][data + 1][1]))
-                                setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(pixelSkinsRBG[skins[s]][data + 1][2]))
-                                setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(pixelSkinsRBG[skins[s]][data + 1][3]))
-                            else
-                                setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(skinsRGB[skins[s]][data + 1][1]))
-                                setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(skinsRGB[skins[s]][data + 1][2]))
-                                setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(skinsRGB[skins[s]][data + 1][3]))
-                            end
+                        if getPropertyFromGroup('opponentStrums', b, 'texture') == 'noteSkins/NOTE_assets' then
+                            setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(defaultRGB[data + 1][1]))
+                            setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(defaultRGB[data + 1][2]))
+                            setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(defaultRGB[data + 1][3]))
                         end
                     end
                 end
@@ -304,8 +298,22 @@ function onUpdate()
         for s = 1, #skins do
             if string.find(string.lower(noteSkin), skins[s]) then
                 for i = 0, getProperty('notes.length')-1 do
+                    local noteData = getPropertyFromGroup('notes', i, 'noteData')
+
+                    if getPropertyFromGroup('opponentStrums', b, 'texture') == 'noteSkins/NOTE_assets-'..skins[s] then
+                        setPropertyFromGroup('notes', i, 'noteCoverData.useRGBShader', true)
+                        if getPropertyFromClass('states.PlayState', 'isPixelStage') then
+                            setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(pixelSkinsRBG[skins[s]][noteData + 1][1]))
+                            setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(pixelSkinsRBG[skins[s]][noteData + 1][2]))
+                            setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(pixelSkinsRBG[skins[s]][noteData + 1][3]))
+                        else
+                            setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(skinsRGB[skins[s]][noteData + 1][1]))
+                            setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(skinsRGB[skins[s]][noteData + 1][2]))
+                            setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(skinsRGB[skins[s]][noteData + 1][3]))
+                        end
+                    end
+                    
                     if getPropertyFromGroup('notes', i, 'mustPress') then
-                        local noteData = getPropertyFromGroup('notes', i, 'noteData')
                         setPropertyFromGroup('notes', i, 'rgbShader.enabled', false)
                         setPropertyFromGroup('notes', i, 'noteSplashData.useRGBShader', true)
                         setPropertyFromGroup('notes', i, 'noteCoverData.useRGBShader', true)
