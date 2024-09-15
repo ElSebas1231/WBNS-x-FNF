@@ -3723,6 +3723,8 @@
 		],
 		"gfVersion": "no-gf",
 		"disableNoteRGB": false,
+		"composer": "Sanko",
+		"charter": "Thunder",
 		"splashSkin": "noteSplashes",
 		"song": "Skywars",
 		"validScore": true,

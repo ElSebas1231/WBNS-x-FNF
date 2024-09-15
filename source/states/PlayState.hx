@@ -323,6 +323,14 @@ class PlayState extends MusicBeatState
 		Conductor.mapBPMChanges(SONG);
 		Conductor.bpm = SONG.bpm;
 
+		if (SONG.composer == null || SONG.composer == '') {
+			SONG.composer = 'Desconocido';
+		}
+
+		if (SONG.charter == null || SONG.charter == '') {
+			SONG.charter = 'Desconocido';
+		}
+
 		#if desktop
 		storyDifficultyText = Difficulty.getString();
 

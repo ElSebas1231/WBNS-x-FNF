@@ -6,10 +6,10 @@ import backend.Song;
 
 import flixel.group.FlxGroup;
 import flixel.graphics.FlxGraphic;
-import flixel.addons.display.FlxBackdrop;
 
 import objects.MenuItem;
 import objects.MenuCharacter;
+import objects.GradientText;
 
 import substates.GameplayChangersSubstate;
 import substates.ResetScoreSubState;
@@ -24,12 +24,11 @@ class StoryMenuState extends MusicBeatState
 	private static var lastDifficultyName:String = '';
 	var curDifficulty:Int = 1;
 
-	var txtWeekTitle:FlxText;
+	var txtWeekTitle:GradientText;
+	var titleFont:String = "Uni Sans Heavy.otf";
 	var bgSprite:FlxSprite;
 
 	private static var curWeek:Int = 0;
-
-	var txtTracklist:FlxText;
 
 	var grpWeekText:FlxTypedGroup<MenuItem>;
 
@@ -61,8 +60,8 @@ class StoryMenuState extends MusicBeatState
 		Paths.clearUnusedMemory();
 
 		if (stickerSubState != null && !ClientPrefs.data.noStickers) {
-			  openSubState(stickerSubState);
-			  stickerSubState.degenStickers();
+			openSubState(stickerSubState);
+			stickerSubState.degenStickers();
 		} else {
 			Paths.clearStoredMemory();
 		}
@@ -73,16 +72,14 @@ class StoryMenuState extends MusicBeatState
 		persistentUpdate = persistentDraw = true;
 
 		scoreText = new FlxText(10, 10, 0, "SCORE: 49324858", 36);
-		scoreText.setFormat("VCR OSD Mono", 32);
+		scoreText.setFormat(Paths.font(titleFont), 32);
 
 		var sillyText:FlxText = new FlxText(FlxG.width * 0.7, 10);
 		sillyText.text = 'Selección de semanas';
-		sillyText.setFormat(Paths.font("vcr.ttf"), 32);
+		sillyText.setFormat(Paths.font(titleFont), 32);
 		sillyText.size = scoreText.size;
 
-		txtWeekTitle = new FlxText(10, 650, 0, "", 40);
-		txtWeekTitle.x = sillyText.x + 200;
-		txtWeekTitle.setFormat("VCR OSD Mono", 40, FlxColor.WHITE, RIGHT);
+		txtWeekTitle = new GradientText(10, 650, "awawawa", 40, titleFont, FlxColor.RED, FlxColor.BLUE);
 
 		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
 
@@ -195,6 +192,7 @@ class StoryMenuState extends MusicBeatState
 		difficultySelectors.add(downArrow);
 
 		changeWeek();
+		updateText();
 		changeDifficulty();
 
 		super.create();
@@ -203,6 +201,7 @@ class StoryMenuState extends MusicBeatState
 	override function closeSubState() {
 		persistentUpdate = true;
 		changeWeek();
+		updateText();
 		super.closeSubState();
 	}
 
@@ -226,6 +225,7 @@ class StoryMenuState extends MusicBeatState
 			if (upP) {
 				FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 				changeWeek(-shiftMult);
+				updateText();
 				changeDifficulty();
 				holdTime = 0;
 			}
@@ -234,6 +234,7 @@ class StoryMenuState extends MusicBeatState
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 				changeWeek(shiftMult);
+				updateText();
 				changeDifficulty();
 				holdTime = 0;
 			}
@@ -301,6 +302,7 @@ class StoryMenuState extends MusicBeatState
 				FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 				changeWeek(-shiftMult * FlxG.mouse.wheel);
 				changeDifficulty();
+				updateText();
 			}
 
 			if(FlxG.keys.justPressed.CONTROL) {
@@ -450,8 +452,17 @@ class StoryMenuState extends MusicBeatState
 		WeekData.setDirectoryFromWeek(leWeek);
 
 		var leName:String = leWeek.storyName;
-		txtWeekTitle.text = leName.toUpperCase();
-		txtWeekTitle.x = FlxG.width - (txtWeekTitle.width + 10);
+
+		var gradientColor1:Array<Int> = leWeek.storyModeColor1;
+		var gradientColor2:Array<Int> = leWeek.storyModeColor2;
+
+		var color1 = FlxColor.fromRGB(gradientColor1[0], gradientColor1[1], gradientColor1[2]);
+		var color2 = FlxColor.fromRGB(gradientColor2[0], gradientColor2[1], gradientColor2[2]);
+
+		txtWeekTitle.setText(leName.toUpperCase(), titleFont);
+		txtWeekTitle.setColorRange(color1, color2);
+		txtWeekTitle.setPosition(FlxG.width * 0.7 - (txtWeekTitle.textWidth + 10 / 2), txtWeekTitle.startY);
+		trace('Cosa: ' + txtWeekTitle.startX);
 
 		var bullShit:Int = 0;
 
@@ -501,5 +512,20 @@ class StoryMenuState extends MusicBeatState
 		if(locked.contains(name))
 			return true;
 		return (!leWeek.startUnlocked && leWeek.weekBefore.length > 0 && (!weekCompleted.exists(leWeek.weekBefore) || !weekCompleted.get(leWeek.weekBefore)));
+	}
+
+	function updateText()
+	{
+		var gradientColor1:Array<Int> = loadedWeeks[curWeek].storyModeColor1;
+
+		var leWeek:WeekData = loadedWeeks[curWeek];
+		var stringThing:Array<String> = [];
+		for (i in 0...leWeek.songs.length) {
+			stringThing.push(leWeek.songs[i][0]);
+		}
+
+		#if !switch
+		intendedScore = Highscore.getWeekScore(loadedWeeks[curWeek].fileName, curDifficulty);
+		#end
 	}
 }

@@ -72,6 +72,17 @@ function onUpdate()
                     setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(skinsRGB['soarinng'][noteData + 1][2]))
                     setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(skinsRGB['soarinng'][noteData + 1][3]))
                 end
+
+                if getPropertyFromGroup('notes', i, 'noteType') == 'No Animation' or getPropertyFromGroup('notes', i, 'noteType') == 'Alt Animation' then
+                    setPropertyFromGroup('notes', i, 'texture', 'noteSkins/NOTE_assets-soarinng')
+                    setPropertyFromGroup('notes', i, 'noteSplashData.r', getColorFromHex(skinsRGB['soarinng'][noteData + 1][1]))
+                    setPropertyFromGroup('notes', i, 'noteSplashData.g', getColorFromHex(skinsRGB['soarinng'][noteData + 1][2]))
+                    setPropertyFromGroup('notes', i, 'noteSplashData.b', getColorFromHex(skinsRGB['soarinng'][noteData + 1][3]))
+    
+                    setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(skinsRGB['soarinng'][noteData + 1][1]))
+                    setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(skinsRGB['soarinng'][noteData + 1][2]))
+                    setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(skinsRGB['soarinng'][noteData + 1][3]))
+                end
             end
         end
 
@@ -86,7 +97,9 @@ function onUpdate()
                     setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(skinsRGB['soarinng'][noteData + 1][1]))
                     setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(skinsRGB['soarinng'][noteData + 1][2]))
                     setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(skinsRGB['soarinng'][noteData + 1][3]))
-                else
+                end
+
+                if getPropertyFromGroup('notes', i, 'noteType') == '' then
                     setPropertyFromGroup('notes', i, 'texture', 'noteSkins/NOTE_assets-soarinng')
                     setPropertyFromGroup('notes', i, 'noteSplashData.r', getColorFromHex(skinsRGB['soarinng'][noteData + 1][1]))
                     setPropertyFromGroup('notes', i, 'noteSplashData.g', getColorFromHex(skinsRGB['soarinng'][noteData + 1][2]))

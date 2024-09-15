@@ -26,6 +26,8 @@ typedef SwagSong =
 	
 	@:optional var disableNoteRGB:Bool;
 
+	@:optional var composer:String;
+	@:optional var charter:String;
 	@:optional var arrowSkin:String;
 	@:optional var splashSkin:String;
 }
@@ -37,6 +39,7 @@ class Song
 	public var events:Array<Dynamic>;
 	public var bpm:Float;
 	public var needsVoices:Bool = true;
+	public var composer:String = 'Desconocido';
 	public var arrowSkin:String;
 	public var splashSkin:String;
 	public var gameOverChar:String;

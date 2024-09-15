@@ -5315,6 +5315,8 @@
 			}
 		],
 		"gfVersion": "no-gf",
+		"composer": "Sanko",
+		"charter": "TelmexCedric",
 		"disableNoteRGB": false,
 		"splashSkin": "noteSplashes",
 		"song": "Skywars",
