@@ -462,7 +462,7 @@ class StoryMenuState extends MusicBeatState
 		txtWeekTitle.setText(leName.toUpperCase(), titleFont);
 		txtWeekTitle.setColorRange(color1, color2);
 		txtWeekTitle.setPosition(FlxG.width * 0.7 - (txtWeekTitle.textWidth + 10 / 2), txtWeekTitle.startY);
-		trace('Cosa: ' + txtWeekTitle.startX);
+		//trace('Cosa: ' + txtWeekTitle.startX);
 
 		var bullShit:Int = 0;
 

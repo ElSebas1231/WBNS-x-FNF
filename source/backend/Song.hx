@@ -40,6 +40,7 @@ class Song
 	public var bpm:Float;
 	public var needsVoices:Bool = true;
 	public var composer:String = 'Desconocido';
+	public var charter:String = 'Desconocido';
 	public var arrowSkin:String;
 	public var splashSkin:String;
 	public var gameOverChar:String;

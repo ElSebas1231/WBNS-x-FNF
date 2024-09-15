@@ -6,6 +6,8 @@ import backend.WeekData;
 import backend.Song;
 import backend.Section;
 import backend.Rating;
+import backend.Scoring;
+import backend.FunkinTools;
 
 import flixel.FlxBasic;
 import flixel.FlxObject;
@@ -29,8 +31,12 @@ import states.FreeplayState;
 import states.editors.ChartingState;
 import states.editors.CharacterEditorState;
 
+import states.results.Tallies;
+import states.results.ResultState;
+
 import substates.PauseSubState;
 import substates.GameOverSubstate;
+import substates.StickerSubState;
 
 #if !flash
 import flixel.addons.display.FlxRuntimeShader;
@@ -147,6 +153,10 @@ class PlayState extends MusicBeatState
 	public static var storyPlaylist:Array<String> = [];
 	public static var storyDifficulty:Int = 1;
 
+	//! new shit
+	public static var storyCampaignTitle = "";
+	public static var storyDifficultyColor = FlxColor.GRAY;
+
 	public var spawnTime:Float = 2000;
 
 	public var vocals:FlxSound;
@@ -179,6 +189,7 @@ class PlayState extends MusicBeatState
 	public var gfSpeed:Int = 1;
 	public var health(default, set):Float = 1;
 	public var combo:Int = 0;
+	public var maxCombo:Int = 0;
 
 	public var healthBar:Bar;
 	public var timeBar:Bar;
@@ -223,6 +234,8 @@ class PlayState extends MusicBeatState
 	public static var campaignMisses:Int = 0;
 	public static var seenCutscene:Bool = false;
 	public static var deathCounter:Int = 0;
+
+	public static var campaignSaveData:SaveScoreData = FunkinTools.newTali();
 
 	public var defaultCamZoom:Float = 1.05;
 
@@ -345,9 +358,9 @@ class PlayState extends MusicBeatState
 
 		var rpcSongs:Array<String> = [
 			'animal conflict', 'ay wtf', 'baneado', 'beat the gf', 'boneless wings', 'code c3jo',
-			'creepers', 'dad', 'dinamica', 'disco fish', "don't look up", 'double a', 'era bait',
+			'creepers', 'dad', 'dinamica', 'disco fish', 'double a', 'era bait',
 			'free the end', 'goty', 'how bad can i be', 'identical', 'late night', 'laughs',
-			"let's go compota", 'loco classic encore', 'lore (soarinng mix)', 'made in 2002',
+			'loco classic encore', 'lore (soarinng mix)', 'made in 2002',
 			'memes', 'mexican school', 'night guards', 'penguin or rat', 'possesion', 'report',
 			'rethey forever', 'run away and hide', 'run natalan', 'skywars', 'snow goal', 'speedrun',
 			'the keys', 'top streamer', 'travel in trouble', 'trivia', 'uncoordinated', 'unerected victory',
@@ -373,8 +386,16 @@ class PlayState extends MusicBeatState
 			}
 		}
 		
-		if (SONG.song.contains('lore (soarinng mix)')) {
+		if (SONG.song.contains('Lore (Soarinng Mix)')) {
 			songPortrait = 'lore-soarinng-mix';
+		}
+
+		if (SONG.song.toLowerCase() == "don't look up") {
+			songPortrait = 'dont-look-up';
+		}
+
+		if (SONG.song.toLowerCase() == "let's go compota") {
+			songPortrait = 'lets-go-compota';
 		}
 
 		if (SONG.song.toLowerCase() == 'made in 2002') {
@@ -383,6 +404,26 @@ class PlayState extends MusicBeatState
 			} else {
 				songPortrait = 'made-in-2002';
 			}
+		}
+
+		if (SONG.song.toLowerCase() == 'possesion') {
+			if (isStoryMode) {  // everybody knows, but i'll do it anyways
+				songPortrait = 'penguin-or-rat';
+			} else {
+				songPortrait = 'possesion';
+			}
+		}
+
+		if (storyDifficultyText.toLowerCase() == 'easy'){
+			storyDifficultyColor = FlxColor.fromString('#a4f96a');
+		} else if (storyDifficultyText.toLowerCase() == 'normal') {
+			storyDifficultyColor = FlxColor.fromString('#f9feb1');
+		} else if (storyDifficultyText.toLowerCase() == 'hard') {
+			storyDifficultyColor = FlxColor.fromString('#fe9d5c');
+		} else if (storyDifficultyText.toLowerCase() == 'insane') {
+			storyDifficultyColor = FlxColor.fromString('#961eb1');
+		} else if (storyDifficultyText.toLowerCase() == 'soarinng') {
+			storyDifficultyColor = FlxColor.fromString('#fad496');
 		}
 				
 		songPortrait = songPortrait.replace(' ', '-');
@@ -1739,6 +1780,23 @@ class PlayState extends MusicBeatState
 					DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText.toUpperCase() + ")", songPortrait, iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.data.noteOffset);
 				}
 			}
+
+			if (SONG.song.toLowerCase() == 'possesion') {
+				if (curStep >= 1535) {
+					songPortrait = 'possesion';
+					DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText.toUpperCase() + ")", songPortrait, iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.data.noteOffset);
+				}
+			}
+		}
+
+		if (SONG.song.toLowerCase() == 'rethey forever') {
+			if (curStep >= 912 && curStep <= 1168) {
+				songPortrait = 'rethey-old';
+				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText.toUpperCase() + ")", songPortrait, iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.data.noteOffset);
+			} else {
+				songPortrait = 'rethey-forever';
+				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText.toUpperCase() + ")", songPortrait, iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.data.noteOffset);
+			}
 		}
 
 		if(botplayTxt != null && botplayTxt.visible) {
@@ -2428,13 +2486,23 @@ class PlayState extends MusicBeatState
 		seenCutscene = false;
 
 		var ret:Dynamic = callOnScripts('onEndSong', null, true);
+		var accPts = ratingPercent * totalPlayed;
 		if(ret != FunkinLua.Function_Stop && !transitioning)
 		{
-			#if !switch
-			var percent:Float = ratingPercent;
-			if(Math.isNaN(percent)) percent = 0;
-			Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
-			#end
+			var tempActiveTallises = {
+          		score: songScore,
+		  		accPoints: accPts,
+          		sick: ratingsData[0].hits,
+            	good: ratingsData[1].hits,
+              	bad: ratingsData[2].hits,
+          		shit: ratingsData[3].hits,
+          		missed: songMisses,
+          		combo: combo,
+            	maxCombo: maxCombo,
+              	totalNotesHit: totalPlayed,
+              	totalNotes: 69,
+        	};
+
 			playbackRate = 1;
 
 			if (chartingMode)
@@ -2448,28 +2516,35 @@ class PlayState extends MusicBeatState
 				campaignScore += songScore;
 				campaignMisses += songMisses;
 
+				campaignSaveData = FunkinTools.combineTallies(campaignSaveData, tempActiveTallises);
+
 				storyPlaylist.remove(storyPlaylist[0]);
 
 				if (storyPlaylist.length <= 0)
 				{
-					Mods.loadTopMod();
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
-					#if desktop DiscordClient.resetClientID(); #end
+					var prevScore = Highscore.getWeekScore(WeekData.weeksList[storyWeek],storyDifficulty);
+					var wasFC = Highscore.getWeekFC(WeekData.weeksList[storyWeek],storyDifficulty);
+					var prevAcc = Highscore.getWeekAccuracy(WeekData.weeksList[storyWeek],storyDifficulty);
+					var prevRank = Scoring.calculateRankFromData(prevScore, prevAcc, wasFC);
 
-					cancelMusicFadeTween();
-					if(FlxTransitionableState.skipNextTransIn) {
-						CustomFadeTransition.nextCamera = null;
-					}
-					FlxG.switchState(() -> new StoryMenuState());
+					//Mods.loadTopMod();
+					// FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					#if desktop DiscordClient.resetClientID(); #end
 
 					// if ()
 					if(!ClientPrefs.getGameplaySetting('practice') && !ClientPrefs.getGameplaySetting('botplay')) {
 						StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
+						
+						var weekAccuracy = FlxMath.bound(campaignSaveData.accPoints / campaignSaveData.totalNotesHit, 0, 1);
 						Highscore.saveWeekScore(WeekData.getWeekFileName(), campaignScore, storyDifficulty);
 
 						FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
 						FlxG.save.flush();
+
+						zoomIntoResultsScreen(prevScore < campaignSaveData.score, campaignSaveData, prevRank);
+						campaignSaveData = FunkinTools.newTali();
 					}
+
 					changedDifficulty = false;
 				}
 				else
@@ -2493,20 +2568,128 @@ class PlayState extends MusicBeatState
 			else
 			{
 				trace('WENT BACK TO FREEPLAY??');
-				Mods.loadTopMod();
+				
+				var wasFC = Highscore.getFCState(curSong, PlayState.storyDifficulty);
+				var prevScore = Highscore.getScore(curSong, PlayState.storyDifficulty);
+				var prevAcc = Highscore.getRating(curSong, PlayState.storyDifficulty);
+
+				//trace('PrevScore: ' + prevScore);
+				//trace('Tallie Score: ' + tempActiveTallises.score);
+
+				var prevRank = Scoring.calculateRankFromData(prevScore,prevAcc,wasFC);
+
 				#if desktop DiscordClient.resetClientID(); #end
 
-				cancelMusicFadeTween();
-				if(FlxTransitionableState.skipNextTransIn) {
-					CustomFadeTransition.nextCamera = null;
+				if (!ClientPrefs.getGameplaySetting('botplay')) {
+					zoomIntoResultsScreen(prevScore < tempActiveTallises.score, tempActiveTallises, prevRank);
+				} else {
+					FlxG.switchState(() -> new FreeplayState());
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				}
-				FlxG.switchState(() -> new FreeplayState());
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				changedDifficulty = false;
 			}
+
+			#if !switch
+			var percent:Float = ratingPercent;
+			if(Math.isNaN(percent)) percent = 0;
+			Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent, songMisses == 0);
+			#end
+
 			transitioning = true;
 		}
 		return true;
+	}
+
+	/*
+     * Play the camera zoom animation and then move to the results screen once it's done.
+	*/
+	function zoomIntoResultsScreen(isNewHighscore:Bool, scoreData:SaveScoreData, prevScoreRank:ScoringRank):Void
+	{
+		if(!ClientPrefs.data.vsliceResults){
+			var resultingAccuracy = Math.min(1, scoreData.accPoints / scoreData.totalNotesHit); 
+			if(isNewHighscore && !isStoryMode){
+				camOther.fade(FlxColor.BLACK, 0.6,false,() -> {
+					FlxTransitionableState.skipNextTransOut = true;
+					FlxG.switchState(() -> new FreeplayState());
+				});
+			} else if (!isStoryMode){
+				if (!ClientPrefs.data.noStickers) {
+					openSubState(new StickerSubState(null, (sticker) -> new FreeplayState(sticker)));
+				} else {
+					FlxG.switchState(() -> new FreeplayState());
+				}
+			} else {
+				if (!ClientPrefs.data.noStickers) {
+					openSubState(new StickerSubState(null, (sticker) -> new StoryMenuState(sticker)));
+				} else {
+					FlxG.switchState(() -> new StoryMenuState());
+				}
+			}
+
+			return;
+		}
+
+		// If the opponent is GF, zoom in on the opponent.
+		// Else, if there is no GF, zoom in on BF.
+		// Else, zoom in on GF.
+
+		var targetDad:Bool = dad != null && dad.curCharacter == 'gf';
+		var targetBF:Bool = gf == null && !targetDad;
+
+		if (targetBF) {
+			FlxG.camera.follow(boyfriend, null, 0.05);
+		} else if (targetDad) {
+			FlxG.camera.follow(dad, null, 0.05);
+		} else {
+			FlxG.camera.follow(gf, null, 0.05);
+		}
+
+		// TODO: Make target offset configurable.
+		// In the meantime, we have to replace the zoom animation with a fade out.
+		FlxG.camera.targetOffset.y -= 50;
+
+		// Replace zoom animation with a fade out for now.
+		FlxG.camera.fade(FlxColor.BLACK, 0.6);
+
+		FlxTween.tween(camHUD, {alpha: 0}, 0.6, {
+			onComplete: function(_) {
+				moveToResultsScreen(isNewHighscore, scoreData, prevScoreRank);
+			}
+		});
+
+		new FlxTimer().start(0.8, function(_) {
+			if (targetBF) {
+				if (boyfriend.animOffsets.exists('hey')) boyfriend.animation.play('hey');
+			} else if (targetDad) {
+				if (dad.animOffsets.exists('hey')) dad.animation.play('hey');
+			} else {
+				if (gf.animOffsets.exists('cheer')) gf.animation.play('cheer');
+			}
+		});
+	}
+
+	/**
+	 * Move to the results screen right goddamn now.
+	*/
+
+	function moveToResultsScreen(isNewHighscore:Bool, scoreData:SaveScoreData, prevScoreRank:ScoringRank):Void
+	{
+		persistentUpdate = false;
+
+		vocals.stop();
+		camHUD.alpha = 1;
+
+		var res:ResultState = new ResultState({
+			storyMode: isStoryMode,
+			songId: curSong,
+			difficultyId: Difficulty.getString(),
+			title: isStoryMode ? ('${storyCampaignTitle}') : ('${curSong} by ${SONG.composer}'),
+			scoreData: scoreData,
+			prevScoreRank: prevScoreRank,
+			isNewHighscore: isNewHighscore
+		});
+		this.persistentDraw = false;
+		openSubState(res);
 	}
 
 	public function KillNotes() {
@@ -3138,6 +3321,7 @@ class PlayState extends MusicBeatState
 		if (!note.isSustainNote)
 		{
 			combo++;
+			maxCombo = FlxMath.maxInt(maxCombo,combo);
 			if(combo > 9999) combo = 9999;
 			popUpScore(note);
 			var gainHealth:Bool = true; // prevent health gain, as sustains are threated as a singular note

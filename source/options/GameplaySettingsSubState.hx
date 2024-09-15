@@ -33,11 +33,17 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		var option:Option = new Option('Sustains como una nota',
-		"Si está marcado, no puedes presionar las notas largas\nsi las fallaste, contando como un hit o miss.\nDesactiva esto si prefieres el antiguo Input System.",
-		'guitarHeroSustains',
-		'bool');
-	addOption(option);
+			"Si está marcado, no puedes presionar las notas largas\nsi las fallaste, contando como un hit o miss.\nDesactiva esto si prefieres el antiguo Input System.",
+			'guitarHeroSustains',
+			'bool');
+		addOption(option);
 		
+		var option:Option = new Option('Pantalla de Resultados',
+			"Si está marcado, al terminar una canción se mostrará la pantalla de resultados de la versión 0.4.1 de FNF.",
+			'vsliceResults',
+			'bool');
+		addOption(option);
+
 		var option:Option = new Option('Pausa automática',
 			"Si está marcada, el juego se pausará al estar en otra ventana.",
 			'autoPause',
