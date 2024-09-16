@@ -42,6 +42,7 @@ class MusicBeatState extends FlxUIState
 	{
 		var camera = new PsychCamera();
 		FlxG.cameras.reset(camera);
+		camera.bgColor = FlxColor.BLACK;
 		FlxG.cameras.setDefaultDrawTarget(camera, true);
 		_psychCameraInitialized = true;
 		//trace('initialized psych camera ' + Sys.cpuTime());

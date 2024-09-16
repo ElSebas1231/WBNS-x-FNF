@@ -114,7 +114,7 @@ class ResultState extends MusicBeatSubstate
 		// We need multiple cameras so we can put one at an angle.
 		cameraScroll.angle = -3.8;
 
-		cameraBG.bgColor = FlxColor.MAGENTA;
+		cameraBG.bgColor = FlxColor.BLACK;
 		cameraScroll.bgColor = FlxColor.TRANSPARENT;
 		cameraEverything.bgColor = FlxColor.TRANSPARENT;
 		cameraOverlay.bgColor = FlxColor.TRANSPARENT;
@@ -459,22 +459,12 @@ class ResultState extends MusicBeatSubstate
 			}
 		}
 
-		if (FlxG.keys.justPressed.RIGHT) speedOfTween.x += 0.1;
-
-		if (FlxG.keys.justPressed.LEFT) {
-			speedOfTween.x -= 0.1;
-		}
-
-		if (controls.PAUSE) {
+		if (controls.ACCEPT || FlxG.mouse.justPressedRight) {
 			if (FlxG.sound.music != null) {
-				FlxTween.tween(FlxG.sound.music, {volume: 0}, 0.8);
-				FlxTween.tween(FlxG.sound.music, {pitch: 3}, 0.1,
-					{
+				FlxTween.tween(FlxG.sound.music, {volume: 0}, 0.5);
+				FlxTween.tween(FlxG.sound.music, {pitch: 3}, 0.1, {
 					onComplete: _ -> {
-						FlxTween.tween(FlxG.sound.music, {pitch: 0.5}, 0.4);
-
-						FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
-						FlxG.sound.music.fadeIn(2, 0, 0.8);
+						FlxTween.tween(FlxG.sound.music, {pitch: 0}, 0.4);
 					}
 				});
 			}
@@ -483,15 +473,32 @@ class ResultState extends MusicBeatSubstate
 				if (!ClientPrefs.data.noStickers) {
 					openSubState(new StickerSubState(null, (sticker) -> new StoryMenuState(sticker)));
 				} else {
+					if(FlxTransitionableState.skipNextTransIn) {
+						CustomFadeTransition.nextCamera = null;
+					}
 					FlxG.switchState(() -> new StoryMenuState());
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				}
 			} else {
-				var rigged:Bool = true;
-
-				if (!ClientPrefs.data.noStickers) {
-					openSubState(new StickerSubState(null, (sticker) -> new FreeplayState(sticker)));
+				if (rank > params.prevScoreRank) {
+					add(rankBg);
+					FlxTween.tween(rankBg, {alpha: 1}, 0.5, {
+						ease: FlxEase.expoOut,
+						onComplete: function(_) {
+							FlxTransitionableState.skipNextTransOut = true;
+							FlxG.switchState(() -> new FreeplayState());
+						}
+					});
 				} else {
-					FlxG.switchState(() -> new FreeplayState());
+					if (!ClientPrefs.data.noStickers) {
+						openSubState(new StickerSubState(null, (sticker) -> new FreeplayState(sticker)));
+					} else {
+						if(FlxTransitionableState.skipNextTransIn) {
+							CustomFadeTransition.nextCamera = null;
+						}
+						FlxG.switchState(() -> new FreeplayState());
+						FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					}
 				}
 			}
 		}

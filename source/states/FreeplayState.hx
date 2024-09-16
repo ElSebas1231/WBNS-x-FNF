@@ -251,7 +251,7 @@ class FreeplayState extends MusicBeatState
 		if (!player.playingMusic)
 		{
 			scoreText.text = 'MEJOR PUNTUACIÓN: ' + lerpScore + ' (' + ratingSplit.join('.') + '%)';
-			completitionText.text = 'COMPLETADO: ' + ' (' + Math.floor(lerpCompletion * 100) + '%)';
+			completitionText.text = 'COMPLETADO: ' + '(' + Math.floor(lerpCompletion * 100) + '%)';
 			positionHighscore();
 			
 			if(songs.length > 1)

@@ -373,9 +373,7 @@ class Scoring
 		}
 
 		// Else, use the standard grades
-
-		if (sngFC)
-		{
+		if (sngAccuracy == 1){
 			return ScoringRank.PERFECT;
 		}
 		else if (sngAccuracy >= 0.90)

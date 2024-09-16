@@ -415,11 +415,11 @@ class PlayState extends MusicBeatState
 		}
 
 		if (storyDifficultyText.toLowerCase() == 'easy'){
-			storyDifficultyColor = FlxColor.fromString('#a4f96a');
+			storyDifficultyColor = FlxColor.fromString('#23a977');
 		} else if (storyDifficultyText.toLowerCase() == 'normal') {
-			storyDifficultyColor = FlxColor.fromString('#f9feb1');
+			storyDifficultyColor = FlxColor.fromString('#f98862');
 		} else if (storyDifficultyText.toLowerCase() == 'hard') {
-			storyDifficultyColor = FlxColor.fromString('#fe9d5c');
+			storyDifficultyColor = FlxColor.fromString('#e61a3e');
 		} else if (storyDifficultyText.toLowerCase() == 'insane') {
 			storyDifficultyColor = FlxColor.fromString('#961eb1');
 		} else if (storyDifficultyText.toLowerCase() == 'soarinng') {
@@ -2502,7 +2502,7 @@ class PlayState extends MusicBeatState
               	totalNotesHit: totalPlayed,
               	totalNotes: 69,
         	};
-
+			
 			playbackRate = 1;
 
 			if (chartingMode)
@@ -2583,6 +2583,11 @@ class PlayState extends MusicBeatState
 				if (!ClientPrefs.getGameplaySetting('botplay')) {
 					zoomIntoResultsScreen(prevScore < tempActiveTallises.score, tempActiveTallises, prevRank);
 				} else {
+					cancelMusicFadeTween();
+					if(FlxTransitionableState.skipNextTransIn) {
+						CustomFadeTransition.nextCamera = null;
+					}
+	
 					FlxG.switchState(() -> new FreeplayState());
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				}
@@ -2613,17 +2618,19 @@ class PlayState extends MusicBeatState
 					FlxG.switchState(() -> new FreeplayState());
 				});
 			} else if (!isStoryMode){
-				if (!ClientPrefs.data.noStickers) {
-					openSubState(new StickerSubState(null, (sticker) -> new FreeplayState(sticker)));
-				} else {
-					FlxG.switchState(() -> new FreeplayState());
+				cancelMusicFadeTween();
+				if(FlxTransitionableState.skipNextTransIn) {
+					CustomFadeTransition.nextCamera = null;
 				}
+				FlxG.switchState(() -> new FreeplayState());
+				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 			} else {
-				if (!ClientPrefs.data.noStickers) {
-					openSubState(new StickerSubState(null, (sticker) -> new StoryMenuState(sticker)));
-				} else {
-					FlxG.switchState(() -> new StoryMenuState());
+				cancelMusicFadeTween();
+				if(FlxTransitionableState.skipNextTransIn) {
+					CustomFadeTransition.nextCamera = null;
 				}
+				FlxG.switchState(() -> new StoryMenuState());
+				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 			}
 
 			return;
