@@ -36,7 +36,6 @@ import states.results.ResultState;
 
 import substates.PauseSubState;
 import substates.GameOverSubstate;
-import substates.StickerSubState;
 
 #if !flash
 import flixel.addons.display.FlxRuntimeShader;
@@ -2580,7 +2579,7 @@ class PlayState extends MusicBeatState
 
 				#if desktop DiscordClient.resetClientID(); #end
 
-				if (!ClientPrefs.getGameplaySetting('botplay')) {
+				if (!ClientPrefs.getGameplaySetting('botplay') && ClientPrefs.data.vsliceResults) {
 					zoomIntoResultsScreen(prevScore < tempActiveTallises.score, tempActiveTallises, prevRank);
 				} else {
 					cancelMusicFadeTween();
@@ -2610,32 +2609,6 @@ class PlayState extends MusicBeatState
 	*/
 	function zoomIntoResultsScreen(isNewHighscore:Bool, scoreData:SaveScoreData, prevScoreRank:ScoringRank):Void
 	{
-		if(!ClientPrefs.data.vsliceResults){
-			var resultingAccuracy = Math.min(1, scoreData.accPoints / scoreData.totalNotesHit); 
-			if(isNewHighscore && !isStoryMode){
-				camOther.fade(FlxColor.BLACK, 0.6,false,() -> {
-					FlxTransitionableState.skipNextTransOut = true;
-					FlxG.switchState(() -> new FreeplayState());
-				});
-			} else if (!isStoryMode){
-				cancelMusicFadeTween();
-				if(FlxTransitionableState.skipNextTransIn) {
-					CustomFadeTransition.nextCamera = null;
-				}
-				FlxG.switchState(() -> new FreeplayState());
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
-			} else {
-				cancelMusicFadeTween();
-				if(FlxTransitionableState.skipNextTransIn) {
-					CustomFadeTransition.nextCamera = null;
-				}
-				FlxG.switchState(() -> new StoryMenuState());
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
-			}
-
-			return;
-		}
-
 		// If the opponent is GF, zoom in on the opponent.
 		// Else, if there is no GF, zoom in on BF.
 		// Else, zoom in on GF.

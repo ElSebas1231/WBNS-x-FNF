@@ -464,7 +464,11 @@ class ResultState extends MusicBeatSubstate
 				FlxTween.tween(FlxG.sound.music, {volume: 0}, 0.5);
 				FlxTween.tween(FlxG.sound.music, {pitch: 3}, 0.1, {
 					onComplete: _ -> {
-						FlxTween.tween(FlxG.sound.music, {pitch: 0}, 0.4);
+						FlxTween.tween(FlxG.sound.music, {pitch: 0.5}, 0.4, {
+							onComplete: _ -> {
+								FlxG.sound.playMusic(Paths.music('freakyMenu'));
+							}
+						});
 					}
 				});
 			}
@@ -473,22 +477,17 @@ class ResultState extends MusicBeatSubstate
 				if (!ClientPrefs.data.noStickers) {
 					openSubState(new StickerSubState(null, (sticker) -> new StoryMenuState(sticker)));
 				} else {
-					if(FlxTransitionableState.skipNextTransIn) {
+					if (FlxTransitionableState.skipNextTransIn) {
 						CustomFadeTransition.nextCamera = null;
 					}
 					FlxG.switchState(() -> new StoryMenuState());
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				}
 			} else {
 				if (rank > params.prevScoreRank) {
-					add(rankBg);
-					FlxTween.tween(rankBg, {alpha: 1}, 0.5, {
-						ease: FlxEase.expoOut,
-						onComplete: function(_) {
-							FlxTransitionableState.skipNextTransOut = true;
-							FlxG.switchState(() -> new FreeplayState());
-						}
-					});
+					if (FlxTransitionableState.skipNextTransIn) {
+						CustomFadeTransition.nextCamera = null;
+					}
+					FlxG.switchState(() -> new FreeplayState());
 				} else {
 					if (!ClientPrefs.data.noStickers) {
 						openSubState(new StickerSubState(null, (sticker) -> new FreeplayState(sticker)));
@@ -497,7 +496,6 @@ class ResultState extends MusicBeatSubstate
 							CustomFadeTransition.nextCamera = null;
 						}
 						FlxG.switchState(() -> new FreeplayState());
-						FlxG.sound.playMusic(Paths.music('freakyMenu'));
 					}
 				}
 			}

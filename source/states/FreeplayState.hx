@@ -225,6 +225,12 @@ class FreeplayState extends MusicBeatState
 	var holdTime:Float = 0;
 	override function update(elapsed:Float)
 	{
+		if (FlxG.sound.music.volume < 0.8) {
+			FlxG.sound.music.volume += 0.5 * elapsed;
+			
+			if (FreeplayState.vocals != null) FreeplayState.vocals.volume += 0.5 * elapsed;
+		}
+
 		lerpScore = Math.floor(FlxMath.lerp(lerpScore, intendedScore, FlxMath.bound(elapsed * 24, 0, 1)));
 		lerpRating = MathUtil.smoothLerp(lerpRating, intendedRating, elapsed, 0.5);
 		lerpCompletion = MathUtil.smoothLerp(lerpCompletion, intendedCompletion, elapsed, 0.5);
