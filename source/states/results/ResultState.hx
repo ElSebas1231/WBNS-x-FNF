@@ -111,6 +111,10 @@ class ResultState extends MusicBeatSubstate
 	{
 		if (FlxG.sound.music != null) FlxG.sound.music.stop();
 
+		#if desktop
+		DiscordClient.changePresence('¡Pantalla de Resultados! - ' + (params.storyMode == false ? 'Freeplay' : 'Story Modex'), Difficulty.list[PlayState.storyDifficulty].toUpperCase() + ' - ' + params.title, 'results');
+		#end
+
 		// We need multiple cameras so we can put one at an angle.
 		cameraScroll.angle = -3.8;
 
@@ -507,44 +511,33 @@ class ResultState extends MusicBeatSubstate
 
 typedef ResultsStateParams =
 {
-	/*
-	* True if results are for a level, false if results are for a single song.
-	*/
+	// True if results are for a level, false if results are for a single song.
 	var storyMode:Bool;
 
-	/**
-	 * Either "Song Name by Artist Name" or "Week Name"
-	 */
+	// Either "Song Name by Artist Name" or "Week Name"
 	var title:String;
 
 	var songId:String;
 
-	/**
-	 * Whether the displayed score is a new highscore
-	 */
+	// Whether the displayed score is a new highscore
 	var ?isNewHighscore:Bool;
 
 	/**
 	 * The difficulty ID of the song/week we just played.
 	 * @default Normal
-	 */
+	*/
 	var ?difficultyId:String;
 
-	/**
-	 * The score, accuracy, and judgements.
-	 */
+	// The score, accuracy, and judgements.
 	var scoreData:SaveScoreData;
-	/**
-	 * Previous
-	 */
+
+	// Previous
 	var prevScoreRank:ScoringRank;
 };
 
 typedef SaveScoreData =
 {
-	/**
-	 * The score achieved.
-	 */
+	// The score achieved.
 	var score:Int;
 	var accPoints:Float; // Hit points. Divide by all notes to get accuracy
 

@@ -1689,25 +1689,25 @@ class PlayState extends MusicBeatState
 
 	override public function onFocus():Void
 	{
-		if (health > 0 && !paused) resetRPC(Conductor.songPosition > 0.0);
+		if (!onResults){
+			if (health > 0 && !paused) resetRPC(Conductor.songPosition > 0.0);
 
-		if (!ClientPrefs.data.autoPause && !isDead)
-		{
-			persistentUpdate = !paused;
-			persistentDraw = true;
+			if (!ClientPrefs.data.autoPause && !isDead) {
+				persistentUpdate = !paused;
+				persistentDraw = true;
+			}
 		}
 		super.onFocus();
 	}
 
 	override public function onFocusLost():Void
 	{
-		#if desktop
-		if (health > 0 && !paused && autoUpdateRPC) DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText.toUpperCase() + ")", songPortrait, iconP2.getCharacter());
-		#end
-
-		if (!ClientPrefs.data.autoPause && startedCountdown && !paused && canPause && !cpuControlled && !inCutscene)
-		{
-			openPauseMenu();
+		if (!onResults){
+			#if desktop
+			if (health > 0 && !paused && autoUpdateRPC) DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText.toUpperCase() + ")", songPortrait, iconP2.getCharacter());
+			#end
+	
+			if (!ClientPrefs.data.autoPause && startedCountdown && !paused && canPause && !cpuControlled && !inCutscene) openPauseMenu();
 		}
 
 		super.onFocusLost();
@@ -1745,6 +1745,7 @@ class PlayState extends MusicBeatState
 	}
 
 	public var paused:Bool = false;
+	public var onResults:Bool = false;
 	public var canReset:Bool = true;
 	var startedCountdown:Bool = false;
 	var canPause:Bool = true;
@@ -2655,6 +2656,7 @@ class PlayState extends MusicBeatState
 	function moveToResultsScreen(isNewHighscore:Bool, scoreData:SaveScoreData, prevScoreRank:ScoringRank):Void
 	{
 		persistentUpdate = false;
+		onResults = true;
 
 		vocals.stop();
 		camHUD.alpha = 1;
