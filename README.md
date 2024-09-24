@@ -5,7 +5,7 @@ Made based on some videos or silly situations from a group of youtubers.
 
 ## Downloads
 
-You can download the builded game from **[GameBanana](https://gamebanana.com/mods/522703) or [GameJolt](https://gamejolt.com/games/wbnsxfnfmod/904827)**
+You can download the builded game from **[GameJolt](https://gamejolt.com/games/wbnsxfnfmod/904827)**
 
 ## Links
 
