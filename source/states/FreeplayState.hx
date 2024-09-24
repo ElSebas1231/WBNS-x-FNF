@@ -257,7 +257,7 @@ class FreeplayState extends MusicBeatState
 		if (!player.playingMusic)
 		{
 			scoreText.text = 'MEJOR PUNTUACIÓN: ' + lerpScore + ' (' + ratingSplit.join('.') + '%)';
-			completitionText.text = 'COMPLETADO: ' + '(' + Math.floor(lerpCompletion * 100) + '%)';
+			completitionText.text = 'COMPLETADO: ' + '(' + Math.floor(lerpCompletion) + '%)';
 			positionHighscore();
 			
 			if(songs.length > 1)
@@ -501,7 +501,7 @@ class FreeplayState extends MusicBeatState
 		#if !switch
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
 		intendedRating = Highscore.getRating(songs[curSelected].songName, curDifficulty);
-		intendedCompletion = Highscore.getRating(songs[curSelected].songName, curDifficulty);
+		intendedCompletion = Highscore.getCompletition(songs[curSelected].songName, curDifficulty);
 		#end
 
 		lastDifficultyName = Difficulty.getString(curDifficulty);

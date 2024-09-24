@@ -353,11 +353,10 @@ class Scoring
 			return null;
 		var sngScore = Highscore.songScores.get(formattedSngName);
 		var sngAccuracy = Highscore.songRating.get(formattedSngName);
-		var sngFC = Highscore.songFCState.get(formattedSngName);
-		return calculateRankFromData(sngScore, sngAccuracy, sngFC);
+		return calculateRankFromData(sngScore, sngAccuracy);
 	}
 
-	public static function calculateRankFromData(sngScore:Int, sngAccuracy:Float, sngFC:Bool):Null<ScoringRank>
+	public static function calculateRankFromData(sngScore:Int, sngAccuracy:Float):Null<ScoringRank>
 	{
 		// Reminder that it MUSt be formatted first
 
@@ -365,15 +364,8 @@ class Scoring
 		if (sngScore == 0)
 			return null;
 
-		// Perfect (Platinum) is a Sick Full Clear
-		var isPerfectGold = sngAccuracy >= 1;
-		if (isPerfectGold)
-		{
-			return ScoringRank.PERFECT_GOLD;
-		}
-
 		// Else, use the standard grades
-		if (sngAccuracy == 1){
+		if (sngAccuracy >= 1){
 			return ScoringRank.PERFECT;
 		}
 		else if (sngAccuracy >= 0.90)

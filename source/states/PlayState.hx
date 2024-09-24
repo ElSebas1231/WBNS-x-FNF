@@ -2523,9 +2523,8 @@ class PlayState extends MusicBeatState
 				if (storyPlaylist.length <= 0)
 				{
 					var prevScore = Highscore.getWeekScore(WeekData.weeksList[storyWeek],storyDifficulty);
-					var wasFC = Highscore.getWeekFC(WeekData.weeksList[storyWeek],storyDifficulty);
 					var prevAcc = Highscore.getWeekAccuracy(WeekData.weeksList[storyWeek],storyDifficulty);
-					var prevRank = Scoring.calculateRankFromData(prevScore, prevAcc, wasFC);
+					var prevRank = Scoring.calculateRankFromData(prevScore, prevAcc);
 
 					//Mods.loadTopMod();
 					// FlxG.sound.playMusic(Paths.music('freakyMenu'));
@@ -2569,14 +2568,13 @@ class PlayState extends MusicBeatState
 			{
 				trace('WENT BACK TO FREEPLAY??');
 				
-				var wasFC = Highscore.getFCState(curSong, PlayState.storyDifficulty);
 				var prevScore = Highscore.getScore(curSong, PlayState.storyDifficulty);
 				var prevAcc = Highscore.getRating(curSong, PlayState.storyDifficulty);
 
 				//trace('PrevScore: ' + prevScore);
 				//trace('Tallie Score: ' + tempActiveTallises.score);
 
-				var prevRank = Scoring.calculateRankFromData(prevScore,prevAcc,wasFC);
+				var prevRank = Scoring.calculateRankFromData(prevScore, prevAcc);
 
 				#if desktop DiscordClient.resetClientID(); #end
 
@@ -2596,8 +2594,21 @@ class PlayState extends MusicBeatState
 
 			#if !switch
 			var percent:Float = ratingPercent;
+
+			// Storing the completition percent that will appear on the results screen
+			var resultingAccuracy:Float = 0;
+			resultingAccuracy = Math.min(1, (tempActiveTallises.sick + tempActiveTallises.good) / tempActiveTallises.totalNotesHit); 
+
+			if (tempActiveTallises.totalNotesHit == 0) resultingAccuracy = 0;
+
+			var clearPercentFloat = resultingAccuracy * 100;
+			var clearPercentTarget:Int = Math.floor(clearPercentFloat);
+
+			//trace('Resulting Target: ' + resultingAccuracy);
+			//trace('Resulting Target (Rounded): ' + clearPercentTarget);
+
 			if(Math.isNaN(percent)) percent = 0;
-			Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent, songMisses == 0);
+			Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent, clearPercentTarget);
 			#end
 
 			transitioning = true;
@@ -2627,7 +2638,8 @@ class PlayState extends MusicBeatState
 
 		// TODO: Make target offset configurable.
 		// In the meantime, we have to replace the zoom animation with a fade out.
-		FlxG.camera.targetOffset.y -= 50;
+		FlxG.camera.targetOffset.y -= 350;
+		FlxG.camera.targetOffset.x += 20;
 
 		// Replace zoom animation with a fade out for now.
 		FlxG.camera.fade(FlxColor.BLACK, 0.6);

@@ -1,7 +1,7 @@
 # WBNS x FNF
 Made based on some videos or silly situations from a group of youtubers.
 
-![WBNS x FNF Banner](art/banner.png)
+[WBNS x FNF Banner](art/banner.png)
 
 ## Downloads
 
@@ -23,3 +23,8 @@ Also check [COMPILING.md](COMPILING.md) for the necessary versions of some libra
 ## Credits
 
 All credits are in-game! But you can see them in [CreditsState.hx](source/states/CreditsState.hx)
+
+## Special Thanks
+
+- [mikolka9144](https://github.com/mikolka9144/P-Slice) - Results state port & Sticker transition
+- [Rozebud](https://github.com/ThatRozebudDude/FPS-Plus-Public) - Note Hold Covers port
