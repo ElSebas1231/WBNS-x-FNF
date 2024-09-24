@@ -1,7 +1,7 @@
 # WBNS x FNF
 Made based on some videos or silly situations from a group of youtubers.
 
-[WBNS x FNF Banner](art/banner.png)
+![WBNS x FNF Banner](art/banner.png)
 
 ## Downloads
 
