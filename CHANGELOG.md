@@ -4,6 +4,13 @@ Todo los cambios mencionados aquí, son respecto a la versión de lanzamiento (v
 El formato de este changelog es basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## WBNSxFNF v1.1.1
+### Arreglos
+    - Se arregló los posibles crasheos al salir de los resultados
+    - Se corrigieron las animaciones de C3jo en la canción de **Speedrun**
+
+Sí, se nos pasaron algunas cosas pero lo bueno es que eran pocas.
+
 ## WBNSxFNF v1.1.0
 ### Adiciones
 - Se agregaron algunos gameovers para canciones que no los tenían, no todas las que faltan lamentablemente...

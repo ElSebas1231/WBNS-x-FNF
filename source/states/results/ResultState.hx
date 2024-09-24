@@ -61,6 +61,7 @@ class ResultState extends MusicBeatSubstate
 	final cameraOverlay:PsychCamera;
 	var resultingAccuracy:Float;
 
+	var canLeave:Bool = false;
 
 	public function new(params:ResultsStateParams)
 	{
@@ -68,10 +69,10 @@ class ResultState extends MusicBeatSubstate
 
 		this.params = params;
 
-		resultingAccuracy = Math.min(1,params.scoreData.accPoints/params.scoreData.totalNotesHit); 
+		resultingAccuracy = Math.min(1, (params.scoreData.sick + params.scoreData.good) / params.scoreData.totalNotesHit); 
 		if (params.scoreData.totalNotesHit == 0) resultingAccuracy = 0;
 
-		rank = Scoring.calculateRankFromData(params.scoreData.score,resultingAccuracy,params.scoreData.missed == 0) ?? SHIT;
+		rank = Scoring.calculateRankFromData(params.scoreData.score, resultingAccuracy) ?? SHIT;
 
 		cameraBG = new PsychCamera( 0, 0, FlxG.width, FlxG.height);
 		cameraScroll = new PsychCamera(0, 0, FlxG.width, FlxG.height);
@@ -370,6 +371,7 @@ class ResultState extends MusicBeatSubstate
 		// Scrolling.
 		new FlxTimer().start(30 / 24, _ -> {
 			rankTextVert.velocity.y = -80;
+			canLeave = true;
 		});
 
 		for (i in 0...12) {
@@ -463,43 +465,45 @@ class ResultState extends MusicBeatSubstate
 			}
 		}
 
-		if (controls.ACCEPT || FlxG.mouse.justPressedRight) {
-			if (FlxG.sound.music != null) {
-				FlxTween.tween(FlxG.sound.music, {volume: 0}, 0.5);
-				FlxTween.tween(FlxG.sound.music, {pitch: 3}, 0.1, {
-					onComplete: _ -> {
-						FlxTween.tween(FlxG.sound.music, {pitch: 0.5}, 0.4, {
-							onComplete: _ -> {
-								FlxG.sound.playMusic(Paths.music('freakyMenu'));
-							}
-						});
-					}
-				});
-			}
-
-			if (params.storyMode) {
-				if (!ClientPrefs.data.noStickers) {
-					openSubState(new StickerSubState(null, (sticker) -> new StoryMenuState(sticker)));
-				} else {
-					if (FlxTransitionableState.skipNextTransIn) {
-						CustomFadeTransition.nextCamera = null;
-					}
-					FlxG.switchState(() -> new StoryMenuState());
+		if (canLeave == true) {
+			if (controls.ACCEPT || FlxG.mouse.justPressedRight) {
+				if (FlxG.sound.music != null) {
+					FlxTween.tween(FlxG.sound.music, {volume: 0}, 0.5);
+					FlxTween.tween(FlxG.sound.music, {pitch: 3}, 0.1, {
+						onComplete: _ -> {
+							FlxTween.tween(FlxG.sound.music, {pitch: 0.5}, 0.4, {
+								onComplete: _ -> {
+									FlxG.sound.playMusic(Paths.music('freakyMenu'));
+								}
+							});
+						}
+					});
 				}
-			} else {
-				if (rank > params.prevScoreRank) {
-					if (FlxTransitionableState.skipNextTransIn) {
-						CustomFadeTransition.nextCamera = null;
-					}
-					FlxG.switchState(() -> new FreeplayState());
-				} else {
+	
+				if (params.storyMode) {
 					if (!ClientPrefs.data.noStickers) {
-						openSubState(new StickerSubState(null, (sticker) -> new FreeplayState(sticker)));
+						openSubState(new StickerSubState(null, (sticker) -> new StoryMenuState(sticker)));
 					} else {
-						if(FlxTransitionableState.skipNextTransIn) {
+						if (FlxTransitionableState.skipNextTransIn) {
+							CustomFadeTransition.nextCamera = null;
+						}
+						FlxG.switchState(() -> new StoryMenuState());
+					}
+				} else {
+					if (rank > params.prevScoreRank) {
+						if (FlxTransitionableState.skipNextTransIn) {
 							CustomFadeTransition.nextCamera = null;
 						}
 						FlxG.switchState(() -> new FreeplayState());
+					} else {
+						if (!ClientPrefs.data.noStickers) {
+							openSubState(new StickerSubState(null, (sticker) -> new FreeplayState(sticker)));
+						} else {
+							if(FlxTransitionableState.skipNextTransIn) {
+								CustomFadeTransition.nextCamera = null;
+							}
+							FlxG.switchState(() -> new FreeplayState());
+						}
 					}
 				}
 			}

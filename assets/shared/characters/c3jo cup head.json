@@ -9,7 +9,7 @@
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "c3jo down"
+			"name": "c3jo down0"
 		},
 		{
 			"offsets": [
@@ -20,7 +20,7 @@
 			"fps": 24,
 			"anim": "singDOWNmiss",
 			"indices": [],
-			"name": "c3jo down miss"
+			"name": "c3jo down miss0"
 		},
 		{
 			"offsets": [
@@ -31,7 +31,7 @@
 			"fps": 24,
 			"anim": "singUPmiss",
 			"indices": [],
-			"name": "c3jo up miss"
+			"name": "c3jo up miss0"
 		},
 		{
 			"offsets": [
@@ -42,7 +42,7 @@
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "c3jo left"
+			"name": "c3jo left0"
 		},
 		{
 			"offsets": [
@@ -53,7 +53,7 @@
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "c3jo right"
+			"name": "c3jo right0"
 		},
 		{
 			"offsets": [
@@ -64,7 +64,7 @@
 			"fps": 24,
 			"anim": "singRIGHTmiss",
 			"indices": [],
-			"name": "c3jo right miss"
+			"name": "c3jo right miss0"
 		},
 		{
 			"offsets": [
@@ -75,7 +75,7 @@
 			"fps": 24,
 			"anim": "singLEFTmiss",
 			"indices": [],
-			"name": "c3jo left miss"
+			"name": "c3jo left miss0"
 		},
 		{
 			"offsets": [
@@ -86,7 +86,7 @@
 			"fps": 23,
 			"anim": "idle",
 			"indices": [],
-			"name": "c3jo idle"
+			"name": "c3jo idle0"
 		},
 		{
 			"loop": false,
@@ -96,7 +96,7 @@
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "c3jo up",
+			"name": "c3jo up0",
 			"indices": []
 		}
 	],
