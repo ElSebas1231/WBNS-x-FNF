@@ -6,8 +6,8 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## WBNSxFNF v1.1.1
 ### Arreglos
-    - Se arregló los posibles crasheos al salir de los resultados
-    - Se corrigieron las animaciones de C3jo en la canción de **Speedrun**
+- Se arregló los posibles crasheos al salir de los resultados
+- Se corrigieron las animaciones de C3jo en la canción de **Speedrun**
 
 Sí, se nos pasaron algunas cosas pero lo bueno es que eran pocas.
 
