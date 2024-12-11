@@ -1,11 +1,13 @@
+function onCreate()
+    if isRunning('scripts/noteskin') then
+        debugPirnt('awdadadadadadadadad')
+        removeLuaScript('scripts/noteskin')
+    end
+end
+
 function onCreatePost()
     noteSkin = string.lower(getPropertyFromClass('backend.ClientPrefs', 'data.noteSkin'))
     noteSplash = string.lower(getPropertyFromClass('backend.ClientPrefs', 'data.splashSkin'))
-
-
-    if isRunning('scripts/noteskin') then
-        removeLuaScript('scripts/noteskin')
-    end
     
     for i = 0, 3 do
         setPropertyFromGroup('opponentStrums', i, 'useRGBShader', false)
@@ -47,6 +49,7 @@ local skinsRGB = {
 
 function onUpdate()
     for i = 0, getProperty('notes.length')-1 do
+        local noteData = getPropertyFromGroup('notes', i, 'noteData')
         setPropertyFromGroup('notes', i, 'rgbShader.enabled', false)
         setPropertyFromGroup('notes', i, 'noteSplashData.useRGBShader', true)
         setPropertyFromGroup('notes', i, 'noteCoverData.useRGBShader', true)
@@ -54,18 +57,16 @@ function onUpdate()
 
         if not gfSection then
             if getPropertyFromGroup('notes', i, 'mustPress') then
-                if not string.find(string.lower(noteSkin), 'locochon') and noteSkin == 'default' then
-                    if getPropertyFromGroup('notes', i, 'noteType') == '' then
-                        if getPropertyFromGroup('notes', i, 'mustPress') then
-                            setPropertyFromGroup('notes', i, 'texture', 'noteSkins/NOTE_assets-locochon')
-                            setPropertyFromGroup('notes', i, 'noteSplashData.r', getColorFromHex(skinsRGB['locochon'][noteData + 1][1]))
-                            setPropertyFromGroup('notes', i, 'noteSplashData.g', getColorFromHex(skinsRGB['locochon'][noteData + 1][2]))
-                            setPropertyFromGroup('notes', i, 'noteSplashData.b', getColorFromHex(skinsRGB['locochon'][noteData + 1][3]))
-    
-                            setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(skinsRGB['locochon'][noteData + 1][1]))
-                            setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(skinsRGB['locochon'][noteData + 1][2]))
-                            setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(skinsRGB['locochon'][noteData + 1][3]))
-                        end
+                if getPropertyFromGroup('notes', i, 'noteType') == '' then
+                    if not string.find(string.lower(noteSkin), 'locochon') and noteSkin == 'default' then
+                        setPropertyFromGroup('notes', i, 'texture', 'noteSkins/NOTE_assets-locochon')
+                        setPropertyFromGroup('notes', i, 'noteSplashData.r', getColorFromHex(skinsRGB['locochon'][noteData + 1][1]))
+                        setPropertyFromGroup('notes', i, 'noteSplashData.g', getColorFromHex(skinsRGB['locochon'][noteData + 1][2]))
+                        setPropertyFromGroup('notes', i, 'noteSplashData.b', getColorFromHex(skinsRGB['locochon'][noteData + 1][3]))
+
+                        setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(skinsRGB['locochon'][noteData + 1][1]))
+                        setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(skinsRGB['locochon'][noteData + 1][2]))
+                        setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(skinsRGB['locochon'][noteData + 1][3]))
                     end
                 end
 
@@ -95,14 +96,27 @@ function onUpdate()
 
         if gfSection then
             if getPropertyFromGroup('notes', i, 'mustPress') then
-                setPropertyFromGroup('notes', i, 'texture', 'noteSkins/NOTE_assets-duxo')
-                setPropertyFromGroup('notes', i, 'noteSplashData.r', getColorFromHex(skinsRGB['duxo'][noteData + 1][1]))
-                setPropertyFromGroup('notes', i, 'noteSplashData.g', getColorFromHex(skinsRGB['duxo'][noteData + 1][2]))
-                setPropertyFromGroup('notes', i, 'noteSplashData.b', getColorFromHex(skinsRGB['duxo'][noteData + 1][3]))
+                if getPropertyFromGroup('notes', i, 'noteType') == '' or getPropertyFromGroup('notes', i, 'noteType') == 'GF Sing' then
+                    setPropertyFromGroup('notes', i, 'texture', 'noteSkins/NOTE_assets-duxo')
+                    setPropertyFromGroup('notes', i, 'noteSplashData.r', getColorFromHex(skinsRGB['duxo'][noteData + 1][1]))
+                    setPropertyFromGroup('notes', i, 'noteSplashData.g', getColorFromHex(skinsRGB['duxo'][noteData + 1][2]))
+                    setPropertyFromGroup('notes', i, 'noteSplashData.b', getColorFromHex(skinsRGB['duxo'][noteData + 1][3]))
 
-                setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(skinsRGB['duxo'][noteData + 1][1]))
-                setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(skinsRGB['duxo'][noteData + 1][2]))
-                setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(skinsRGB['duxo'][noteData + 1][3]))
+                    setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(skinsRGB['duxo'][noteData + 1][1]))
+                    setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(skinsRGB['duxo'][noteData + 1][2]))
+                    setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(skinsRGB['duxo'][noteData + 1][3]))
+                end
+
+                if getPropertyFromGroup('notes', i, 'noteType') == 'No Animation' then
+                    setPropertyFromGroup('notes', i, 'texture', 'noteSkins/NOTE_assets-natalan')
+                    setPropertyFromGroup('notes', i, 'noteSplashData.r', getColorFromHex(skinsRGB['natalan'][noteData + 1][1]))
+                    setPropertyFromGroup('notes', i, 'noteSplashData.g', getColorFromHex(skinsRGB['natalan'][noteData + 1][2]))
+                    setPropertyFromGroup('notes', i, 'noteSplashData.b', getColorFromHex(skinsRGB['natalan'][noteData + 1][3]))
+    
+                    setPropertyFromGroup('notes', i, 'noteCoverData.r', getColorFromHex(skinsRGB['natalan'][noteData + 1][1]))
+                    setPropertyFromGroup('notes', i, 'noteCoverData.g', getColorFromHex(skinsRGB['natalan'][noteData + 1][2]))
+                    setPropertyFromGroup('notes', i, 'noteCoverData.b', getColorFromHex(skinsRGB['natalan'][noteData + 1][3]))
+                end
             end
         end
 
@@ -118,8 +132,14 @@ function onUpdate()
 end
 
 function goodNoteHit(index, noteData, noteType, isSustainNote)
-    if noteType == '' then
-        setPropertyFromGroup('playerStrums', noteData, 'texture', 'noteSkins/NOTE_assets-locochon')
+    if not string.find(string.lower(noteSkin), 'locochon') and noteSkin == 'default' then
+        if mustHitSection then
+            if noteType == '' then
+                setPropertyFromGroup('playerStrums', noteData, 'texture', 'noteSkins/NOTE_assets-locochon')
+            end
+        end
+    else
+        setPropertyFromGroup('playerStrums', noteData, 'texture', 'noteSkins/NOTE_assets-'..noteSkin)
     end
 
     if noteType == 'No Animation' then
